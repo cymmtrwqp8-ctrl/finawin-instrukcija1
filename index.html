@@ -14,7 +14,7 @@ description: Izvēlies nepieciešamo FinaWin instrukcijas moduli.
   {% for module in modules %}
     {% assign module_docs = all_docs | where: "module", module.id %}
     {% assign first_doc = module_docs | first %}
-    <a class="module-card" data-module="{{ module.id }}" href="{{ first_doc.url | relative_url }}">
+    <a class="module-card" data-module="{{ module.id }}" href="{{ '/module/' | relative_url }}?module={{ module.id }}">
       <span class="card-number">{{ module.order | prepend: "0" | slice: -2, 2 }}</span>
       <h2>{{ module.title }}</h2>
       <p>{{ module.description }}</p>
