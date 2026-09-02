@@ -1,0 +1,534 @@
+[
+  {
+    "id": "pamati-par-so-dokumentu",
+    "title": "PAR šo dokumentu",
+    "module": "pamati",
+    "order": 1,
+    "url": "/docs/pamati-par-so-dokumentu/"
+  },
+  {
+    "id": "pamati-ievads",
+    "title": "IEVADS",
+    "module": "pamati",
+    "order": 2,
+    "url": "/docs/pamati-ievads/"
+  },
+  {
+    "id": "pamati-auditorijas-raksturojums",
+    "title": "Auditorijas raksturojums",
+    "module": "pamati",
+    "order": 3,
+    "url": "/docs/pamati-auditorijas-raksturojums/"
+  },
+  {
+    "id": "pamati-noskanosana-un-pielagosana",
+    "title": "Noskaņošana un pielāgošana",
+    "module": "pamati",
+    "order": 4,
+    "url": "/docs/pamati-noskanosana-un-pielagosana/"
+  },
+  {
+    "id": "pamati-instrukcijas-lietosana",
+    "title": "Instrukcijas lietošana",
+    "module": "pamati",
+    "order": 5,
+    "url": "/docs/pamati-instrukcijas-lietosana/"
+  },
+  {
+    "id": "pamati-neskaidribas",
+    "title": "Neskaidrības",
+    "module": "pamati",
+    "order": 6,
+    "url": "/docs/pamati-neskaidribas/"
+  },
+  {
+    "id": "pamati-termini-un-saisinajumi",
+    "title": "Termini un saīsinājumi",
+    "module": "pamati",
+    "order": 7,
+    "url": "/docs/pamati-termini-un-saisinajumi/"
+  },
+  {
+    "id": "pamati-pieslegsanas-un-darba-uzsaksana",
+    "title": "PIESLĒGŠANĀS UN DARBA UZSĀKŠANA",
+    "module": "pamati",
+    "order": 8,
+    "url": "/docs/pamati-pieslegsanas-un-darba-uzsaksana/"
+  },
+  {
+    "id": "pamati-datora-regionalie-uzstadijumi",
+    "title": "Datora reģionālie uzstādījumi",
+    "module": "pamati",
+    "order": 9,
+    "url": "/docs/pamati-datora-regionalie-uzstadijumi/"
+  },
+  {
+    "id": "pamati-ka-startet-programmu",
+    "title": "Kā startēt programmu",
+    "module": "pamati",
+    "order": 10,
+    "url": "/docs/pamati-ka-startet-programmu/"
+  },
+  {
+    "id": "pamati-lietotaji",
+    "title": "Lietotāji",
+    "module": "pamati",
+    "order": 11,
+    "url": "/docs/pamati-lietotaji/"
+  },
+  {
+    "id": "pamati-navigacijas-pamatprincipi",
+    "title": "NAVIGĀCIJAS PAMATPRINCIPI",
+    "module": "pamati",
+    "order": 12,
+    "url": "/docs/pamati-navigacijas-pamatprincipi/"
+  },
+  {
+    "id": "pamati-augseja-rikjosla",
+    "title": "Augšējā rīkjosla",
+    "module": "pamati",
+    "order": 13,
+    "url": "/docs/pamati-augseja-rikjosla/"
+  },
+  {
+    "id": "pamati-navigatora-pogas",
+    "title": "Navigatora pogas",
+    "module": "pamati",
+    "order": 14,
+    "url": "/docs/pamati-navigatora-pogas/"
+  },
+  {
+    "id": "pamati-navigacija-izmantojot-tastaturu",
+    "title": "Navigācija, izmantojot tastatūru",
+    "module": "pamati",
+    "order": 15,
+    "url": "/docs/pamati-navigacija-izmantojot-tastaturu/"
+  },
+  {
+    "id": "pamati-peles-labais-taustins",
+    "title": "Peles labais taustiņš",
+    "module": "pamati",
+    "order": 16,
+    "url": "/docs/pamati-peles-labais-taustins/"
+  },
+  {
+    "id": "pamati-programmas-noskanosana",
+    "title": "PROGRAMMAS NOSKAŅOŠANA",
+    "module": "pamati",
+    "order": 17,
+    "url": "/docs/pamati-programmas-noskanosana/"
+  },
+  {
+    "id": "pamati-db-dati",
+    "title": "DB dati",
+    "module": "pamati",
+    "order": 18,
+    "url": "/docs/pamati-db-dati/"
+  },
+  {
+    "id": "pamati-scfw-finanses",
+    "title": "SCFW Finanses",
+    "module": "pamati",
+    "order": 19,
+    "url": "/docs/pamati-scfw-finanses/"
+  },
+  {
+    "id": "pamati-atskaisu-generators",
+    "title": "Atskaišu ģenerators",
+    "module": "pamati",
+    "order": 20,
+    "url": "/docs/pamati-atskaisu-generators/"
+  },
+  {
+    "id": "pamati-valoda",
+    "title": "Valoda",
+    "module": "pamati",
+    "order": 21,
+    "url": "/docs/pamati-valoda/"
+  },
+  {
+    "id": "pamati-e-paraksts",
+    "title": "E-Paraksts",
+    "module": "pamati",
+    "order": 22,
+    "url": "/docs/pamati-e-paraksts/"
+  },
+  {
+    "id": "pamati-lietvediba",
+    "title": "Lietvedība",
+    "module": "pamati",
+    "order": 23,
+    "url": "/docs/pamati-lietvediba/"
+  },
+  {
+    "id": "pamati-logotips",
+    "title": "Logotips",
+    "module": "pamati",
+    "order": 24,
+    "url": "/docs/pamati-logotips/"
+  },
+  {
+    "id": "pamati-e-pasts",
+    "title": "E-pasts",
+    "module": "pamati",
+    "order": 25,
+    "url": "/docs/pamati-e-pasts/"
+  },
+  {
+    "id": "pamati-efekti",
+    "title": "Efekti",
+    "module": "pamati",
+    "order": 26,
+    "url": "/docs/pamati-efekti/"
+  },
+  {
+    "id": "pamati-fonti",
+    "title": "Fonti",
+    "module": "pamati",
+    "order": 27,
+    "url": "/docs/pamati-fonti/"
+  },
+  {
+    "id": "pamati-logi",
+    "title": "Logi",
+    "module": "pamati",
+    "order": 28,
+    "url": "/docs/pamati-logi/"
+  },
+  {
+    "id": "pamati-tabulas-konfiguracija",
+    "title": "Tabulas konfigurācija",
+    "module": "pamati",
+    "order": 29,
+    "url": "/docs/pamati-tabulas-konfiguracija/"
+  },
+  {
+    "id": "pamati-datu-ierakstu-sakartosana",
+    "title": "Datu (ierakstu) sakārtošana",
+    "module": "pamati",
+    "order": 30,
+    "url": "/docs/pamati-datu-ierakstu-sakartosana/"
+  },
+  {
+    "id": "pamati-meklesana",
+    "title": "Meklēšana",
+    "module": "pamati",
+    "order": 31,
+    "url": "/docs/pamati-meklesana/"
+  },
+  {
+    "id": "pamati-datu-filtresana",
+    "title": "Datu filtrēšana",
+    "module": "pamati",
+    "order": 32,
+    "url": "/docs/pamati-datu-filtresana/"
+  },
+  {
+    "id": "pamati-drukat",
+    "title": "Drukāt",
+    "module": "pamati",
+    "order": 33,
+    "url": "/docs/pamati-drukat/"
+  },
+  {
+    "id": "pamati-eksportet-ka",
+    "title": "Eksportēt kā…",
+    "module": "pamati",
+    "order": 34,
+    "url": "/docs/pamati-eksportet-ka/"
+  },
+  {
+    "id": "katalogi-katalogi",
+    "title": "KATALOGI",
+    "module": "katalogi",
+    "order": 35,
+    "url": "/docs/katalogi-katalogi/"
+  },
+  {
+    "id": "katalogi-valutu-kursi",
+    "title": "Valūtu kursi",
+    "module": "katalogi",
+    "order": 36,
+    "url": "/docs/katalogi-valutu-kursi/"
+  },
+  {
+    "id": "katalogi-kontu-plans",
+    "title": "Kontu plāns",
+    "module": "katalogi",
+    "order": 37,
+    "url": "/docs/katalogi-kontu-plans/"
+  },
+  {
+    "id": "katalogi-partneri",
+    "title": "Partneri",
+    "module": "katalogi",
+    "order": 38,
+    "url": "/docs/katalogi-partneri/"
+  },
+  {
+    "id": "katalogi-ieksejas-adreses",
+    "title": "Iekšējās adreses",
+    "module": "katalogi",
+    "order": 39,
+    "url": "/docs/katalogi-ieksejas-adreses/"
+  },
+  {
+    "id": "katalogi-projekti",
+    "title": "Projekti",
+    "module": "katalogi",
+    "order": 40,
+    "url": "/docs/katalogi-projekti/"
+  },
+  {
+    "id": "katalogi-procesi",
+    "title": "Procesi",
+    "module": "katalogi",
+    "order": 41,
+    "url": "/docs/katalogi-procesi/"
+  },
+  {
+    "id": "katalogi-papildus-klasifikatori",
+    "title": "Papildus klasifikatori",
+    "module": "katalogi",
+    "order": 42,
+    "url": "/docs/katalogi-papildus-klasifikatori/"
+  },
+  {
+    "id": "katalogi-agenti",
+    "title": "Aģenti",
+    "module": "katalogi",
+    "order": 43,
+    "url": "/docs/katalogi-agenti/"
+  },
+  {
+    "id": "katalogi-pakalpojumu-veidi",
+    "title": "Pakalpojumu veidi",
+    "module": "katalogi",
+    "order": 44,
+    "url": "/docs/katalogi-pakalpojumu-veidi/"
+  },
+  {
+    "id": "katalogi-resursi",
+    "title": "Resursi",
+    "module": "katalogi",
+    "order": 45,
+    "url": "/docs/katalogi-resursi/"
+  },
+  {
+    "id": "katalogi-ligumu-veidi",
+    "title": "Līgumu veidi",
+    "module": "katalogi",
+    "order": 46,
+    "url": "/docs/katalogi-ligumu-veidi/"
+  },
+  {
+    "id": "katalogi-apmaksas-nosacijumi",
+    "title": "Apmaksas nosacījumi",
+    "module": "katalogi",
+    "order": 47,
+    "url": "/docs/katalogi-apmaksas-nosacijumi/"
+  },
+  {
+    "id": "katalogi-kontu-tipi",
+    "title": "Kontu tipi",
+    "module": "katalogi",
+    "order": 48,
+    "url": "/docs/katalogi-kontu-tipi/"
+  },
+  {
+    "id": "katalogi-plana-versijas",
+    "title": "Plāna versijas",
+    "module": "katalogi",
+    "order": 49,
+    "url": "/docs/katalogi-plana-versijas/"
+  },
+  {
+    "id": "katalogi-banku-saraksts",
+    "title": "Banku saraksts",
+    "module": "katalogi",
+    "order": 50,
+    "url": "/docs/katalogi-banku-saraksts/"
+  },
+  {
+    "id": "katalogi-pakalpojumu-katalogs",
+    "title": "Pakalpojumu katalogs",
+    "module": "katalogi",
+    "order": 51,
+    "url": "/docs/katalogi-pakalpojumu-katalogs/"
+  },
+  {
+    "id": "dokumenti-dokumenti",
+    "title": "Dokumenti",
+    "module": "dokumenti",
+    "order": 52,
+    "url": "/docs/dokumenti-dokumenti/"
+  },
+  {
+    "id": "dokumenti-vispareja-informacija",
+    "title": "Vispārēja informācija",
+    "module": "dokumenti",
+    "order": 53,
+    "url": "/docs/dokumenti-vispareja-informacija/"
+  },
+  {
+    "id": "dokumenti-virsgramatas-dokumentu-saraksts",
+    "title": "Virsgrāmatas dokumentu saraksts",
+    "module": "dokumenti",
+    "order": 54,
+    "url": "/docs/dokumenti-virsgramatas-dokumentu-saraksts/"
+  },
+  {
+    "id": "dokumenti-dokumenta-izveide",
+    "title": "Dokumenta izveide",
+    "module": "dokumenti",
+    "order": 55,
+    "url": "/docs/dokumenti-dokumenta-izveide/"
+  },
+  {
+    "id": "dokumenti-dokumentu-sasaiste",
+    "title": "Dokumentu sasaiste",
+    "module": "dokumenti",
+    "order": 56,
+    "url": "/docs/dokumenti-dokumentu-sasaiste/"
+  },
+  {
+    "id": "dokumenti-funkcijas",
+    "title": "Funkcijas",
+    "module": "dokumenti",
+    "order": 57,
+    "url": "/docs/dokumenti-funkcijas/"
+  },
+  {
+    "id": "dokumenti-konfiguracija",
+    "title": "Konfigurācija",
+    "module": "dokumenti",
+    "order": 58,
+    "url": "/docs/dokumenti-konfiguracija/"
+  },
+  {
+    "id": "maksajumi-pirmdokumentu-zurnali",
+    "title": "Pirmdokumentu žurnāli",
+    "module": "maksajumi",
+    "order": 59,
+    "url": "/docs/maksajumi-pirmdokumentu-zurnali/"
+  },
+  {
+    "id": "maksajumi-rekinu-apmaksa",
+    "title": "Rēķinu apmaksa",
+    "module": "maksajumi",
+    "order": 60,
+    "url": "/docs/maksajumi-rekinu-apmaksa/"
+  },
+  {
+    "id": "maksajumi-maksajumi",
+    "title": "Maksājumi",
+    "module": "maksajumi",
+    "order": 61,
+    "url": "/docs/maksajumi-maksajumi/"
+  },
+  {
+    "id": "avansi-avansa-norekini-ceki",
+    "title": "Avansa norēķini- čeki",
+    "module": "avansi",
+    "order": 62,
+    "url": "/docs/avansi-avansa-norekini-ceki/"
+  },
+  {
+    "id": "avansi-avansa-norekini-atskaites",
+    "title": "Avansa norēķini- atskaites",
+    "module": "avansi",
+    "order": 63,
+    "url": "/docs/avansi-avansa-norekini-atskaites/"
+  },
+  {
+    "id": "rekini-pirkumu-rekini-fin",
+    "title": "Pirkumu rēķini (fin.)",
+    "module": "rekini",
+    "order": 64,
+    "url": "/docs/rekini-pirkumu-rekini-fin/"
+  },
+  {
+    "id": "rekini-avansa-rekini",
+    "title": "Avansa rēķini",
+    "module": "rekini",
+    "order": 65,
+    "url": "/docs/rekini-avansa-rekini/"
+  },
+  {
+    "id": "rekini-fakturrekini",
+    "title": "Faktūrrēķini",
+    "module": "rekini",
+    "order": 66,
+    "url": "/docs/rekini-fakturrekini/"
+  },
+  {
+    "id": "kase-kases-ienemumu-vai-izdevumu-orderi",
+    "title": "Kases ieņēmumu vai izdevumu orderi",
+    "module": "kase",
+    "order": 67,
+    "url": "/docs/kase-kases-ienemumu-vai-izdevumu-orderi/"
+  },
+  {
+    "id": "atskaites-atskaites",
+    "title": "ATSKAITES",
+    "module": "atskaites",
+    "order": 68,
+    "url": "/docs/atskaites-atskaites/"
+  },
+  {
+    "id": "atskaites-vispareja-informacija",
+    "title": "Vispārēja informācija",
+    "module": "atskaites",
+    "order": 69,
+    "url": "/docs/atskaites-vispareja-informacija/"
+  },
+  {
+    "id": "atskaites-atskaisu-veidi",
+    "title": "Atskaišu veidi",
+    "module": "atskaites",
+    "order": 70,
+    "url": "/docs/atskaites-atskaisu-veidi/"
+  },
+  {
+    "id": "atskaites-pdf-tipa-atskaites",
+    "title": "PDF-tipa» atskaites",
+    "module": "atskaites",
+    "order": 71,
+    "url": "/docs/atskaites-pdf-tipa-atskaites/"
+  },
+  {
+    "id": "atskaites-pivot-atskaites",
+    "title": "Pivot atskaites",
+    "module": "atskaites",
+    "order": 72,
+    "url": "/docs/atskaites-pivot-atskaites/"
+  },
+  {
+    "id": "atskaisu-noskanas-atskaisu-noskanas",
+    "title": "ATSKAIšu Noskaņas",
+    "module": "atskaisu-noskanas",
+    "order": 73,
+    "url": "/docs/atskaisu-noskanas-atskaisu-noskanas/"
+  },
+  {
+    "id": "atskaisu-noskanas-atskaisu-generators",
+    "title": "Atskaišu ģenerators",
+    "module": "atskaisu-noskanas",
+    "order": 74,
+    "url": "/docs/atskaisu-noskanas-atskaisu-generators/"
+  },
+  {
+    "id": "atskaisu-noskanas-atskaisu-noskanas-2",
+    "title": "Atskaišu noskaņas",
+    "module": "atskaisu-noskanas",
+    "order": 75,
+    "url": "/docs/atskaisu-noskanas-atskaisu-noskanas-2/"
+  },
+  {
+    "id": "papildfunkcijas-citas-funkcijas",
+    "title": "Citas funkcijas",
+    "module": "papildfunkcijas",
+    "order": 76,
+    "url": "/docs/papildfunkcijas-citas-funkcijas/"
+  }
+]

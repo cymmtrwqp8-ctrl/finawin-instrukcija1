@@ -1,0 +1,17 @@
+title: FinaWin palīdzība
+description: FinaWin finanšu moduļa lietotāja instrukcija
+lang: lv
+markdown: kramdown
+collections:
+  docs:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: doc
+exclude:
+  - README.md
+  - .gitignore
+

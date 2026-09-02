@@ -1,0 +1,50 @@
+- id: pamati
+  title: "Darba pamati"
+  description: "Pieslēgšanās, navigācija, iestatījumi, logi, meklēšana un filtrēšana."
+  order: 1
+  required: true
+- id: katalogi
+  title: "Katalogi"
+  description: "Kontu plāns, partneri, projekti, procesi un pārējie finanšu katalogi."
+  order: 2
+  required: false
+- id: dokumenti
+  title: "Dokumenti un grāmatojumi"
+  description: "Virsgrāmatas dokumenti, grāmatojumi, dokumentu izveide un sasaiste."
+  order: 3
+  required: false
+- id: maksajumi
+  title: "Maksājumi"
+  description: "Maksājumu pakas, automātiskie maksājumi un jauna maksājuma izveide."
+  order: 4
+  required: false
+- id: avansi
+  title: "Avansa norēķini"
+  description: "Avansa čeki, avansa atskaites un to ievade."
+  order: 5
+  required: false
+- id: rekini
+  title: "Rēķini"
+  description: "Pirkumu, avansa un faktūrrēķinu sagatavošana un apstrāde."
+  order: 6
+  required: false
+- id: kase
+  title: "Kases dokumenti"
+  description: "Kases ieņēmumu un izdevumu orderi."
+  order: 7
+  required: false
+- id: atskaites
+  title: "Atskaites"
+  description: "Apgrozījuma, PDF un Pivot atskaites."
+  order: 8
+  required: false
+- id: atskaisu-noskanas
+  title: "Atskaišu konfigurēšana"
+  description: "Atskaišu ģenerators, parametri, formulas un dizains."
+  order: 9
+  required: false
+- id: papildfunkcijas
+  title: "Papildfunkcijas"
+  description: "PVN–EDS, bankas imports, līgumi, parādu kontrole un citas iespējas."
+  order: 10
+  required: false
