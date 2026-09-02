@@ -1,0 +1,15 @@
+- id: pamati
+  title: "Work basics"
+  description: "Signing in, navigation, settings, windows, searching and filtering."
+  order: 1
+  required: true
+- id: katalogi
+  title: "Directories"
+  description: "Chart of accounts, business partners, projects, processes and other finance directories."
+  order: 2
+  required: false
+- id: maksajumi
+  title: "Payments"
+  description: "Payment batches, automated payments and creating a new payment."
+  order: 4
+  required: false

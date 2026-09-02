@@ -1,0 +1,22 @@
+---
+layout: default-en
+title: FinaWin Help
+description: Select the FinaWin instruction module you need.
+permalink: /en/
+---
+<section class="home-intro">
+  <span class="eyebrow">FINAWIN FINANCE</span>
+  <h1>How can we help?</h1>
+  <p>Select a module or use search to quickly find the task you need.</p>
+</section>
+<section class="module-grid">
+  {% assign modules = site.data.modules_en | sort: "order" %}
+  {% for module in modules %}
+    <a class="module-card" data-module="{{ module.id }}" href="{{ '/en/module/' | relative_url }}?module={{ module.id }}">
+      <span class="card-number">{{ module.order | prepend: "0" | slice: -2, 2 }}</span>
+      <h2>{{ module.title }}</h2>
+      <p>{{ module.description }}</p>
+      <strong>Open module →</strong>
+    </a>
+  {% endfor %}
+</section>

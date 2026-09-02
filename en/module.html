@@ -1,0 +1,48 @@
+---
+layout: default-en
+title: "Module guide"
+description: "Complete guide to the selected FinaWin module"
+permalink: /en/module/
+---
+<section class="print-intro module-page-intro">
+  <span class="eyebrow">FINAWIN FINANCE</span>
+  <h1 id="module-page-title">Module guide</h1>
+  <p>All sections and subsections of the selected module are combined on this page.</p>
+  <div class="document-actions">
+    <button class="pdf-button" type="button" onclick="window.print()">Save this module as PDF</button>
+    <a class="pdf-button pdf-button-secondary" href="{{ '/en/' | relative_url }}">Back to home</a>
+  </div>
+</section>
+
+<article class="manual-content print-document module-document">
+  {% assign all_docs = site.docs_en | sort: "order" %}
+  {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
+  {% for doc in all_docs %}
+    {% assign module_data = site.data.modules_en | where: "id", doc.module | first %}
+    <section class="print-section module-section" data-module="{{ doc.module }}" data-module-title="{{ module_data.title | escape }}">
+      {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
+    </section>
+  {% endfor %}
+</article>
+
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var requestedModule = params.get("module");
+  var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
+  var sections = Array.from(document.querySelectorAll(".module-section"));
+  if (!requestedModule) requestedModule = allowedModules[0] || (sections[0] && sections[0].dataset.module);
+  var permitted = !allowedModules.length || allowedModules.indexOf(requestedModule) >= 0;
+  sections.forEach(function (section) {
+    section.style.display = permitted && section.dataset.module === requestedModule ? "" : "none";
+  });
+  var first = sections.find(function (section) { return section.style.display !== "none"; });
+  if (!first) {
+    document.getElementById("module-page-title").textContent = "Module not available";
+    return;
+  }
+  var title = first.dataset.moduleTitle || "Module guide";
+  document.getElementById("module-page-title").textContent = title;
+  document.title = title + " · FinaWin Guide";
+}());
+</script>

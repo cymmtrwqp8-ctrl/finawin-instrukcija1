@@ -1,0 +1,10 @@
+---
+layout: default-en
+---
+{% assign module_data = site.data.modules_en | where: "id", page.module | first %}
+<div class="breadcrumbs"><span>{{ module_data.title }}</span><b>›</b><span>{{ page.title }}</span></div>
+<div class="document-actions" aria-label="PDF actions">
+  <a class="pdf-button" href="{{ '/en/print/' | relative_url }}">Save this guide as PDF</a>
+  <a class="pdf-button pdf-button-secondary" href="{{ '/en/' | relative_url }}">Back to home</a>
+</div>
+<article class="manual-content">{{ content }}</article>

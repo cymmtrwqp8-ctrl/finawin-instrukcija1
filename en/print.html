@@ -1,0 +1,33 @@
+---
+layout: default-en
+title: "Complete guide PDF"
+description: "Printable view of the FinaWin user guide"
+permalink: /en/print/
+---
+<section class="print-intro">
+  <h1 id="print-title">Complete FinaWin Guide</h1>
+  <p id="print-description">This document combines all available sections. In the print window, select “Save as PDF”.</p>
+  <button class="pdf-button" id="print-button" type="button" onclick="window.print()">Save the complete guide as PDF</button>
+</section>
+
+<article class="manual-content print-document">
+  {% assign all_docs = site.docs_en | sort: "order" %}
+  {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
+  {% for doc in all_docs %}
+    {% assign module_data = site.data.modules_en | where: "id", doc.module | first %}
+    <section class="print-section" data-module="{{ doc.module }}">
+      <p class="print-module">{{ module_data.title }}</p>
+      {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
+    </section>
+  {% endfor %}
+</article>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var allowedModules = (new URLSearchParams(window.location.search).get("modules") || "").split(",").filter(Boolean);
+  document.querySelectorAll(".print-section").forEach(function (section) {
+    section.style.display = !allowedModules.length || allowedModules.indexOf(section.dataset.module) >= 0 ? "" : "none";
+  });
+  if (allowedModules.length) document.getElementById("print-description").textContent = "The PDF will include only the modules selected for this client.";
+});
+</script>

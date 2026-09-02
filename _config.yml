@@ -5,13 +5,19 @@ markdown: kramdown
 collections:
   docs:
     output: true
+  docs_en:
+    output: true
 defaults:
   - scope:
       path: ""
       type: docs
     values:
       layout: doc
+  - scope:
+      path: ""
+      type: docs_en
+    values:
+      layout: doc-en
 exclude:
   - README.md
   - .gitignore
-
