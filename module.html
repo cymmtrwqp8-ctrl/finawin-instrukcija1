@@ -26,18 +26,25 @@ permalink: /module/
 </article>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  var requestedModule = new URLSearchParams(window.location.search).get("module");
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var requestedModule = params.get("module");
+  var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
   var sections = Array.from(document.querySelectorAll(".module-section"));
-  var available = sections.filter(function (section) { return !section.hidden; });
 
-  if (!requestedModule && available.length) requestedModule = available[0].dataset.module;
+  if (!requestedModule) {
+    requestedModule = allowedModules[0] || (sections[0] && sections[0].dataset.module);
+  }
 
+  var permitted = !allowedModules.length || allowedModules.indexOf(requestedModule) >= 0;
   sections.forEach(function (section) {
-    section.hidden = section.hidden || section.dataset.module !== requestedModule;
+    section.style.display =
+      permitted && section.dataset.module === requestedModule ? "" : "none";
   });
 
-  var first = sections.find(function (section) { return !section.hidden; });
+  var first = sections.find(function (section) {
+    return section.style.display !== "none";
+  });
   if (!first) {
     document.getElementById("module-page-title").textContent = "Modulis nav pieejams";
     return;
