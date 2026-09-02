@@ -2,9 +2,15 @@
 layout: default
 ---
 {% assign module_data = site.data.modules | where: "id", page.module | first %}
+{% assign all_docs = site.docs | sort: "order" %}
+{% assign current_print_group = page.order %}
+{% for candidate in all_docs %}
+  {% if candidate.level == 1 %}{% assign current_print_group = candidate.order %}{% endif %}
+  {% if candidate.url == page.url %}{% break %}{% endif %}
+{% endfor %}
 <div class="breadcrumbs"><span>{{ module_data.title }}</span><b>›</b><span>{{ page.title }}</span></div>
 <div class="document-actions" aria-label="PDF darbības">
-  <button class="pdf-button" type="button" onclick="window.print()">Saglabāt šo sadaļu PDF</button>
+  <a class="pdf-button" href="{{ '/print/' | relative_url }}?section={{ current_print_group }}">Saglabāt šo sadaļu PDF</a>
   <a class="pdf-button pdf-button-secondary" href="{{ '/print/' | relative_url }}">Saglabāt visu instrukciju PDF</a>
 </div>
 <article class="manual-content">{{ content }}</article>
