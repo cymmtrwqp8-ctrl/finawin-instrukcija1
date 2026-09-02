@@ -1,5 +1,5 @@
 ---
-title: "ATSKAIšu Noskaņas"
+title: "Atskaišu Noskaņas"
 module: atskaisu-noskanas
 order: 73
 module_order: 9
