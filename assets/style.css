@@ -102,3 +102,28 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
   .module-card { min-height:180px; }
 }
 
+.document-actions { display:flex; flex-wrap:wrap; gap:10px; margin:-12px 0 22px; }
+.pdf-button { display:inline-flex; min-height:42px; align-items:center; justify-content:center; padding:9px 15px; border:0; border-radius:10px; background:var(--blue); color:#fff; cursor:pointer; font:inherit; font-size:14px; font-weight:650; text-decoration:none; }
+.pdf-button:hover { background:var(--blue-dark); }
+.pdf-button-secondary { border:1px solid #bfdbfe; background:#eff6ff; color:var(--blue-dark); }
+.pdf-button-secondary:hover { background:#dbeafe; }
+.print-intro { margin:0 0 24px; padding:22px; border:1px solid var(--line); border-radius:14px; background:#fff; }
+.print-intro h1 { margin:0 0 8px; }
+.print-intro p { margin:0 0 16px; color:var(--muted); }
+.print-document { padding:0; overflow:hidden; }
+.print-section { padding:42px; border-bottom:1px solid var(--line); }
+.print-section:last-child { border-bottom:0; }
+.print-module { margin:0 0 10px; color:var(--blue); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+@media print {
+  @page { margin:16mm; }
+  body { background:#fff; }
+  .sidebar,.mobile-header,.breadcrumbs,.document-actions,.print-intro,dialog,.backdrop { display:none!important; }
+  .main { margin-left:0; }
+  .content-shell { width:auto; max-width:none; padding:0; }
+  .manual-content { padding:0; border:0; border-radius:0; box-shadow:none; }
+  .manual-content img { max-height:none; box-shadow:none; break-inside:avoid; }
+  .manual-content table,.manual-content pre,.manual-content blockquote { break-inside:avoid; }
+  .print-section { padding:0; border:0; break-before:page; }
+  .print-section:first-child { break-before:auto; }
+  a { text-decoration:none; }
+}
