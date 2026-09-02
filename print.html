@@ -12,11 +12,12 @@ permalink: /print/
 
 <article class="manual-content print-document">
   {% assign all_docs = site.docs | sort: "order" %}
+  {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
   {% for doc in all_docs %}
     {% assign module_data = site.data.modules | where: "id", doc.module | first %}
     <section class="print-section">
       <p class="print-module">{{ module_data.title }}</p>
-      {{ doc.content | markdownify }}
+      {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
     </section>
   {% endfor %}
 </article>
