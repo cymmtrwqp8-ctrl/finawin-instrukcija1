@@ -3,5 +3,9 @@ layout: default
 ---
 {% assign module_data = site.data.modules | where: "id", page.module | first %}
 <div class="breadcrumbs"><span>{{ module_data.title }}</span><b>›</b><span>{{ page.title }}</span></div>
+<div class="document-actions" aria-label="PDF darbības">
+  <button class="pdf-button" type="button" onclick="window.print()">Saglabāt šo sadaļu PDF</button>
+  <a class="pdf-button pdf-button-secondary" href="{{ '/print/' | relative_url }}">Saglabāt visu instrukciju PDF</a>
+</div>
 <article class="manual-content">{{ content }}</article>
 
