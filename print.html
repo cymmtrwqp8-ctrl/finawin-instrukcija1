@@ -26,17 +26,24 @@ permalink: /print/
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var group = new URLSearchParams(window.location.search).get("section");
+  var params = new URLSearchParams(window.location.search);
+  var group = params.get("section");
+  var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
   var sections = Array.from(document.querySelectorAll(".print-section"));
 
+  sections.forEach(function (section) {
+    var groupMatches = !group || section.dataset.printGroup === group;
+    var moduleMatches =
+      !allowedModules.length || allowedModules.indexOf(section.dataset.module) >= 0;
+    section.style.display = groupMatches && moduleMatches ? "" : "none";
+  });
+
+  var first = sections.find(function (section) {
+    return section.style.display !== "none";
+  });
+  if (!first) return;
+
   if (group) {
-    sections.forEach(function (section) {
-      section.hidden = section.hidden || section.dataset.printGroup !== group;
-    });
-
-    var first = sections.find(function (section) { return !section.hidden; });
-    if (!first) return;
-
     var heading = first.querySelector("h1, h2, h3");
     var title = heading ? heading.textContent.trim() : "Izvēlētā sadaļa";
     document.getElementById("print-title").textContent = title;
@@ -44,9 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "PDF tiks iekļauta virssadaļa un visas tai piederošās apakšsadaļas.";
     document.getElementById("print-button").textContent = "Saglabāt sadaļu PDF";
     document.title = title + " · FinaWin instrukcija";
-  } else if (new URLSearchParams(window.location.search).has("modules")) {
+  } else if (allowedModules.length) {
     document.getElementById("print-description").textContent =
       "PDF tiks iekļauti tikai klienta saitē izvēlētie moduļi.";
   }
-});
+}());
 </script>
