@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Visa instrukcija PDF"
+description: "FinaWin lietotāja instrukcijas drukas skats"
+permalink: /print/
+---
+<section class="print-intro">
+  <h1>Visa FinaWin instrukcija</h1>
+  <p>Dokuments apvieno visas instrukcijas sadaļas. Atvērtajā drukas logā izvēlies “Save as PDF” vai “Saglabāt kā PDF”.</p>
+  <button class="pdf-button" type="button" onclick="window.print()">Saglabāt visu instrukciju PDF</button>
+</section>
+
+<article class="manual-content print-document">
+  {% assign all_docs = site.docs | sort: "order" %}
+  {% for doc in all_docs %}
+    {% assign module_data = site.data.modules | where: "id", doc.module | first %}
+    <section class="print-section">
+      <p class="print-module">{{ module_data.title }}</p>
+      {{ doc.content | markdownify }}
+    </section>
+  {% endfor %}
+</article>
