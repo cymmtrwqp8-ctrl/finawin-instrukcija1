@@ -17,7 +17,7 @@ permalink: /print/
   {% for doc in all_docs %}
     {% if doc.level == 1 %}{% assign current_group = doc.order %}{% endif %}
     {% assign module_data = site.data.modules | where: "id", doc.module | first %}
-    <section class="print-section" data-print-group="{{ current_group }}">
+    <section class="print-section" data-print-group="{{ current_group }}" data-module="{{ doc.module }}">
       <p class="print-module">{{ module_data.title }}</p>
       {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
     </section>
@@ -25,24 +25,28 @@ permalink: /print/
 </article>
 
 <script>
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
   var group = new URLSearchParams(window.location.search).get("section");
-  if (!group) return;
-
   var sections = Array.from(document.querySelectorAll(".print-section"));
-  sections.forEach(function (section) {
-    section.hidden = section.dataset.printGroup !== group;
-  });
 
-  var first = sections.find(function (section) { return !section.hidden; });
-  if (!first) return;
+  if (group) {
+    sections.forEach(function (section) {
+      section.hidden = section.hidden || section.dataset.printGroup !== group;
+    });
 
-  var heading = first.querySelector("h1, h2, h3");
-  var title = heading ? heading.textContent.trim() : "Izvēlētā sadaļa";
-  document.getElementById("print-title").textContent = title;
-  document.getElementById("print-description").textContent =
-    "PDF tiks iekļauta virssadaļa un visas tai piederošās apakšsadaļas.";
-  document.getElementById("print-button").textContent = "Saglabāt sadaļu PDF";
-  document.title = title + " · FinaWin instrukcija";
-}());
+    var first = sections.find(function (section) { return !section.hidden; });
+    if (!first) return;
+
+    var heading = first.querySelector("h1, h2, h3");
+    var title = heading ? heading.textContent.trim() : "Izvēlētā sadaļa";
+    document.getElementById("print-title").textContent = title;
+    document.getElementById("print-description").textContent =
+      "PDF tiks iekļauta virssadaļa un visas tai piederošās apakšsadaļas.";
+    document.getElementById("print-button").textContent = "Saglabāt sadaļu PDF";
+    document.title = title + " · FinaWin instrukcija";
+  } else if (new URLSearchParams(window.location.search).has("modules")) {
+    document.getElementById("print-description").textContent =
+      "PDF tiks iekļauti tikai klienta saitē izvēlētie moduļi.";
+  }
+});
 </script>
