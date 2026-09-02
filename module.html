@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Moduļa instrukcija"
+description: "Pilns izvēlētā FinaWin moduļa apraksts"
+permalink: /module/
+---
+<section class="print-intro module-page-intro">
+  <span class="eyebrow">FINAWIN FINANSES</span>
+  <h1 id="module-page-title">Moduļa instrukcija</h1>
+  <p>Šeit vienā lapā ir apvienotas visas izvēlētā moduļa sadaļas un apakšsadaļas.</p>
+  <div class="document-actions">
+    <button class="pdf-button" type="button" onclick="window.print()">Saglabāt šo moduli PDF</button>
+    <a class="pdf-button pdf-button-secondary" href="{{ '/' | relative_url }}">Atpakaļ uz sākumu</a>
+  </div>
+</section>
+
+<article class="manual-content print-document module-document">
+  {% assign all_docs = site.docs | sort: "order" %}
+  {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
+  {% for doc in all_docs %}
+    {% assign module_data = site.data.modules | where: "id", doc.module | first %}
+    <section class="print-section module-section" data-module="{{ doc.module }}" data-module-title="{{ module_data.title | escape }}">
+      {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
+    </section>
+  {% endfor %}
+</article>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var requestedModule = new URLSearchParams(window.location.search).get("module");
+  var sections = Array.from(document.querySelectorAll(".module-section"));
+  var available = sections.filter(function (section) { return !section.hidden; });
+
+  if (!requestedModule && available.length) requestedModule = available[0].dataset.module;
+
+  sections.forEach(function (section) {
+    section.hidden = section.hidden || section.dataset.module !== requestedModule;
+  });
+
+  var first = sections.find(function (section) { return !section.hidden; });
+  if (!first) {
+    document.getElementById("module-page-title").textContent = "Modulis nav pieejams";
+    return;
+  }
+
+  var title = first.dataset.moduleTitle || "Moduļa instrukcija";
+  document.getElementById("module-page-title").textContent = title;
+  document.title = title + " · FinaWin instrukcija";
+}());
+</script>
