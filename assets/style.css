@@ -1,7 +1,7 @@
 :root {
-  --navy:#020617; --blue:#1d4ed8; --blue-dark:#1e3a8a; --amber:#fbbf24;
-  --paper:#fff; --background:#f8fafc; --ink:#0f172a; --body:#334155;
-  --muted:#64748b; --line:#dbe3ee; --radius:14px;
+  --navy:#020617; --blue:#62358f; --blue-dark:#4b286d; --amber:#d7b7f3;
+  --paper:#fff; --background:#f7f2fb; --ink:#0f172a; --body:#334155;
+  --muted:#64748b; --line:#e4d9ec; --radius:14px;
 }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
@@ -38,11 +38,11 @@ a { color:inherit; }
 .breadcrumbs span:last-child { overflow:hidden; color:var(--body); text-overflow:ellipsis; }
 .breadcrumbs b { color:#94a3b8; }
 .manual-content { padding:42px; border:1px solid var(--line); border-radius:18px; background:var(--paper); box-shadow:0 8px 28px rgba(15,23,42,.06); color:var(--body); font-size:16px; line-height:1.75; }
-.manual-content h1,.manual-content h2 { margin:0 0 24px; color:var(--ink); font-weight:750; letter-spacing:-.025em; line-height:1.18; }
+.manual-content h1,.manual-content h2 { margin:0 0 24px; color:var(--blue); font-weight:750; letter-spacing:-.025em; line-height:1.18; }
 .manual-content h1 { font-size:clamp(30px,4vw,40px); }
 .manual-content h2 { font-size:clamp(26px,3vw,34px); }
 .manual-content h3 { margin:32px 0 13px; color:var(--blue-dark); font-size:19px; line-height:1.35; }
-.manual-content h4 { margin:26px 0 10px; color:var(--body); font-size:17px; }
+.manual-content h4 { margin:26px 0 10px; color:var(--blue); font-size:17px; }
 .manual-content p { margin:0 0 16px; }
 .manual-content strong { color:var(--ink); }
 .manual-content ul,.manual-content ol { margin:12px 0 20px 22px; padding:0; }
@@ -50,26 +50,26 @@ a { color:inherit; }
 .manual-content img { display:block; width:auto; max-width:100%; max-height:560px; margin:22px auto; border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(15,23,42,.08); }
 .manual-content table { display:block; width:100%; overflow-x:auto; margin:20px 0; border-collapse:collapse; font-size:14px; }
 .manual-content th,.manual-content td { min-width:110px; padding:10px 12px; border:1px solid #cbd5e1; text-align:left; vertical-align:top; }
-.manual-content th { background:#eff6ff; color:var(--blue-dark); }
+.manual-content th { background:#f3ebf8; color:var(--blue-dark); }
 .manual-content a { color:var(--blue); text-underline-offset:3px; }
 .home-intro { padding:10px 0 30px; }
 .eyebrow { color:var(--blue); font-size:12px; font-weight:800; letter-spacing:.15em; }
-.home-intro h1 { margin:10px 0 12px; font-size:clamp(36px,5vw,56px); letter-spacing:-.04em; }
+.home-intro h1 { margin:10px 0 12px; color:var(--blue); font-size:clamp(36px,5vw,56px); letter-spacing:-.04em; }
 .home-intro p { max-width:650px; margin:0; color:var(--muted); font-size:18px; line-height:1.6; }
 .module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
 .module-card { position:relative; min-height:205px; padding:26px; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius); background:#fff; text-decoration:none; transition:.18s ease; }
-.module-card:hover { transform:translateY(-2px); border-color:#93c5fd; box-shadow:0 12px 30px rgba(30,64,175,.1); }
-.module-card h2 { margin:24px 0 8px; font-size:20px; }
+.module-card:hover { transform:translateY(-2px); border-color:#c9addd; box-shadow:0 12px 30px rgba(98,53,143,.12); }
+.module-card h2 { margin:24px 0 8px; color:var(--blue); font-size:20px; }
 .module-card p { margin:0 0 18px; color:var(--muted); font-size:14px; line-height:1.55; }
 .module-card strong { color:var(--blue); font-size:14px; }
-.card-number { position:absolute; top:22px; right:24px; color:#dbeafe; font-size:40px; font-weight:800; }
+.card-number { position:absolute; top:22px; right:24px; color:#eadcf4; font-size:40px; font-weight:800; }
 .mobile-header { display:none; }
 dialog { width:min(520px,calc(100% - 28px)); max-height:90vh; padding:0; overflow:auto; border:0; border-radius:18px; box-shadow:0 28px 90px rgba(2,6,23,.35); }
 dialog::backdrop { background:rgba(2,6,23,.55); }
 .dialog-card { padding:26px; }
 .dialog-head { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; }
 .dialog-head small { color:var(--blue); font-weight:800; letter-spacing:.12em; }
-.dialog-head h2 { margin:5px 0 0; font-size:27px; }
+.dialog-head h2 { margin:5px 0 0; color:var(--blue); font-size:27px; }
 .dialog-card>p { color:var(--muted); font-size:14px; line-height:1.55; }
 .close-button { width:36px; height:36px; border:0; border-radius:50%; background:#f1f5f9; cursor:pointer; font-size:25px; }
 .module-options { display:grid; gap:8px; margin:18px 0; }
@@ -105,8 +105,8 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
 .document-actions { display:flex; flex-wrap:wrap; gap:10px; margin:-12px 0 22px; }
 .pdf-button { display:inline-flex; min-height:42px; align-items:center; justify-content:center; padding:9px 15px; border:0; border-radius:10px; background:var(--blue); color:#fff; cursor:pointer; font:inherit; font-size:14px; font-weight:650; text-decoration:none; }
 .pdf-button:hover { background:var(--blue-dark); }
-.pdf-button-secondary { border:1px solid #bfdbfe; background:#eff6ff; color:var(--blue-dark); }
-.pdf-button-secondary:hover { background:#dbeafe; }
+.pdf-button-secondary { border:1px solid #d8c2e8; background:#f3ebf8; color:var(--blue-dark); }
+.pdf-button-secondary:hover { background:#eadcf4; }
 .print-intro { margin:0 0 24px; padding:22px; border:1px solid var(--line); border-radius:14px; background:#fff; }
 .print-intro h1 { margin:0 0 8px; }
 .print-intro p { margin:0 0 16px; color:var(--muted); }
@@ -125,5 +125,11 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
   .manual-content table,.manual-content pre,.manual-content blockquote { break-inside:avoid; }
   .print-section { padding:0; border:0; break-before:page; }
   .print-section:first-child { break-before:auto; }
+  .manual-content h1,.manual-content h2 { color:#0f172a; }
+  .manual-content h3 { color:#1e3a8a; }
+  .manual-content h4 { color:#334155; }
+  .manual-content th { background:#eff6ff; color:#1e3a8a; }
+  .manual-content a { color:#1d4ed8; }
+  .print-module { color:#1d4ed8; }
   a { text-decoration:none; }
 }
