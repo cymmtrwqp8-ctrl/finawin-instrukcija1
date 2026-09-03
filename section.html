@@ -37,7 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  matches.forEach(function (part) { part.hidden = false; });
+  parts.forEach(function (part) {
+    part.hidden = part.dataset.sectionPart !== sectionId;
+  });
   document.getElementById("section-document").hidden = false;
 
   var first = matches[0];
