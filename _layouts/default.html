@@ -28,7 +28,11 @@
           <section class="module-group" data-module="{{ module.id }}">
             <p class="module-title"><span></span>{{ module.title }}</p>
             {% for doc in module_docs %}
-              <a class="doc-link {% if doc.level == 1 %}major{% endif %} {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+              {% if doc.level == 1 %}
+                <a class="doc-link major" data-module="{{ module.id }}" data-section="{{ doc.order }}" href="{{ '/section/' | relative_url }}?section={{ doc.order }}">{{ doc.title }}</a>
+              {% else %}
+                <a class="doc-link {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+              {% endif %}
             {% endfor %}
           </section>
         {% endfor %}
@@ -62,4 +66,3 @@
     <div class="backdrop" id="backdrop" hidden></div>
   </body>
 </html>
-

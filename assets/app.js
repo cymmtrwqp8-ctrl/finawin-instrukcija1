@@ -14,6 +14,13 @@
   var navigation = document.getElementById("navigation");
   var searchIndex = null;
 
+  var currentSection = params.get("section");
+  if (currentSection) {
+    document.querySelectorAll(".doc-link[data-section]").forEach(function (link) {
+      link.classList.toggle("active", link.dataset.section === currentSection);
+    });
+  }
+
   function applyModules() {
     document.querySelectorAll("[data-module]").forEach(function (element) {
       element.hidden = selected.indexOf(element.dataset.module) < 0;
