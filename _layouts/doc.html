@@ -13,5 +13,22 @@ layout: default
   <a class="pdf-button" href="{{ '/print/' | relative_url }}?section={{ current_print_group }}">Saglabāt šo sadaļu PDF</a>
   <a class="pdf-button pdf-button-secondary" href="{{ '/print/' | relative_url }}">Saglabāt visu instrukciju PDF</a>
 </div>
-<article class="manual-content">{{ content }}</article>
-
+<article class="manual-content">
+  {% if page.level == 1 %}
+    {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
+    {% assign group_started = false %}
+    {% for doc in all_docs %}
+      {% if doc.url == page.url %}{% assign group_started = true %}{% endif %}
+      {% if group_started %}
+        {% unless doc.url == page.url %}
+          {% if doc.level == 1 %}{% break %}{% endif %}
+        {% endunless %}
+        <section class="grouped-document-section">
+          {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
+        </section>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</article>
