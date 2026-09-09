@@ -1,5 +1,5 @@
 ---
-title: "PAR šo dokumentu"
+title: "Par šo dokumentu"
 module: pamati
 order: 1
 module_order: 1
@@ -7,7 +7,7 @@ level: 1
 layout: doc
 permalink: /docs/pamati-par-so-dokumentu/
 ---
-# PAR šo dokumentu
+# Par šo dokumentu
 
 Šī ir FinaWin Finanšu moduļa lietotāja rokasgrāmata.
 
