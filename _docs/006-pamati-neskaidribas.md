@@ -9,4 +9,8 @@ permalink: /docs/pamati-neskaidribas/
 ---
 ## Neskaidrības
 
-Programma un lietotāja instrukcija tiek nepārtraukti pilnveidotas. Gadījumā, ja radušās neskaidrības, kā lietot programmu vai lietotāja instrukcijā kaut kas neatbilst tam, ko redzat programmā, lūdzu, sazinieties ar Jūsu programmas moduļa konsultantu vai zvaniet uz SIA Solcraft biroju.
+Programma un lietotāja instrukcija tiek nepārtraukti pilnveidotas. Gadījumā, ja radušās neskaidrības, kā lietot programmu vai lietotāja instrukcijā kaut kas neatbilst tam, ko redzat programmā, lūdzu, sazinieties ar Jūsu programmas moduļa konsultantu vai ar mums:
+
+- Zvaniet uz mūsu Solcraft biroju: **[+371 67277708](tel:+37167277708)**
+- Piesakiet savu problēmu vietnē **[helpdesk.solwit.eu](https://helpdesk.solwit.eu)**
+- Sūtiet pieteikumu uz **[helpdesk@solcraft.eu](mailto:helpdesk@solcraft.eu)**
