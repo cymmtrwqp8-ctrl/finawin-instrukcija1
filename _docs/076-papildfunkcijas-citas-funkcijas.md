@@ -7,7 +7,7 @@ level: 1
 layout: doc
 permalink: /docs/papildfunkcijas-citas-funkcijas/
 ---
-# citas funkcijas 
+# Citas funkcijas 
 
 Šeit apkopotas papildu funkcijas, kas pieejamas lietotājam sistēmas darbam un datu apstrādei.
 
