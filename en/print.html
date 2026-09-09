@@ -15,7 +15,7 @@ permalink: /en/print/
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
   {% for doc in all_docs %}
     {% assign module_data = site.data.modules_en | where: "id", doc.module | first %}
-    <section class="print-section" data-module="{{ doc.module }}">
+    <section class="print-section" data-module="{{ doc.module }}" data-level="{{ doc.level | default: 2 }}">
       <p class="print-module">{{ module_data.title }}</p>
       {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
     </section>
