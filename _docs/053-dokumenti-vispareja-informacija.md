@@ -17,11 +17,11 @@ Izvēlne, kurā pieejamas vairākas sadaļas darbam ar uzņēmuma dokumentiem un
 
 **Līgumi** - uzņēmuma līgumu saraksts, kur glabājas visi ievadītie līgumi ar partneriem un to būtiskā informācija.
 
-**Lietvedības dokumenti** - šeit glabājas ar citiem uzņēmuma moduļiem, piemēram, DVS (dokumentu vadības sistēmu), saistīti dokumenti to pārskatīšanai un arhivēšanai.
+**Lietvedības dokumenti** – šeit glabājas ar citiem uzņēmuma moduļiem, piemēram, DVS (dokumentu vadības sistēmu), saistīti dokumenti to pārskatīšanai un arhivēšanai.
 
 **Nākamo periodu izdevumi** - papildu iegādājama funkcija, kas nodrošina nākamo periodu izmaksu plānošanu un grāmatošanu, piemēram, apdrošināšanas, abonementu vai nomas maksājumu sadalīšanu pa periodiem.
 
-<img src="{{ site.baseurl }}/assets/images/image98.png" alt="Dokumentu izvēlne ar lietvedības dokumentu sadaļu." />
+<img src="{{ site.baseurl }}/assets/images/image98-lietvedibas-dokumenti.png" alt="Dokumentu izvēlne ar lietvedības dokumentu sadaļu." />
 
 **Attēls Dokumenti**
 
