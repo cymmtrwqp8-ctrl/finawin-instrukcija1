@@ -1,8 +1,8 @@
 ---
 title: "Konfigurācija"
-module: dokumenti
+module: papildfunkcijas
 order: 58
-module_order: 3
+module_order: 10
 level: 1
 layout: doc
 permalink: /docs/dokumenti-konfiguracija/
