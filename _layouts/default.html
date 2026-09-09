@@ -27,7 +27,7 @@
         {% for module in modules %}
           {% assign module_docs = all_docs | where: "module", module.id %}
           {% assign first_doc = module_docs | first %}
-          {% if first_doc.level == 1 %}
+          {% if first_doc.level == 1 and module.id != "papildfunkcijas" %}
             {% capture module_first_url %}{{ '/section/' | relative_url }}?section={{ first_doc.order }}{% endcapture %}
           {% else %}
             {% assign module_first_url = first_doc.url | relative_url %}
@@ -38,8 +38,10 @@
             </button>
             <div class="module-links" data-module-links="{{ module.id }}" hidden>
               {% for doc in module_docs %}
-                {% if doc.level == 1 %}
+                {% if doc.level == 1 and module.id != "papildfunkcijas" %}
                   <a class="doc-link major" data-module="{{ module.id }}" data-section="{{ doc.order }}" href="{{ '/section/' | relative_url }}?section={{ doc.order }}">{{ doc.title }}</a>
+                {% elsif doc.level == 1 %}
+                  <a class="doc-link major {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
                 {% else %}
                   <a class="doc-link {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
                 {% endif %}
