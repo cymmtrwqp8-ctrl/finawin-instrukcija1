@@ -17,6 +17,12 @@ Veidojot jaunu dokumentu atveras izvēlne kur jāizvēlas dokumenta tips. To ies
 
 <img src="{{ site.baseurl }}/assets/images/image103.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls Virsgrāmatas dokumenta izveide - šablons**
 
+Ar visiem dokumentu tipiem varat iepazīties izvēlnē **Konfigurācija → Dokumentu tipi**.
+
+<img src="{{ site.baseurl }}/assets/images/dokumentu-tipi.png" alt="Izvēlnes Konfigurācija sadaļa Dokumentu tipi." />
+
+**Attēls Dokumentu tipi**
+
 ### Pamatinformācijas ievade
 
 Pamatinformācijas ievades sadaļā lietotājs aizpilda galvenos datus, kas nepieciešami virsgrāmatas dokumenta izveidei. Šajā posmā tiek definēti dokumenta pamatparametri - datums, partneris, saturs, summa, valūta un citas vispārējās pazīmes, kas nodrošina korektu grāmatošanas procesa sākumu.
