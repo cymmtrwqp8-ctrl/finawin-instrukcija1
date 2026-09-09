@@ -78,26 +78,26 @@ To, cik plata būs kolonna, kāds būs tās nosaukums un formāts, ja kolonnā t
 
 **Attēls Tabulas konfigurācijas parametri**
 
-- **Fiksētas ailes à** norādot skaitli kreisajā lauciņā, piemēram, 3, pirmās trīs tabulas kolonnas tiks fiksētas, un, braucot tabulā pa labi, tās paliks uz vietas.
+- **Fiksētas ailes** – norādot skaitli kreisajā lauciņā, piemēram, 3, pirmās trīs tabulas kolonnas tiks fiksētas, un, braucot tabulā pa labi, tās paliks uz vietas.
 
-- **Parādīt summas pa ailēm tabulā à** summēs un attēlos tabulas apakšā visu summējamo kolonnu kopsummas. ***Piezīme***: darbam ar lieliem datu apjomiem, lietojot šo opciju pastāvīgi, laiks, kas nepieciešams tabulas atvēršanai, var būtiski palielināties. ***Risinājums***: lietot summas pogu <img src="{{ site.baseurl }}/assets/images/image39.png" /> Dokumentu kataloga augšējā rīkjoslā;
+- **Parādīt summas pa ailēm tabulā** – summēs un attēlos tabulas apakšā visu summējamo kolonnu kopsummas. ***Piezīme***: darbam ar lieliem datu apjomiem, lietojot šo opciju pastāvīgi, laiks, kas nepieciešams tabulas atvēršanai, var būtiski palielināties. ***Risinājums***: lietot summas pogu <img src="{{ site.baseurl }}/assets/images/image39.png" /> Dokumentu kataloga augšējā rīkjoslā;
 
-- **Meklēšanas panelis à** iedarbinot šo parametru, programma ievietos *Search* logu tabulas augšpusē zem rīkjoslas, šajā laukā ievadītie dati tiks meklēti/izgaismoti visās tabulas kolonnās, bet nospiežot *Enter* arī filtrēti;
+- **Meklēšanas panelis** – iedarbinot šo parametru, programma ievietos *Search* logu tabulas augšpusē zem rīkjoslas, šajā laukā ievadītie dati tiks meklēti/izgaismoti visās tabulas kolonnās, bet nospiežot *Enter* arī filtrēti;
 
-- **Atcerēties rindu à** mēdz gadīties, ka tabulas dati ir jāatjauno <img src="{{ site.baseurl }}/assets/images/image40.png" />. Pēc to atjaunošanas kursors nostājas uz pirmā ieraksta. Lietojot šo opciju, atjaunojot datus, kursors atradīsies turpat, kur pirms datu atjaunošanas;
+- **Atcerēties rindu** – mēdz gadīties, ka tabulas dati ir jāatjauno <img src="{{ site.baseurl }}/assets/images/image40.png" />. Pēc to atjaunošanas kursors nostājas uz pirmā ieraksta. Lietojot šo opciju, atjaunojot datus, kursors atradīsies turpat, kur pirms datu atjaunošanas;
 
-- **Rindu numurēšana à** ieslēdzot šo parametru, programma ievietos kārtas numuru pretī katrai tabulas rindai;
+- **Rindu numurēšana** – ieslēdzot šo parametru, programma ievietos kārtas numuru pretī katrai tabulas rindai;
 
-**Multi izvēlē à** ieslēdzot šo parametru, programma tabulas kreisajā malā ievieto filtru, tā pieejamās darbības atrodas virs filtra (skat. zīmējumu zemāk) <img src="{{ site.baseurl }}/assets/images/image41.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+**Multi izvēlē** – ieslēdzot šo parametru, programma tabulas kreisajā malā ievieto filtru, tā pieejamās darbības atrodas virs filtra (skat. zīmējumu zemāk) <img src="{{ site.baseurl }}/assets/images/image41.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 **Attēls Multi izvēle**
 
 > Jums ir iespēja atzīmēt vairākus tabulas ierakstus un Filtrēt izvēli, lai veiktu kādas kopējas darbības, piemēram, drukāt 3 konkrētus ierakstus; Filtru atceļ ar pogu <img src="{{ site.baseurl }}/assets/images/image7.png" />ekrāna augšējā rīkjoslā;
 
-- **Tikai lasīšanai (Ctrl+Shift+R) à** šis parametrs neļauj rediģēt tabulas ierakstus;
+- **Tikai lasīšanai (Ctrl+Shift+R)** – šis parametrs neļauj rediģēt tabulas ierakstus;
 
-- **Parādīt dzēšanas apstiprinājumu à** šis parametrs, pirms dzēst kādu ierakstu, parādīs brīdinājumu “Vai Jūs tiešām vēlāties dzēst izvēlēto ierakstu?”;
+- **Parādīt dzēšanas apstiprinājumu** – šis parametrs, pirms dzēst kādu ierakstu, parādīs brīdinājumu “Vai Jūs tiešām vēlāties dzēst izvēlēto ierakstu?”;
 
 <!-- -->
 
-- **Iet uz pēdējo rindu à** šīs ir ērts parametrs, ja Jūs strādājat ar apjomīgām tabulām- atverot konkrētu tabulu, Jūs redzēsiet nevis pirmo ierakstu, bet pēdējo pievienoto;
+- **Iet uz pēdējo rindu** – šīs ir ērts parametrs, ja Jūs strādājat ar apjomīgām tabulām- atverot konkrētu tabulu, Jūs redzēsiet nevis pirmo ierakstu, bet pēdējo pievienoto;
