@@ -1,8 +1,8 @@
 ---
 title: "Funkcijas"
-module: dokumenti
+module: papildfunkcijas
 order: 57
-module_order: 3
+module_order: 10
 level: 1
 layout: doc
 permalink: /docs/dokumenti-funkcijas/
