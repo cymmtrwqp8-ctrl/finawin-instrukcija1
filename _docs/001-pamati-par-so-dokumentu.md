@@ -31,7 +31,7 @@ Versija: 3.1
 <tbody>
 <tr class="odd">
 <td>3.1</td>
-<td>14.10.2026</td>
+<td>14.10.2025</td>
 <td>Sākotnējā redakcija. Balstīta uz versijas 8.592</td>
 <td>Rūta Buzo,<br />
 ruta.buzo@solcraft.lv</td>
