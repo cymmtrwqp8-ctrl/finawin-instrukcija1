@@ -13,11 +13,12 @@ permalink: /en/docs/work-basics/
 
 This is the user guide for the **FinaWin Finance** module.
 
-Version: 3.1
+Version: 3.2
 
 | Version | Date | Comment | Author |
 |---|---|---|---|
-| 3.1 | 14 October 2026 | Initial edition, based on FinaWin version 8.592 | Solcraft |
+| 3.1 | 14 October 2025 | Initial edition, based on FinaWin version 8.592 | Solcraft |
+| 3.2 | 9 September 2026 | Guide review and update | Rūta Buzo, ruta.buzo@solcraft.lv |
 
 > The screenshots may show Latvian interface labels. Where useful, this guide gives the English meaning followed by the Latvian label in parentheses so that the same command can be found in the program.
 

@@ -11,7 +11,7 @@ permalink: /docs/pamati-par-so-dokumentu/
 
 Šī ir FinaWin Finanšu moduļa lietotāja rokasgrāmata.
 
-Versija: 3.1
+Versija: 3.2
 
 <table>
 <colgroup>
@@ -31,16 +31,17 @@ Versija: 3.1
 <tbody>
 <tr class="odd">
 <td>3.1</td>
-<td>14.10.2025</td>
+    <td>14.10.2025</td>
 <td>Sākotnējā redakcija. Balstīta uz versijas 8.592</td>
 <td>Rūta Buzo,<br />
 ruta.buzo@solcraft.lv</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>3.2</td>
+<td>09.09.2026</td>
+<td>Instrukcijas pārskatīšana un atjaunošana</td>
+<td>Rūta Buzo,<br />
+ruta.buzo@solcraft.lv</td>
 </tr>
 <tr class="odd">
 <td></td>
