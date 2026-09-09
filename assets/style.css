@@ -129,6 +129,16 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
 .print-intro { margin:0 0 24px; padding:22px; border:1px solid var(--line); border-radius:14px; background:#fff; }
 .print-intro h1 { margin:0 0 8px; }
 .print-intro p { margin:0 0 16px; color:var(--muted); }
+.print-toc { margin:0 0 24px; padding:34px 38px; border:1px solid var(--line); border-radius:14px; background:#fff; }
+.print-toc h1 { margin:0 0 24px; color:var(--blue); font-size:30px; }
+.print-toc-list,.print-toc-sublist { margin:0; padding-left:24px; }
+.print-toc-list { display:grid; gap:12px; }
+.print-toc-sublist { display:grid; gap:6px; margin-top:7px; }
+.print-toc-item { padding-left:5px; color:var(--body); line-height:1.45; }
+.print-toc-level-1 { color:var(--ink); font-weight:700; }
+.print-toc-level-2 { color:var(--body); font-weight:400; }
+.print-toc a { color:inherit; text-decoration:none; }
+.print-toc a:hover { color:var(--blue); text-decoration:underline; text-underline-offset:3px; }
 .print-document { padding:0; overflow:hidden; }
 .print-section { padding:42px; border-bottom:1px solid var(--line); }
 .print-section:last-child { border-bottom:0; }
@@ -139,12 +149,17 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
   .sidebar,.mobile-header,.breadcrumbs,.document-actions,.print-intro,dialog,.backdrop { display:none!important; }
   .main { margin-left:0; }
   .content-shell { width:auto; max-width:none; padding:0; }
+  .print-toc { margin:0; padding:0; border:0; border-radius:0; break-after:page; }
+  .print-toc h1 { color:#0f172a; }
+  .print-toc a { color:#0f172a; }
+  .print-toc-sublist a { color:#334155; }
+  .print-toc-item { break-inside:avoid; }
   .manual-content { padding:0; border:0; border-radius:0; box-shadow:none; }
   .manual-content img { max-height:none; box-shadow:none; break-inside:avoid; }
   .manual-content table,.manual-content pre,.manual-content blockquote { break-inside:avoid; }
   .print-section { padding:0; border:0; break-before:auto; }
   .print-section[data-level="1"] { break-before:page; break-after:avoid-page; }
-  .print-section:first-child { break-before:auto; }
+  .print-section:first-child,.print-section.print-first-visible { break-before:auto; }
   .manual-content h1,.manual-content h2 { color:#0f172a; }
   .manual-content h3 { color:#1e3a8a; }
   .manual-content h4 { color:#334155; }

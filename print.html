@@ -10,6 +10,11 @@ permalink: /print/
   <button class="pdf-button" id="print-button" type="button" onclick="window.print()">Saglabāt visu instrukciju PDF</button>
 </section>
 
+<nav class="print-toc" id="print-toc" aria-labelledby="print-toc-title">
+  <h1 id="print-toc-title">Satura rādītājs</h1>
+  <ol class="print-toc-list" id="print-toc-list"></ol>
+</nav>
+
 <article class="manual-content print-document">
   {% assign all_docs = site.docs | sort: "order" %}
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
@@ -43,6 +48,47 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!selectedJournalSections.length) selectedJournalSections = allJournalSections.slice();
   }
   var sections = Array.from(document.querySelectorAll(".print-section"));
+  var toc = document.getElementById("print-toc");
+  var tocList = document.getElementById("print-toc-list");
+
+  function buildTableOfContents() {
+    var currentParent = null;
+    var currentSublist = null;
+    tocList.innerHTML = "";
+
+    sections.filter(function (section) {
+      return section.style.display !== "none";
+    }).forEach(function (section, index) {
+      var heading = section.querySelector("h1, h2, h3");
+      if (!heading) return;
+
+      var level = section.dataset.level === "1" ? 1 : 2;
+      var item = document.createElement("li");
+      var link = document.createElement("a");
+      section.id = section.id || "print-section-" + (index + 1);
+      item.className = "print-toc-item print-toc-level-" + level;
+      link.href = "#" + section.id;
+      link.textContent = heading.textContent.trim();
+      item.appendChild(link);
+
+      if (level === 1) {
+        tocList.appendChild(item);
+        currentParent = item;
+        currentSublist = null;
+      } else if (currentParent) {
+        if (!currentSublist) {
+          currentSublist = document.createElement("ol");
+          currentSublist.className = "print-toc-sublist";
+          currentParent.appendChild(currentSublist);
+        }
+        currentSublist.appendChild(item);
+      } else {
+        tocList.appendChild(item);
+      }
+    });
+
+    toc.hidden = !tocList.children.length;
+  }
 
   sections.forEach(function (section) {
     var groupMatches = !group || section.dataset.printGroup === group;
@@ -55,7 +101,12 @@ document.addEventListener("DOMContentLoaded", function () {
   var first = sections.find(function (section) {
     return section.style.display !== "none";
   });
-  if (!first) return;
+  if (!first) {
+    toc.hidden = true;
+    return;
+  }
+  first.classList.add("print-first-visible");
+  buildTableOfContents();
 
   if (group) {
     var heading = first.querySelector("h1, h2, h3");

@@ -10,6 +10,11 @@ permalink: /en/print/
   <button class="pdf-button" id="print-button" type="button" onclick="window.print()">Save the complete guide as PDF</button>
 </section>
 
+<nav class="print-toc" id="print-toc" aria-labelledby="print-toc-title">
+  <h1 id="print-toc-title">Contents</h1>
+  <ol class="print-toc-list" id="print-toc-list"></ol>
+</nav>
+
 <article class="manual-content print-document">
   {% assign all_docs = site.docs_en | sort: "order" %}
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
@@ -25,9 +30,52 @@ permalink: /en/print/
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var allowedModules = (new URLSearchParams(window.location.search).get("modules") || "").split(",").filter(Boolean);
-  document.querySelectorAll(".print-section").forEach(function (section) {
+  var sections = Array.from(document.querySelectorAll(".print-section"));
+  var toc = document.getElementById("print-toc");
+  var tocList = document.getElementById("print-toc-list");
+
+  sections.forEach(function (section) {
     section.style.display = !allowedModules.length || allowedModules.indexOf(section.dataset.module) >= 0 ? "" : "none";
   });
+
+  var currentParent = null;
+  var currentSublist = null;
+  sections.filter(function (section) {
+    return section.style.display !== "none";
+  }).forEach(function (section, index) {
+    var heading = section.querySelector("h1, h2, h3");
+    if (!heading) return;
+
+    var level = section.dataset.level === "1" ? 1 : 2;
+    var item = document.createElement("li");
+    var link = document.createElement("a");
+    section.id = section.id || "print-section-" + (index + 1);
+    item.className = "print-toc-item print-toc-level-" + level;
+    link.href = "#" + section.id;
+    link.textContent = heading.textContent.trim();
+    item.appendChild(link);
+
+    if (level === 1) {
+      tocList.appendChild(item);
+      currentParent = item;
+      currentSublist = null;
+    } else if (currentParent) {
+      if (!currentSublist) {
+        currentSublist = document.createElement("ol");
+        currentSublist.className = "print-toc-sublist";
+        currentParent.appendChild(currentSublist);
+      }
+      currentSublist.appendChild(item);
+    } else {
+      tocList.appendChild(item);
+    }
+  });
+
+  var first = sections.find(function (section) {
+    return section.style.display !== "none";
+  });
+  if (first) first.classList.add("print-first-visible");
+  toc.hidden = !tocList.children.length;
   if (allowedModules.length) document.getElementById("print-description").textContent = "The PDF will include only the modules selected for this client.";
 });
 </script>
