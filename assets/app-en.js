@@ -45,5 +45,50 @@
       applyModules();
     });
   });
+
+  function enableImageLightbox() {
+    var lightbox = document.getElementById("image-lightbox");
+    var preview = document.getElementById("image-lightbox-preview");
+    var caption = document.getElementById("image-lightbox-caption");
+    var closeButton = lightbox ? lightbox.querySelector(".image-lightbox-close") : null;
+    if (!lightbox || !preview || !caption || !closeButton) return;
+
+    function closeLightbox() {
+      lightbox.close();
+    }
+
+    document.querySelectorAll(".manual-content img").forEach(function (image) {
+      image.classList.add("zoomable-image");
+      image.setAttribute("tabindex", "0");
+      image.setAttribute("role", "button");
+      image.setAttribute("aria-label", (image.alt ? image.alt + ". " : "") + "Open image in a larger view");
+
+      function openLightbox() {
+        preview.src = image.currentSrc || image.src;
+        preview.alt = image.alt || "Enlarged guide image";
+        caption.textContent = image.alt || "";
+        caption.hidden = !image.alt;
+        lightbox.showModal();
+      }
+
+      image.addEventListener("click", openLightbox);
+      image.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openLightbox();
+        }
+      });
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) closeLightbox();
+    });
+    lightbox.addEventListener("close", function () {
+      preview.removeAttribute("src");
+    });
+  }
+
   applyModules();
+  enableImageLightbox();
 }());
