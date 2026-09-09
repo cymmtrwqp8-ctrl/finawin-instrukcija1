@@ -53,6 +53,8 @@ a { color:inherit; }
 .manual-content ul,.manual-content ol { margin:12px 0 20px 22px; padding:0; }
 .manual-content li { margin:6px 0; padding-left:4px; }
 .manual-content img { display:block; width:auto; max-width:100%; max-height:560px; margin:22px auto; border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(15,23,42,.08); }
+.manual-content img.zoomable-image { cursor:zoom-in; }
+.manual-content img.zoomable-image:focus-visible { outline:3px solid var(--amber); outline-offset:4px; }
 .manual-content table { display:block; width:100%; overflow-x:auto; margin:20px 0; border-collapse:collapse; font-size:14px; }
 .manual-content th,.manual-content td { min-width:110px; padding:10px 12px; border:1px solid #cbd5e1; text-align:left; vertical-align:top; }
 .manual-content th { background:#f3ebf8; color:var(--blue-dark); }
@@ -71,6 +73,12 @@ a { color:inherit; }
 .mobile-header { display:none; }
 dialog { width:min(520px,calc(100% - 28px)); max-height:90vh; padding:0; overflow:auto; border:0; border-radius:18px; box-shadow:0 28px 90px rgba(2,6,23,.35); }
 dialog::backdrop { background:rgba(2,6,23,.55); }
+.image-lightbox { width:calc(100vw - 40px); max-width:none; height:calc(100vh - 40px); max-height:none; padding:52px 24px 20px; overflow:auto; border:0; border-radius:14px; background:rgba(2,6,23,.96); box-shadow:0 28px 90px rgba(2,6,23,.5); }
+.image-lightbox::backdrop { background:rgba(2,6,23,.72); }
+.image-lightbox img { display:block; width:auto; max-width:100%; height:auto; max-height:calc(100vh - 130px); margin:0 auto; object-fit:contain; border-radius:8px; }
+.image-lightbox-close { position:fixed; top:28px; right:30px; z-index:1; display:grid; width:42px; height:42px; place-items:center; padding:0; border:1px solid rgba(255,255,255,.28); border-radius:50%; background:rgba(15,23,42,.88); color:#fff; cursor:pointer; font:inherit; font-size:30px; line-height:1; }
+.image-lightbox-close:hover,.image-lightbox-close:focus-visible { background:var(--blue); outline:2px solid #fff; outline-offset:2px; }
+.image-lightbox p { margin:14px auto 0; color:#e2e8f0; font-size:14px; line-height:1.45; text-align:center; }
 .dialog-card { padding:26px; }
 .dialog-head { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; }
 .dialog-head small { color:var(--blue); font-weight:800; letter-spacing:.12em; }
@@ -105,6 +113,8 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
   .manual-content { padding:25px 20px; line-height:1.65; }
   .home-intro { padding-top:2px; }
   .module-card { min-height:180px; }
+  .image-lightbox { width:calc(100vw - 16px); height:calc(100vh - 16px); padding:54px 10px 14px; }
+  .image-lightbox-close { top:18px; right:18px; }
 }
 
 .document-actions { display:flex; flex-wrap:wrap; gap:10px; margin:-12px 0 22px; }
