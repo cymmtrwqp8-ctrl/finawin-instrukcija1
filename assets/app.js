@@ -15,6 +15,19 @@
   var searchIndex = null;
 
   var currentSection = params.get("section");
+  var currentSectionLink = currentSection ? document.querySelector('.doc-link[data-section="' + currentSection + '"]') : null;
+  var openModuleId = body.dataset.pageModule || (currentSectionLink ? currentSectionLink.dataset.module : "");
+
+  function syncModuleMenu() {
+    document.querySelectorAll(".module-toggle").forEach(function (toggle) {
+      var isOpen = toggle.dataset.moduleToggle === openModuleId;
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+    document.querySelectorAll(".module-links").forEach(function (links) {
+      links.hidden = links.dataset.moduleLinks !== openModuleId;
+    });
+  }
+
   if (currentSection) {
     document.querySelectorAll(".doc-link[data-section]").forEach(function (link) {
       link.classList.toggle("active", link.dataset.section === currentSection);
@@ -34,6 +47,7 @@
       url.searchParams.set("modules", selected.join(","));
       link.href = url.toString();
     });
+    syncModuleMenu();
   }
 
   function openDialog() {
@@ -58,6 +72,12 @@
   document.getElementById("module-button").addEventListener("click", openDialog);
   document.getElementById("mobile-module-button").addEventListener("click", openDialog);
   document.querySelectorAll(".doc-link").forEach(function (link) { link.addEventListener("click", closeMenu); });
+  document.querySelectorAll(".module-toggle").forEach(function (toggle) {
+    toggle.addEventListener("click", function () {
+      openModuleId = toggle.getAttribute("aria-expanded") === "true" ? "" : toggle.dataset.moduleToggle;
+      syncModuleMenu();
+    });
+  });
 
   document.querySelectorAll(".module-options input").forEach(function (box) {
     box.addEventListener("change", function () {
