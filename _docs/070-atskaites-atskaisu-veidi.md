@@ -2,7 +2,7 @@
 title: "Atskaišu veidi"
 module: atskaites
 order: 70
-module_order: 8
+module_order: 5
 level: 2
 layout: doc
 permalink: /docs/atskaites-atskaisu-veidi/

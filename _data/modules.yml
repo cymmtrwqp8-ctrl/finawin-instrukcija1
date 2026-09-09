@@ -14,37 +14,22 @@
   order: 3
   required: false
 - id: maksajumi
-  title: "Maksājumi"
-  description: "Maksājumu pakas, automātiskie maksājumi un jauna maksājuma izveide."
+  title: "Pirmdokumentu žurnāli"
+  description: "Pirmdokumenti, rēķinu apmaksa, avansa norēķini, rēķini un kases dokumenti."
   order: 4
-  required: false
-- id: avansi
-  title: "Avansa norēķini"
-  description: "Avansa čeki, avansa atskaites un to ievade."
-  order: 5
-  required: false
-- id: rekini
-  title: "Rēķini"
-  description: "Pirkumu, avansa un faktūrrēķinu sagatavošana un apstrāde."
-  order: 6
-  required: false
-- id: kase
-  title: "Kases dokumenti"
-  description: "Kases ieņēmumu un izdevumu orderi."
-  order: 7
   required: false
 - id: atskaites
   title: "Atskaites"
   description: "Apgrozījuma, PDF un Pivot atskaites."
-  order: 8
+  order: 5
   required: false
 - id: atskaisu-noskanas
   title: "Atskaišu konfigurēšana"
   description: "Atskaišu ģenerators, parametri, formulas un dizains."
-  order: 9
+  order: 6
   required: false
 - id: papildfunkcijas
   title: "Papildfunkcijas"
   description: "PVN–EDS, bankas imports, līgumi, parādu kontrole un citas iespējas."
-  order: 10
+  order: 7
   required: false

@@ -1,8 +1,8 @@
 ---
 title: "Kases ieņēmumu vai izdevumu orderi"
-module: kase
+module: maksajumi
 order: 67
-module_order: 7
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/kase-kases-ienemumu-vai-izdevumu-orderi/

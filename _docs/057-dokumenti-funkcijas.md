@@ -2,7 +2,7 @@
 title: "Funkcijas"
 module: papildfunkcijas
 order: 57
-module_order: 10
+module_order: 7
 level: 1
 layout: doc
 permalink: /docs/dokumenti-funkcijas/

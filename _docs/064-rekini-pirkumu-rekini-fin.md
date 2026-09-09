@@ -1,8 +1,8 @@
 ---
 title: "Pirkumu rēķini (fin.)"
-module: rekini
+module: maksajumi
 order: 64
-module_order: 6
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/rekini-pirkumu-rekini-fin/

@@ -29,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var params = new URLSearchParams(window.location.search);
   var group = params.get("section");
   var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
+  allowedModules = Array.from(new Set(allowedModules.map(function (id) {
+    return ["avansi", "rekini", "kase"].indexOf(id) >= 0 ? "maksajumi" : id;
+  })));
   var sections = Array.from(document.querySelectorAll(".print-section"));
 
   sections.forEach(function (section) {

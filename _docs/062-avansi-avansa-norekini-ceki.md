@@ -1,8 +1,8 @@
 ---
 title: "Avansa norēķini- čeki"
-module: avansi
+module: maksajumi
 order: 62
-module_order: 5
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/avansi-avansa-norekini-ceki/

@@ -2,7 +2,7 @@
 title: "Vispārēja informācija"
 module: atskaites
 order: 69
-module_order: 8
+module_order: 5
 level: 2
 layout: doc
 permalink: /docs/atskaites-vispareja-informacija/

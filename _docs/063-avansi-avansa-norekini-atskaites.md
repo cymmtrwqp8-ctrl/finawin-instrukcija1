@@ -1,8 +1,8 @@
 ---
 title: "Avansa norēķini- atskaites"
-module: avansi
+module: maksajumi
 order: 63
-module_order: 5
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/avansi-avansa-norekini-atskaites/

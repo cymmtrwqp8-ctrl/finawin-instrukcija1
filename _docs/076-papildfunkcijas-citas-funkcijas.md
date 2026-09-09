@@ -2,7 +2,7 @@
 title: "Citas funkcijas"
 module: papildfunkcijas
 order: 76
-module_order: 10
+module_order: 7
 level: 1
 layout: doc
 permalink: /docs/papildfunkcijas-citas-funkcijas/

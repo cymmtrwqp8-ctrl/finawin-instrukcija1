@@ -30,6 +30,10 @@ permalink: /module/
   var params = new URLSearchParams(window.location.search);
   var requestedModule = params.get("module");
   var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
+  if (["avansi", "rekini", "kase"].indexOf(requestedModule) >= 0) requestedModule = "maksajumi";
+  allowedModules = Array.from(new Set(allowedModules.map(function (id) {
+    return ["avansi", "rekini", "kase"].indexOf(id) >= 0 ? "maksajumi" : id;
+  })));
   var sections = Array.from(document.querySelectorAll(".module-section"));
 
   if (!requestedModule) {

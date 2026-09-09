@@ -5,6 +5,9 @@
   var params = new URLSearchParams(window.location.search);
   var allModules = Array.from(document.querySelectorAll(".module-options input")).map(function (box) { return box.value; });
   var requested = (params.get("modules") || "").split(",").filter(Boolean);
+  if (requested.some(function (id) { return ["avansi", "rekini", "kase"].indexOf(id) >= 0; })) {
+    requested.push("maksajumi");
+  }
   var selected = requested.length ? Array.from(new Set(["pamati"].concat(requested.filter(function (id) { return allModules.indexOf(id) >= 0; })))) : allModules;
   var sidebar = document.getElementById("sidebar");
   var backdrop = document.getElementById("backdrop");

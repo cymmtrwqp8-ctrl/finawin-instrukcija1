@@ -2,7 +2,7 @@
 title: "Atskaišu noskaņas"
 module: atskaisu-noskanas
 order: 75
-module_order: 9
+module_order: 6
 level: 2
 layout: doc
 permalink: /docs/atskaisu-noskanas-atskaisu-noskanas-2/

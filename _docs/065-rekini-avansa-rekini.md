@@ -1,8 +1,8 @@
 ---
 title: "Avansa rēķini"
-module: rekini
+module: maksajumi
 order: 65
-module_order: 6
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/rekini-avansa-rekini/
