@@ -17,9 +17,11 @@ permalink: /module/
 <article class="manual-content print-document module-document">
   {% assign all_docs = site.docs | sort: "order" %}
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
+  {% assign current_group = 0 %}
   {% for doc in all_docs %}
+    {% if doc.level == 1 %}{% assign current_group = doc.order %}{% endif %}
     {% assign module_data = site.data.modules | where: "id", doc.module | first %}
-    <section class="print-section module-section" data-module="{{ doc.module }}" data-module-title="{{ module_data.title | escape }}">
+    <section class="print-section module-section" data-module="{{ doc.module }}" data-journal-section="{{ current_group }}" data-module-title="{{ module_data.title | escape }}">
       {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
     </section>
   {% endfor %}
@@ -30,10 +32,22 @@ permalink: /module/
   var params = new URLSearchParams(window.location.search);
   var requestedModule = params.get("module");
   var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
+  var legacyModule = requestedModule;
+  var legacyAllowedModules = allowedModules.slice();
   if (["avansi", "rekini", "kase"].indexOf(requestedModule) >= 0) requestedModule = "maksajumi";
   allowedModules = Array.from(new Set(allowedModules.map(function (id) {
     return ["avansi", "rekini", "kase"].indexOf(id) >= 0 ? "maksajumi" : id;
   })));
+  var allJournalSections = ["59", "61.5", "63.5", "66.5"];
+  var legacySectionMap = { avansi: "61.5", rekini: "63.5", kase: "66.5" };
+  var selectedJournalSections = (params.get("journal_sections") || "").split(",").filter(function (id) {
+    return allJournalSections.indexOf(id) >= 0;
+  });
+  if (!params.has("journal_sections")) {
+    selectedJournalSections = legacySectionMap[legacyModule] ? [legacySectionMap[legacyModule]] :
+      legacyAllowedModules.map(function (id) { return legacySectionMap[id]; }).filter(Boolean);
+    if (!selectedJournalSections.length) selectedJournalSections = allJournalSections.slice();
+  }
   var sections = Array.from(document.querySelectorAll(".module-section"));
 
   if (!requestedModule) {
@@ -42,8 +56,9 @@ permalink: /module/
 
   var permitted = !allowedModules.length || allowedModules.indexOf(requestedModule) >= 0;
   sections.forEach(function (section) {
+    var journalMatches = section.dataset.module !== "maksajumi" || selectedJournalSections.indexOf(section.dataset.journalSection) >= 0;
     section.style.display =
-      permitted && section.dataset.module === requestedModule ? "" : "none";
+      permitted && section.dataset.module === requestedModule && journalMatches ? "" : "none";
   });
 
   var first = sections.find(function (section) {

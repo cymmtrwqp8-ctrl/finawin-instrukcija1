@@ -37,13 +37,15 @@
               <span class="module-dot"></span><span>{{ module.title }}</span><span class="module-chevron" aria-hidden="true">›</span>
             </button>
             <div class="module-links" data-module-links="{{ module.id }}" hidden>
+              {% assign nav_group = 0 %}
               {% for doc in module_docs %}
+                {% if doc.level == 1 %}{% assign nav_group = doc.order %}{% endif %}
                 {% if doc.level == 1 and module.id != "papildfunkcijas" %}
-                  <a class="doc-link major" data-module="{{ module.id }}" data-section="{{ doc.order }}" href="{{ '/section/' | relative_url }}?section={{ doc.order }}">{{ doc.title }}</a>
+                  <a class="doc-link major" data-module="{{ module.id }}" data-journal-section="{{ nav_group }}" data-section="{{ doc.order }}" href="{{ '/section/' | relative_url }}?section={{ doc.order }}">{{ doc.title }}</a>
                 {% elsif doc.level == 1 %}
-                  <a class="doc-link major {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+                  <a class="doc-link major {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" data-journal-section="{{ nav_group }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
                 {% else %}
-                  <a class="doc-link {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+                  <a class="doc-link {% if page.url == doc.url %}active{% endif %}" data-module="{{ module.id }}" data-journal-section="{{ nav_group }}" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
                 {% endif %}
               {% endfor %}
             </div>
@@ -66,10 +68,18 @@
         <p>Atzīmē klienta iegādātos moduļus. Darba pamati tiek pievienoti automātiski.</p>
         <div class="module-options">
           {% for module in modules %}
-            <label>
-              <input type="checkbox" value="{{ module.id }}" data-required="{{ module.required }}" {% if module.required %}checked disabled{% endif %}>
-              <span><strong>{{ module.title }}</strong><small>{{ module.description }}</small></span>
+            <label {% if module.id == "maksajumi" %}class="module-option-parent"{% endif %}>
+              <input type="checkbox" value="{{ module.id }}" data-module-option data-required="{{ module.required }}" {% if module.required %}checked disabled{% endif %}>
+              <span><strong>{{ module.title }}{% if module.id == "maksajumi" %} — visa sadaļa{% endif %}</strong><small>{{ module.description }}</small></span>
             </label>
+            {% if module.id == "maksajumi" %}
+              <div class="journal-options" aria-label="Pirmdokumentu žurnālu apakšizvēles">
+                <label><input type="checkbox" value="59" data-journal-option><span><strong>Pirmdokumentu žurnāli</strong></span></label>
+                <label><input type="checkbox" value="61.5" data-journal-option><span><strong>Avansa norēķini</strong></span></label>
+                <label><input type="checkbox" value="63.5" data-journal-option><span><strong>Rēķini</strong></span></label>
+                <label><input type="checkbox" value="66.5" data-journal-option><span><strong>Kases dokumenti</strong></span></label>
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
         <button id="copy-link" class="primary-button" type="button">Kopēt klienta saiti</button>

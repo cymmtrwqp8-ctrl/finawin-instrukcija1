@@ -46,7 +46,7 @@
         <div class="module-options">
           {% for module in modules %}
             <label>
-              <input type="checkbox" value="{{ module.id }}" data-required="{{ module.required }}" {% if module.required %}checked disabled{% endif %}>
+              <input type="checkbox" value="{{ module.id }}" data-module-option data-required="{{ module.required }}" {% if module.required %}checked disabled{% endif %}>
               <span><strong>{{ module.title }}</strong><small>{{ module.description }}</small></span>
             </label>
           {% endfor %}

@@ -29,16 +29,27 @@ document.addEventListener("DOMContentLoaded", function () {
   var params = new URLSearchParams(window.location.search);
   var group = params.get("section");
   var allowedModules = (params.get("modules") || "").split(",").filter(Boolean);
+  var legacyAllowedModules = allowedModules.slice();
   allowedModules = Array.from(new Set(allowedModules.map(function (id) {
     return ["avansi", "rekini", "kase"].indexOf(id) >= 0 ? "maksajumi" : id;
   })));
+  var allJournalSections = ["59", "61.5", "63.5", "66.5"];
+  var legacySectionMap = { avansi: "61.5", rekini: "63.5", kase: "66.5" };
+  var selectedJournalSections = (params.get("journal_sections") || "").split(",").filter(function (id) {
+    return allJournalSections.indexOf(id) >= 0;
+  });
+  if (!params.has("journal_sections")) {
+    selectedJournalSections = legacyAllowedModules.map(function (id) { return legacySectionMap[id]; }).filter(Boolean);
+    if (!selectedJournalSections.length) selectedJournalSections = allJournalSections.slice();
+  }
   var sections = Array.from(document.querySelectorAll(".print-section"));
 
   sections.forEach(function (section) {
     var groupMatches = !group || section.dataset.printGroup === group;
     var moduleMatches =
       !allowedModules.length || allowedModules.indexOf(section.dataset.module) >= 0;
-    section.style.display = groupMatches && moduleMatches ? "" : "none";
+    var journalMatches = section.dataset.module !== "maksajumi" || selectedJournalSections.indexOf(section.dataset.printGroup) >= 0;
+    section.style.display = groupMatches && moduleMatches && journalMatches ? "" : "none";
   });
 
   var first = sections.find(function (section) {

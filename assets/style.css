@@ -87,6 +87,10 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
 .close-button { width:36px; height:36px; border:0; border-radius:50%; background:#f1f5f9; cursor:pointer; font-size:25px; }
 .module-options { display:grid; gap:8px; margin:18px 0; }
 .module-options label { display:flex; gap:12px; padding:12px; border:1px solid var(--line); border-radius:10px; cursor:pointer; }
+.module-options .module-option-parent { margin-bottom:-4px; border-color:#ccb1df; background:#faf7fc; }
+.journal-options { display:grid; gap:6px; margin:-1px 0 6px 24px; padding:9px 0 2px 14px; border-left:2px solid #d8c2e8; }
+.module-options .journal-options label { padding:9px 11px; background:#fff; }
+.module-options .journal-options strong { font-weight:600; }
 .module-options input { width:18px; height:18px; margin-top:2px; accent-color:var(--blue); }
 .module-options span { display:flex; flex-direction:column; }
 .module-options strong { font-size:14px; }

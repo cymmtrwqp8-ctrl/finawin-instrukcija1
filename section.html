@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var pdfUrl = new URL("{{ '/print/' | relative_url }}", window.location.origin);
   pdfUrl.searchParams.set("section", sectionId);
   if (params.get("modules")) pdfUrl.searchParams.set("modules", params.get("modules"));
+  if (params.get("journal_sections")) pdfUrl.searchParams.set("journal_sections", params.get("journal_sections"));
   document.getElementById("section-pdf").href = pdfUrl.toString();
   document.title = title + " · {{ site.title | escape }}";
 });
