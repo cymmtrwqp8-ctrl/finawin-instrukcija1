@@ -52,5 +52,5 @@ document.addEventListener("DOMContentLoaded", function () {
   if (params.get("modules")) pdfUrl.searchParams.set("modules", params.get("modules"));
   document.getElementById("section-pdf").href = pdfUrl.toString();
   document.title = title + " · {{ site.title | escape }}";
-}());
+});
 </script>
