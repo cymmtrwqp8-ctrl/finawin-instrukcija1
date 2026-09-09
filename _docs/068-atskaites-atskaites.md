@@ -1,5 +1,5 @@
 ---
-title: "ATSKAITES"
+title: "Atskaites"
 module: atskaites
 order: 68
 module_order: 5
@@ -7,4 +7,4 @@ level: 1
 layout: doc
 permalink: /docs/atskaites-atskaites/
 ---
-# ATSKAITES
+# Atskaites
