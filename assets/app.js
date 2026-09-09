@@ -74,8 +74,14 @@
   document.querySelectorAll(".doc-link").forEach(function (link) { link.addEventListener("click", closeMenu); });
   document.querySelectorAll(".module-toggle").forEach(function (toggle) {
     toggle.addEventListener("click", function () {
-      openModuleId = toggle.getAttribute("aria-expanded") === "true" ? "" : toggle.dataset.moduleToggle;
+      var wasOpen = toggle.getAttribute("aria-expanded") === "true";
+      openModuleId = wasOpen ? "" : toggle.dataset.moduleToggle;
       syncModuleMenu();
+      if (!wasOpen && toggle.dataset.firstUrl) {
+        var url = new URL(toggle.dataset.firstUrl, window.location.origin);
+        url.searchParams.set("modules", selected.join(","));
+        window.location.assign(url.toString());
+      }
     });
   });
 
