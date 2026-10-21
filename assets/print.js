@@ -96,6 +96,8 @@
         }
       });
       toc.hidden = !tocList.children.length;
+      // Short contents should share a page with the start of the document.
+      toc.classList.toggle('print-toc-compact', tocList.querySelectorAll('a').length <= 5);
     }
     function linkWithinPDF() {
       documentBody.querySelectorAll('a[href]').forEach(function (link) {
