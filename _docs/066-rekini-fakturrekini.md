@@ -109,7 +109,7 @@ Kad **rēķins ir pārbaudīts un iegrāmatots**, iespējams veikt vairākas pap
 
 - **Noņemt grāmatojumu** - ļauj atcelt rēķina grāmatojumu, ja nepieciešams veikt labojumus vai izmaiņas.
 
-- **Dzēst rēķinu** - pilnībā dzēš rēķinu no sistēmas.
+- **Dzēst rēķinu** - pilnībā dzēš rēķinu no sistēmas. Dzēst iespējams tikai neiegrāmatotu rēķinu, ja tas ir iegrāmatots, sākumā nepieciešams noņemt grāmatojumu. 
 
 - **Darbības** - papildu funkciju izvēlne, kurā iespējams:
 
