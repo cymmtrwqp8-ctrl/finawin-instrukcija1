@@ -27,7 +27,7 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
     **Pirms importa**
 
-    Pārbaudiet [Partneru katalogā]({{ site.baseurl }}/docs/katalogi-partneri/), vai uzņēmums jau nav ievadīts. Salīdziniet reģistrācijas numuru, lai neveidotu atkārtotu partnera ierakstu.
+    Pārbaudiet <a href="{{ site.baseurl }}/docs/katalogi-partneri/">Partneru katalogā</a>, vai uzņēmums jau nav ievadīts. Salīdziniet reģistrācijas numuru, lai neveidotu atkārtotu partnera ierakstu.
 
     **Uzņēmuma atrašana un partnera izveide**
 
@@ -40,7 +40,7 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
     **Importēto datu pārbaude un papildināšana**
 
-    Pēc importa atrodiet izveidoto ierakstu Partneru katalogā. Pārbaudiet nosaukumu, reģistrācijas numuru, PVN maksātāja numuru, juridisko adresi un valsti. Papildiniet darbam nepieciešamos rekvizītus, piemēram, bankas kontus un kontaktinformāciju, un saglabājiet izmaiņas. Detalizēti skatiet sadaļu [Partneri]({{ site.baseurl }}/docs/katalogi-partneri/).
+    Pēc importa atrodiet izveidoto ierakstu Partneru katalogā. Pārbaudiet nosaukumu, reģistrācijas numuru, PVN maksātāja numuru, juridisko adresi un valsti. Papildiniet darbam nepieciešamos rekvizītus, piemēram, bankas kontus un kontaktinformāciju, un saglabājiet izmaiņas. Detalizēti skatiet sadaļu <a href="{{ site.baseurl }}/docs/katalogi-partneri/">Partneri</a>.
 
 
     **Partnera nosūtīšana uz Noliktavas/PL moduli**
@@ -52,11 +52,11 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
     Reģistrācijas numura dublikātu pārbaude darbojas arī LUR importā. Ja datubāzē jau ir partneris ar tādu pašu reģistrācijas numuru, nospiežot **“Pievienot partneru sarakstam”**, programma rāda kļūdu par jau esošu partneri un jaunu ierakstu neizveido.
 
-    Atveriet Partneru katalogu, atrodiet esošo ierakstu pēc reģistrācijas numura un pārbaudiet tā rekvizītus. Ja nepieciešams atsevišķs ieraksts ar vienādu reģistrācijas numuru, dublikātu kontrole un izņēmumi aprakstīti sadaļā [Partneri]({{ site.baseurl }}/docs/katalogi-partneri/).
+    Atveriet Partneru katalogu, atrodiet esošo ierakstu pēc reģistrācijas numura un pārbaudiet tā rekvizītus. Ja nepieciešams atsevišķs ieraksts ar vienādu reģistrācijas numuru, dublikātu kontrole un izņēmumi aprakstīti sadaļā <a href="{{ site.baseurl }}/docs/katalogi-partneri/">Partneri</a>.
 
     **Ja neizdodas**
 
-    - Ja vajadzīgais uzņēmums nav atrasts, pārbaudiet ievadīto numuru vai nosaukumu un atkārtojiet atlasi. Ja uzņēmums joprojām nav atrodams, partneri iespējams [izveidot manuāli]({{ site.baseurl }}/docs/katalogi-partneri/).
+    - Ja vajadzīgais uzņēmums nav atrasts, pārbaudiet ievadīto numuru vai nosaukumu un atkārtojiet atlasi. Ja uzņēmums joprojām nav atrodams, partneri iespējams <a href="{{ site.baseurl }}/docs/katalogi-partneri/">izveidot manuāli</a>.
 
 6.  Apgrozījuma bilance – pārskats, kas rāda kontu apgrozījumus un atlikumus noteiktā periodā.
 

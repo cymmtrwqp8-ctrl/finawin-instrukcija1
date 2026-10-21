@@ -73,7 +73,7 @@ Before creating a new partner, check whether the partner already exists in the d
 
 The **partner code** identifies the record in the program. It is different from the **registration number** and the **VAT number**.
 
-If you cannot find the partner, check the active filters. See [Searching]({{ site.baseurl }}/en/docs/work-basics/#searching) and [Filtering data]({{ site.baseurl }}/en/docs/work-basics/#filtering-data) in Work Basics.
+If you cannot find the partner, check the active filters. See <a href="{{ site.baseurl }}/en/docs/work-basics/#searching">Searching</a> and <a href="{{ site.baseurl }}/en/docs/work-basics/#filtering-data">Filtering data</a> in Work Basics.
 
 ### Creating a partner
 
@@ -85,7 +85,7 @@ If you cannot find the partner, check the active filters. See [Searching]({{ sit
 
 <img src="{{ site.baseurl }}/assets/images/partneri-jauna-ieraksta-izveide.png" alt="Entering a new partner and saving the record" />
 
-Partner data can also be obtained from the **Register of Enterprises** if this function is available. See [LUR import (Latvian)]({{ site.baseurl }}/docs/papildfunkcijas-citas-funkcijas/#lur-imports).
+Partner data can also be obtained from the **Register of Enterprises** if this function is available. See <a href="{{ site.baseurl }}/docs/papildfunkcijas-citas-funkcijas/#lur-imports">LUR import (Latvian)</a>.
 
 ### Opening a partner record from a document
 

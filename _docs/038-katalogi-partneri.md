@@ -39,7 +39,7 @@ Pirms veidojat jaunu partneri, pārbaudiet, vai tas katalogā jau nav ievadīts.
 
 **Partnera kods** ir ieraksta identifikators programmā. Tas nav tas pats, kas **reģistrācijas numurs** vai **PVN maksātāja numurs**.
 
-Ja partneris nav atrodams, pārbaudiet arī aktīvos filtrus. Darbību aprakstus skatiet Darba pamatu sadaļās [Meklēšana]({{ site.baseurl }}/docs/pamati-meklesana/) un [Datu filtrēšana]({{ site.baseurl }}/docs/pamati-datu-filtresana/).
+Ja partneris nav atrodams, pārbaudiet arī aktīvos filtrus. Darbību aprakstus skatiet Darba pamatu sadaļās <a href="{{ site.baseurl }}/docs/pamati-meklesana/">Meklēšana</a> un <a href="{{ site.baseurl }}/docs/pamati-datu-filtresana/">Datu filtrēšana</a>.
 
 ### Jauna partnera izveide
 
@@ -51,7 +51,7 @@ Ja partneris nav atrodams, pārbaudiet arī aktīvos filtrus. Darbību aprakstus
 
 <img src="{{ site.baseurl }}/assets/images/partneri-jauna-ieraksta-izveide.png" alt="Jauna partnera rekvizītu ievade un saglabāšanas poga" />
 
-Partnera datus iespējams iegūt arī no **Uzņēmumu reģistra**, ja attiecīgā iespēja ir pieejama. Skatiet [LUR imports]({{ site.baseurl }}/docs/papildfunkcijas-citas-funkcijas/#lur-imports).
+Partnera datus iespējams iegūt arī no **Uzņēmumu reģistra**, ja attiecīgā iespēja ir pieejama. Skatiet <a href="{{ site.baseurl }}/docs/papildfunkcijas-citas-funkcijas/#lur-imports">LUR imports</a>.
 
 ### Partnera kartītes atvēršana no dokumenta
 
