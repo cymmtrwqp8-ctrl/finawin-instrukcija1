@@ -88,9 +88,26 @@
         if (headings.length > 1) {
           var children = document.createElement('ol');
           children.className = 'print-toc-sublist print-toc-headings';
+          var previousItem = null;
+          var nestedList = null;
           headings.slice(1).forEach(function (heading) {
             var child = document.createElement('li'); child.className = 'print-toc-item';
-            addLink(child, heading.textContent.trim(), heading.id); children.appendChild(child);
+            var nested = heading.dataset.tocLevel === '2' && previousItem;
+            var title = heading.textContent.trim();
+            if (nested) {
+              title = title.replace(/^\d+\.\s*/, '');
+              if (!nestedList) {
+                nestedList = document.createElement('ol');
+                nestedList.className = 'print-toc-sublist';
+                previousItem.appendChild(nestedList);
+              }
+              nestedList.appendChild(child);
+            } else {
+              children.appendChild(child);
+              previousItem = child;
+              nestedList = null;
+            }
+            addLink(child, title, heading.id);
           });
           item.appendChild(children);
         }
