@@ -51,8 +51,6 @@ Ordera detaļu daļa ietver konkrētās preces, pakalpojumus.
 
 Kopā abas daļas veido pilnvērtīgu ordera struktūru, kas nepieciešama gan izdrukai, gan grāmatvedības uzskaitē.
 
-Kopā abas daļas veido pilnvērtīgu rēķina struktūru, kas nepieciešama gan rēķina izdrukai, gan grāmatvedības uzskaitē.
-
 <img src="{{ site.baseurl }}/assets/images/image156.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 > **Attēls Kases ieņēmuma vai izdevumu orderis- cepure**
