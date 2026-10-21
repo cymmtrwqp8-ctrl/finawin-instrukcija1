@@ -38,15 +38,21 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
     5. Saņemot paziņojumu **“Izveidots partneris …”**, nospiediet **“Labi”**. Paziņojumā norādīts jaunā partnera kods programmā.
 
 
+    <img src="{{ site.baseurl }}/assets/images/lur-imports-uznemuma-atlase.png" alt="LUR imports: uzņēmuma meklēšana, atlase, pievienošana partneru sarakstam un izveides apstiprinājums" />
+
     **Importēto datu pārbaude un papildināšana**
 
     Pēc importa atrodiet izveidoto ierakstu Partneru katalogā. Pārbaudiet nosaukumu, reģistrācijas numuru, PVN maksātāja numuru, juridisko adresi un valsti. Papildiniet darbam nepieciešamos rekvizītus, piemēram, bankas kontus un kontaktinformāciju, un saglabājiet izmaiņas. Detalizēti skatiet sadaļu <a href="{{ site.baseurl }}/docs/katalogi-partneri/">Partneri</a>.
 
 
+    <img src="{{ site.baseurl }}/assets/images/lur-imports-partnera-papildinasana.png" alt="Programmas atgādinājums papildināt importētā partnera rekvizītus un nosūtīt to uz Noliktavas/PL moduli" />
+
     **Partnera nosūtīšana uz Noliktavas/PL moduli**
 
     Ja izveidotais partneris jāizmanto arī Noliktavas/PL modulī, izvēlieties to Partneru katalogā un loga augšpusē nospiediet **“Eksportēt uz FWS Materiāli”**. Pēc nosūtīšanas pārbaudiet, vai partneris pieejams attiecīgajā modulī.
 
+
+    <img src="{{ site.baseurl }}/assets/images/lur-imports-eksports-uz-fws.png" alt="Izveidotā partnera izvēle un poga Eksportēt uz FWS Materiāli Partneru katalogā" />
 
     **Ja reģistrācijas numurs datubāzē jau pastāv**
 
