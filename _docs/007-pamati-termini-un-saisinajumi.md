@@ -29,8 +29,6 @@ permalink: /docs/pamati-termini-un-saisinajumi/
 
 **Field (lauks)** - tabulas vai formas datu ievades vienība (piemēram, “Nosaukums”, “Datums”, “Summa”).
 
-**Log (logs)** - ekrāna daļa, kurā tiek rādīta konkrēta programmas sadaļa vai funkcija.
-
 **UI (User Interface)** - lietotāja saskarne; programmas vizuālā daļa, ar kuru lietotājs strādā.
 
 ### Programmas darbības un iestatījumu jēdzieni
