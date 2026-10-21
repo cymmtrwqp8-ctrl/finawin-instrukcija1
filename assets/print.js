@@ -38,6 +38,14 @@
       Array.from(section.querySelectorAll(headingSelector)).forEach(function (heading, headingIndex) {
         if (!heading.id) heading.id = section.id + '-heading-' + headingIndex;
       });
+      // Keep the new-partner heading with its steps on a fresh printed page.
+      section.querySelectorAll('img[src*="partneri-jauna-ieraksta-izveide.png"]').forEach(function (image) {
+        var block = image;
+        while (block.parentElement && block.parentElement !== section) block = block.parentElement;
+        var heading = block.previousElementSibling;
+        while (heading && !heading.matches(headingSelector)) heading = heading.previousElementSibling;
+        if (heading) heading.classList.add('print-new-partner-heading');
+      });
       fragmentMaps.set(section, fragments);
       if (section.dataset.docUrl) {
         sectionMap.set(pathOf(new URL(section.dataset.docUrl, window.location.href)), section);
