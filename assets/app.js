@@ -86,10 +86,12 @@
     });
     syncSelectionControls();
     document.querySelectorAll("a[href]").forEach(function (link) {
+      if ((link.getAttribute("href") || "").charAt(0) === "#" || link.hasAttribute("data-pdf-internal")) return;
       if (!link.href || link.origin !== window.location.origin) return;
       link.href = setSelectionParams(new URL(link.href)).toString();
     });
     syncModuleMenu();
+    document.dispatchEvent(new CustomEvent("finawin:selectionchange", { detail: { modules: selected.slice(), journalSections: selectedJournalSections.slice() } }));
   }
 
   function openDialog() {
@@ -139,7 +141,7 @@
         selected = selected.filter(function (id) { return id !== box.value; });
       }
       if (selected.indexOf("pamati") < 0) selected.unshift("pamati");
-      syncSelectionControls();
+      applyModules();
     });
   });
 
@@ -150,7 +152,7 @@
       selectedJournalSections = allJournalSections.filter(function (id) { return selectedJournalSections.indexOf(id) >= 0; });
       if (selectedJournalSections.length && selected.indexOf("maksajumi") < 0) selected.push("maksajumi");
       if (!selectedJournalSections.length) selected = selected.filter(function (id) { return id !== "maksajumi"; });
-      syncSelectionControls();
+      applyModules();
     });
   });
 

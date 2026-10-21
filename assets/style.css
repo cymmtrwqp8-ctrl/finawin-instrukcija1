@@ -168,3 +168,24 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
   .print-module { color:#1d4ed8; }
   a { text-decoration:none; }
 }
+
+/* Keep PDF navigation and heading starts intact across printed pages. */
+@media print {
+  html { scroll-behavior:auto; }
+  .print-document { overflow:visible; }
+  .manual-content h1,.manual-content h2,.manual-content h3,
+  .manual-content h4,.manual-content h5,.manual-content h6,
+  .print-module,.print-subheading {
+    break-inside:avoid-page; page-break-inside:avoid;
+    break-after:avoid-page; page-break-after:avoid;
+  }
+  .manual-content h1 + *,.manual-content h2 + *,.manual-content h3 + *,
+  .manual-content h4 + *,.manual-content h5 + *,.manual-content h6 + *,
+  .print-subheading + * { break-before:avoid-page; page-break-before:avoid; }
+  .manual-content p,.manual-content li { orphans:3; widows:3; }
+  .manual-content img { max-width:100%; max-height:240mm; object-fit:contain; }
+  .print-toc-item { break-inside:auto; }
+  .print-toc-item > a { display:inline-block; break-inside:avoid-page; }
+  .print-toc-item:has(> ol) > a { break-after:avoid-page; }
+  .print-toc-headings { font-size:12px; }
+}

@@ -14,11 +14,13 @@
     document.querySelectorAll("[data-module]").forEach(function (element) { element.hidden = selected.indexOf(element.dataset.module) < 0; });
     document.querySelectorAll(".module-options input").forEach(function (box) { box.checked = selected.indexOf(box.value) >= 0; });
     document.querySelectorAll("a[href]").forEach(function (link) {
+      if ((link.getAttribute("href") || "").charAt(0) === "#" || link.hasAttribute("data-pdf-internal")) return;
       if (!link.href || link.origin !== window.location.origin) return;
       var url = new URL(link.href);
       url.searchParams.set("modules", selected.join(","));
       link.href = url.toString();
     });
+    document.dispatchEvent(new CustomEvent("finawin:selectionchange", { detail: { modules: selected.slice() } }));
   }
   function openDialog() { dialog.showModal(); }
   function openMenu() { sidebar.classList.add("open"); backdrop.hidden = false; }
@@ -33,6 +35,7 @@
     box.addEventListener("change", function () {
       selected = Array.from(document.querySelectorAll(".module-options input:checked")).map(function (input) { return input.value; });
       if (selected.indexOf("pamati") < 0) selected.unshift("pamati");
+      applyModules();
     });
   });
   document.getElementById("copy-link").addEventListener("click", function () {

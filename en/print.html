@@ -7,7 +7,7 @@ permalink: /en/print/
 <section class="print-intro">
   <h1 id="print-title">Complete FinaWin Guide</h1>
   <p id="print-description">This document combines all available sections. In the print window, select “Save as PDF”.</p>
-  <button class="pdf-button" id="print-button" type="button" onclick="window.print()">Save the complete guide as PDF</button>
+  <button class="pdf-button" id="print-button" type="button">Save the complete guide as PDF</button>
 </section>
 
 <nav class="print-toc" id="print-toc" aria-labelledby="print-toc-title">
@@ -20,62 +20,11 @@ permalink: /en/print/
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
   {% for doc in all_docs %}
     {% assign module_data = site.data.modules_en | where: "id", doc.module | first %}
-    <section class="print-section" data-module="{{ doc.module }}" data-level="{{ doc.level | default: 2 }}">
+    <section class="print-section" data-doc-url="{{ doc.url | relative_url }}" data-doc-order="{{ doc.order }}" data-print-group="{{ doc.order }}" data-module="{{ doc.module }}" data-level="{{ doc.level | default: 2 }}">
       <p class="print-module">{{ module_data.title }}</p>
       {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
     </section>
   {% endfor %}
 </article>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var allowedModules = (new URLSearchParams(window.location.search).get("modules") || "").split(",").filter(Boolean);
-  var sections = Array.from(document.querySelectorAll(".print-section"));
-  var toc = document.getElementById("print-toc");
-  var tocList = document.getElementById("print-toc-list");
-
-  sections.forEach(function (section) {
-    section.style.display = !allowedModules.length || allowedModules.indexOf(section.dataset.module) >= 0 ? "" : "none";
-  });
-
-  var currentParent = null;
-  var currentSublist = null;
-  sections.filter(function (section) {
-    return section.style.display !== "none";
-  }).forEach(function (section, index) {
-    var heading = section.querySelector("h1, h2, h3");
-    if (!heading) return;
-
-    var level = section.dataset.level === "1" ? 1 : 2;
-    var item = document.createElement("li");
-    var link = document.createElement("a");
-    section.id = section.id || "print-section-" + (index + 1);
-    item.className = "print-toc-item print-toc-level-" + level;
-    link.href = "#" + section.id;
-    link.textContent = heading.textContent.trim();
-    item.appendChild(link);
-
-    if (level === 1) {
-      tocList.appendChild(item);
-      currentParent = item;
-      currentSublist = null;
-    } else if (currentParent) {
-      if (!currentSublist) {
-        currentSublist = document.createElement("ol");
-        currentSublist.className = "print-toc-sublist";
-        currentParent.appendChild(currentSublist);
-      }
-      currentSublist.appendChild(item);
-    } else {
-      tocList.appendChild(item);
-    }
-  });
-
-  var first = sections.find(function (section) {
-    return section.style.display !== "none";
-  });
-  if (first) first.classList.add("print-first-visible");
-  toc.hidden = !tocList.children.length;
-  if (allowedModules.length) document.getElementById("print-description").textContent = "The PDF will include only the modules selected for this client.";
-});
-</script>
+<script src="{{ '/assets/print.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
