@@ -23,7 +23,7 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
 4.  Parādu kontrole – papildu maksas modulis, kas paredzēts debitoru parādu uzraudzībai, atgādinājumu un kontroles pārskatiem.
 
-5.  LUR imports – datu imports no Latvijas Uzņēmumu reģistra (LUR) jauna partnera izveidei, automātiski ielasot uzņēmuma datus.
+5.  <span id="lur-imports">LUR imports</span> – datu imports no Latvijas Uzņēmumu reģistra (LUR) jauna partnera izveidei, automātiski ielasot uzņēmuma datus.
 
 6.  Apgrozījuma bilance – pārskats, kas rāda kontu apgrozījumus un atlikumus noteiktā periodā.
 

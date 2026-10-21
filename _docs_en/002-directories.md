@@ -43,27 +43,109 @@ Add an account with the navigator's **New record** button or the `Insert` key. T
 
 ## Business partners
 
-This directory contains the company's own details and information about its business partners. Standard groups include:
+The Business Partners directory stores details of customers, suppliers, persons accountable for advances and the company's own details. This information is used in documents, payments and reports.
 
-- **Customers/suppliers:** buyers, suppliers and detailed information about each organisation.
-- **Employees:** employee contact information; commonly used to identify persons accountable for advances and expense reports.
-- **Our companies:** the company's own legal entities, branches, warehouses or stores. Separate records may be useful when units have different details, including VAT numbers in different countries.
+### Partner directory layout
 
-<img src="{{ site.baseurl }}/assets/images/image83.png" alt="Business partners" />
+<img src="{{ site.baseurl }}/assets/images/partneri-kataloga-uzbuve.png" alt="The three parts of the partner directory: analytical groups, personal accounts and additional information" />
 
-The window is divided into linked tables:
+| Part of the window | Purpose |
+| --- | --- |
+| **1. Analytical groups (Analītikas grupas)** | Select which group of partners to display. |
+| **2. Personal accounts (Personālie konti)** | Find and select a partner, create a new record or edit an existing partner's details. |
+| **3. Additional account information (Personālkonta papildus informācija)** | Review and update information about the selected partner, including bank accounts. |
 
-1. Select the analytical group. A standard setup may include All partners, `000` Our companies, `01` Debtors/Creditors and `03` Accountable persons. Groups can be changed or extended.
-2. The second table shows the partners belonging to the selected group.
-3. The third table contains additional partner information, especially bank accounts.
+Standard groups include:
 
-Create a partner manually with the navigator or `Insert`, or import company data from the Latvian **Register of Enterprises** function when it is available in the main menu.
+- **Customers/suppliers** — buyers and suppliers.
+- **Employees / accountable persons** — persons used for advances and expense reporting.
+- **Our companies** — the company's own details.
 
-Two partner records can be merged when an old record should be replaced by a new legal entity. Select **Merge** (*Apvienošana*) and specify the new record to which the old data must be transferred.
+Group names and codes may vary depending on the database settings. **All partners (Visi partneri)** displays partners from all groups.
 
-> **Important:** merging also replaces the partner in all documents previously linked to the old record.
+### Finding a partner
 
-<img src="{{ site.baseurl }}/assets/images/image84.png" alt="Merging partner records" />
+Before creating a new partner, check whether the partner already exists in the directory.
+
+1. Select the relevant group or **All partners (Visi partneri)**.
+2. Search by name or registration number.
+3. Check the details of the matching record.
+
+The **partner code** identifies the record in the program. It is different from the **registration number** and the **VAT number**.
+
+If you cannot find the partner, check the active filters. See [Searching]({{ site.baseurl }}/en/docs/work-basics/#searching) and [Filtering data]({{ site.baseurl }}/en/docs/work-basics/#filtering-data) in Work Basics.
+
+### Creating a partner
+
+1. Select the group in which the partner should be created.
+2. Click the new-record button or press **Insert** in the partner list table.
+3. Enter the partner's name, registration number, VAT number where applicable, legal address and country.
+4. Save the record.
+5. Check the saved details and add bank accounts.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-jauna-ieraksta-izveide.png" alt="Entering a new partner and saving the record" />
+
+Partner data can also be obtained from the **Register of Enterprises** if this function is available. See [LUR import (Latvian)]({{ site.baseurl }}/docs/papildfunkcijas-citas-funkcijas/#lur-imports).
+
+### Opening a partner record from a document
+
+To open the partner selected in a **sales invoice**, click **Kods** next to the partner field.
+
+Check the partner's name and registration number before editing its details.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-kartite-no-rekina.png" alt="The Kods button opens the selected partner from a sales invoice" />
+
+### Partner bank accounts
+
+Add bank accounts in the selected partner's additional information, under **Bank accounts (Bankas konti)**.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-bankas-atversana.png" alt="Finding a partner and opening its bank accounts" />
+
+1. Select the partner.
+2. Open its bank accounts and add a new row.
+3. Enter the account details and save.
+4. If this is the main bank account, select the corresponding option.
+5. Refresh the partner list and check the result.
+
+**The bank account displayed in the partner list must be marked as the main account (Galvenais).**
+
+To delete an incorrect bank account, select its row under **Bank accounts (Bankas konti)** and press **Ctrl+Delete**.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-galvenais-bankas-konts.png" alt="Selecting the main bank account in the bank accounts window" />
+
+### Checking for duplicates
+
+If duplicate checking is enabled in the database, the program checks whether the registration number already exists when you create or edit a partner.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-regnum-kontrole.png" alt="Duplicate registration number warning for 40003048719" />
+
+If a duplicate warning appears, find the existing partner first and check whether that record should be used.
+
+If a separate record with the same registration number is required, an exception can be marked in the **ALLOW_DUBLICATE_REGNUMS** column in the partner directory.
+
+To check existing records, use report **868** in the **Control (Kontrole)** report group. It lists registration numbers that occur more than once among **partners that are not closed**.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-dublikatu-atskaite-868.png" alt="Report 868: registration number 40003048719 occurs in two records" />
+
+The report does not check name similarity. If the same person has been entered with different registration numbers, those records may not appear in the report.
+
+### Merging partner records
+
+Merge records after verifying that both directory entries refer to the same person and only one record should be retained.
+
+Before merging:
+
+1. Compare the details of both records.
+2. Decide which record to retain.
+3. Check the documents and balances of both records.
+
+Use **Merge (Apvienošana)** and specify the partner record to retain.
+
+> **Warning:** merging also replaces the partner in historical documents linked to the record being merged.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-apvienosana.png" alt="Merging partners and entering the code of the record to retain" />
+
+<img src="{{ site.baseurl }}/assets/images/partneri-apvienosanas-apstiprinajums.png" alt="Merge confirmation identifying the retained and deleted partner records" />
 
 ## Internal addresses
 
