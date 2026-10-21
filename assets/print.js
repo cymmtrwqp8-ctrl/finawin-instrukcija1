@@ -148,7 +148,7 @@
       try {
         refresh();
         if (document.fonts) await document.fonts.ready;
-        var images = Array.from(documentBody.images).filter(function (image) { return visible(image.closest('.print-section')); });
+        var images = Array.from(documentBody.querySelectorAll('img')).filter(function (image) { return visible(image.closest('.print-section')); });
         await Promise.all(images.map(function (image) {
           if (image.complete) return Promise.resolve();
           return new Promise(function (resolve) {
