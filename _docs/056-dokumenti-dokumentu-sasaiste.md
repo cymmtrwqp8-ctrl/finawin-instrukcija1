@@ -143,6 +143,10 @@ Piesaista **1456,84 EUR** un pārbauda:
 
 Norēķinu sarakstā saņemtā maksājuma atlikums var būt redzams kā **−43,16 EUR**. Tā nepiesaistītais apmērs ir **43,16 EUR**. Atlikuma turpmāko izmantošanu nosaka darījuma būtība un uzņēmuma uzskaites kārtība.
 
+<img src="{{ site.baseurl }}/assets/images/instr-20261022/maksajuma-parmaksa-r003-m003.png" alt="Rēķins R-003 ir segts, maksājuma M-003 nepiesaistītais atlikums ir 43,16 EUR" />
+
+*Rēķins R-003 ir segts; maksājumam M-003 palicis nepiesaistīts atlikums 43,16 EUR.*
+
 ### Kā pārbaudīt ar ko rēķins segts
 
 Atver R-001 sasaistes informāciju un sadaļā “Piesaistītie dokumenti” pārbauda dokumentu numurus, datumus, kontu un summas.
