@@ -19,6 +19,12 @@
       journals = requested.map(function (id) { return legacyMap[id]; }).filter(Boolean);
       if (!journals.length || requested.indexOf('maksajumi') >= 0) journals = journalIds.slice();
     }
+    if (window.FinawinSelection && !english) {
+      var allModules = Array.from(new Set(sections.map(function (section) { return section.dataset.module; })));
+      var selection = window.FinawinSelection.read(params, allModules);
+      allowed = selection.modules;
+      journals = selection.journalSections;
+    }
     var headingSelector = 'h1,h2,h3,h4,h5,h6';
     var sectionMap = new Map();
     var fragmentMaps = new Map();
@@ -145,7 +151,7 @@
       sections.forEach(function (section) {
         var included = (!group || section.dataset.printGroup === group) &&
           (!allowed.length || allowed.indexOf(section.dataset.module) >= 0) &&
-          (section.dataset.module !== 'maksajumi' || journals.indexOf(section.dataset.printGroup) >= 0);
+          (section.dataset.module !== (english ? 'maksajumi' : 'pirmdokumenti') || journals.indexOf(section.dataset.printGroup) >= 0);
         section.hidden = !included;
         section.style.display = included ? '' : 'none';
         section.classList.remove('print-first-visible');

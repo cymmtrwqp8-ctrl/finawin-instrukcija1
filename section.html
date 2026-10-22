@@ -15,7 +15,7 @@ permalink: /section/
   {% capture baseurl_token %}{% raw %}{{ site.baseurl }}{% endraw %}{% endcapture %}
   {% assign current_group = 0 %}
   {% for doc in all_docs %}
-    {% if doc.level == 1 %}{% assign current_group = doc.order %}{% endif %}
+    {% if doc.level == 1 %}{% assign current_group = doc.section_id | default: doc.order %}{% endif %}
     {% assign module_data = site.data.modules | where: "id", doc.module | first %}
     <section class="grouped-document-section" data-section-part="{{ current_group }}" data-module="{{ doc.module }}" data-module-title="{{ module_data.title | escape }}" hidden>
       {{ doc.content | replace: baseurl_token, site.baseurl | markdownify }}
@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var pdfUrl = new URL("{{ '/print/' | relative_url }}", window.location.origin);
   pdfUrl.searchParams.set("section", sectionId);
   if (params.get("modules")) pdfUrl.searchParams.set("modules", params.get("modules"));
+  if (params.get("structure")) pdfUrl.searchParams.set("structure", params.get("structure"));
   if (params.get("journal_sections")) pdfUrl.searchParams.set("journal_sections", params.get("journal_sections"));
   document.getElementById("section-pdf").href = pdfUrl.toString();
   document.title = title + " · {{ site.title | escape }}";

@@ -1,8 +1,8 @@
 ---
 title: "Avansa norēķini- čeki"
-module: maksajumi
-order: 62
-module_order: 4
+module: pirmdokumenti
+order: 541
+module_order: 3
 level: 2
 layout: doc
 permalink: /docs/avansi-avansa-norekini-ceki/
@@ -11,7 +11,7 @@ permalink: /docs/avansi-avansa-norekini-ceki/
 
 Šis logs attēlo avansu čeku ievades un uzskaites sarakstu, kas ir daļa no avansa norēķinu (avansa atskaišu) moduļa.
 
-Šeit tiek ievadīti un apkopoti visi darbinieku iesniegtie čeki un rēķini, kas saistīti ar uzņēmuma līdzekļu izmantošanu avansa ietvaros - piemēram, biroja preču, komandējumu vai citu saimniecisko izdevumu apmaksai. Šī sadaļa nodrošina daļu no cikla: čeka ievadi un pārbaudi, vēlāk apskatīsim sadaļu [Avansu norēķinu atskaites](#avansa-norēķini--atskaites), kur čeki tiek sasaistīti ar atskaitēm un iegrāmatoti.
+Šeit tiek ievadīti un apkopoti visi darbinieku iesniegtie čeki un rēķini, kas saistīti ar uzņēmuma līdzekļu izmantošanu avansa ietvaros - piemēram, biroja preču, komandējumu vai citu saimniecisko izdevumu apmaksai. Šī sadaļa nodrošina daļu no cikla: čeka ievadi un pārbaudi, vēlāk apskatīsim sadaļu [Avansu norēķinu atskaites]({{ site.baseurl }}/docs/avansi-avansa-norekini-atskaites/), kur čeki tiek sasaistīti ar atskaitēm un iegrāmatoti.
 
 Rezultātā uzņēmums var precīzi kontrolēt darbinieku avansu izmantošanu, nodrošinot caurspīdīgu un grāmatvedības prasībām atbilstošu izdevumu uzskaiti.
 

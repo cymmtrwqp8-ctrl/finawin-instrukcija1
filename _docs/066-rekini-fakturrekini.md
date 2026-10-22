@@ -1,8 +1,8 @@
 ---
 title: "Faktūrrēķini"
-module: maksajumi
-order: 66
-module_order: 4
+module: pirmdokumenti
+order: 531
+module_order: 3
 level: 2
 layout: doc
 permalink: /docs/rekini-fakturrekini/

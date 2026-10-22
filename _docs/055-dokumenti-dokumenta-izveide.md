@@ -1,8 +1,8 @@
 ---
 title: "Dokumenta izveide"
 module: dokumenti
-order: 55
-module_order: 3
+order: 623
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/dokumenti-dokumenta-izveide/

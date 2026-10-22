@@ -7,23 +7,9 @@
   var journalBoxes = Array.from(document.querySelectorAll(".module-options input[data-journal-option]"));
   var allModules = moduleBoxes.map(function (box) { return box.value; });
   var allJournalSections = journalBoxes.map(function (box) { return box.value; });
-  var requested = (params.get("modules") || "").split(",").filter(Boolean);
-  var legacyJournalSections = [];
-  if (requested.indexOf("avansi") >= 0) legacyJournalSections.push("61.5");
-  if (requested.indexOf("rekini") >= 0) legacyJournalSections.push("63.5");
-  if (requested.indexOf("kase") >= 0) legacyJournalSections.push("66.5");
-  var explicitlyRequestedJournal = requested.indexOf("maksajumi") >= 0;
-  if (legacyJournalSections.length) {
-    requested.push("maksajumi");
-  }
-  var selected = requested.length ? Array.from(new Set(["pamati"].concat(requested.filter(function (id) { return allModules.indexOf(id) >= 0; })))) : allModules;
-  var requestedJournalSections = (params.get("journal_sections") || "").split(",").filter(function (id) {
-    return allJournalSections.indexOf(id) >= 0;
-  });
-  var selectedJournalSections = selected.indexOf("maksajumi") < 0 ? [] :
-    (params.has("journal_sections") ? requestedJournalSections :
-      (!explicitlyRequestedJournal && legacyJournalSections.length ? legacyJournalSections : allJournalSections.slice()));
-  selectedJournalSections = allJournalSections.filter(function (id) { return selectedJournalSections.indexOf(id) >= 0; });
+  var selection = window.FinawinSelection.read(params, allModules);
+  var selected = selection.modules;
+  var selectedJournalSections = selection.journalSections;
   var sidebar = document.getElementById("sidebar");
   var backdrop = document.getElementById("backdrop");
   var dialog = document.getElementById("module-dialog");
@@ -38,7 +24,8 @@
 
   function setSelectionParams(url) {
     url.searchParams.set("modules", selected.join(","));
-    if (selected.indexOf("maksajumi") >= 0 && selectedJournalSections.length) {
+    url.searchParams.set("structure", "2");
+    if (selected.indexOf("pirmdokumenti") >= 0 && selectedJournalSections.length) {
       url.searchParams.set("journal_sections", selectedJournalSections.join(","));
     } else {
       url.searchParams.delete("journal_sections");
@@ -54,7 +41,7 @@
     journalBoxes.forEach(function (box) {
       box.checked = selectedJournalSections.indexOf(box.value) >= 0;
     });
-    var parent = document.querySelector('input[data-module-option][value="maksajumi"]');
+    var parent = document.querySelector('input[data-module-option][value="pirmdokumenti"]');
     if (parent) {
       parent.checked = selectedJournalSections.length === allJournalSections.length;
       parent.indeterminate = selectedJournalSections.length > 0 && selectedJournalSections.length < allJournalSections.length;
@@ -81,8 +68,8 @@
     document.querySelectorAll("[data-module]").forEach(function (element) {
       element.hidden = selected.indexOf(element.dataset.module) < 0;
     });
-    document.querySelectorAll('.doc-link[data-module="maksajumi"][data-journal-section]').forEach(function (link) {
-      link.hidden = selected.indexOf("maksajumi") < 0 || selectedJournalSections.indexOf(link.dataset.journalSection) < 0;
+    document.querySelectorAll('.doc-link[data-module="pirmdokumenti"][data-journal-section]').forEach(function (link) {
+      link.hidden = selected.indexOf("pirmdokumenti") < 0 || selectedJournalSections.indexOf(link.dataset.journalSection) < 0;
     });
     syncSelectionControls();
     document.querySelectorAll("a[href]").forEach(function (link) {
@@ -121,8 +108,8 @@
       syncModuleMenu();
       if (!wasOpen && toggle.dataset.firstUrl) {
         var targetUrl = toggle.dataset.firstUrl;
-        if (toggle.dataset.moduleToggle === "maksajumi" && selectedJournalSections.length) {
-          var firstJournalLink = document.querySelector('.doc-link.major[data-module="maksajumi"][data-journal-section="' + selectedJournalSections[0] + '"]');
+        if (toggle.dataset.moduleToggle === "pirmdokumenti" && selectedJournalSections.length) {
+          var firstJournalLink = document.querySelector('.doc-link.major[data-module="pirmdokumenti"][data-journal-section="' + selectedJournalSections[0] + '"]');
           if (firstJournalLink) targetUrl = firstJournalLink.href;
         }
         window.location.assign(setSelectionParams(new URL(targetUrl, window.location.origin)).toString());
@@ -132,7 +119,7 @@
 
   moduleBoxes.forEach(function (box) {
     box.addEventListener("change", function () {
-      if (box.value === "maksajumi") {
+      if (box.value === "pirmdokumenti") {
         selectedJournalSections = box.checked ? allJournalSections.slice() : [];
       }
       if (box.checked) {
@@ -150,8 +137,8 @@
       if (box.checked && selectedJournalSections.indexOf(box.value) < 0) selectedJournalSections.push(box.value);
       if (!box.checked) selectedJournalSections = selectedJournalSections.filter(function (id) { return id !== box.value; });
       selectedJournalSections = allJournalSections.filter(function (id) { return selectedJournalSections.indexOf(id) >= 0; });
-      if (selectedJournalSections.length && selected.indexOf("maksajumi") < 0) selected.push("maksajumi");
-      if (!selectedJournalSections.length) selected = selected.filter(function (id) { return id !== "maksajumi"; });
+      if (selectedJournalSections.length && selected.indexOf("pirmdokumenti") < 0) selected.push("pirmdokumenti");
+      if (!selectedJournalSections.length) selected = selected.filter(function (id) { return id !== "pirmdokumenti"; });
       applyModules();
     });
   });
@@ -239,7 +226,7 @@
     searchResults.hidden = false;
     var show = function () {
       var matches = searchIndex.filter(function (item) {
-        var journalMatches = item.module !== "maksajumi" || selectedJournalSections.indexOf(String(item.section)) >= 0;
+        var journalMatches = item.module !== "pirmdokumenti" || selectedJournalSections.indexOf(String(item.section)) >= 0;
         return selected.indexOf(item.module) >= 0 && journalMatches && (item.title + " " + item.content).toLocaleLowerCase("lv").indexOf(term) >= 0;
       });
       renderSearch(matches);

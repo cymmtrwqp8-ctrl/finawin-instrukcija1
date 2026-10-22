@@ -1,13 +1,14 @@
 ---
-title: "Dokumentu sasaiste"
-module: dokumenti
-order: 56
-module_order: 3
-level: 2
+section_id: 56
+title: "Dokumentu sasaiste un norēķinu pārbaude"
+module: sasaistes
+order: 750
+module_order: 6
+level: 1
 layout: doc
 permalink: /docs/dokumenti-dokumentu-sasaiste/
 ---
-## Dokumentu sasaiste
+# Dokumentu sasaiste un norēķinu pārbaude
 
 Sadaļa **“Dokumentu sasaiste”** paredzēta, lai savienotu divus vai vairākus dokumentus, kas grāmatvedības uzskaitē ir **savstarpēji saistīti** - piemēram:
 

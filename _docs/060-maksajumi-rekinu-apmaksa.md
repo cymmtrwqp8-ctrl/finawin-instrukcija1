@@ -1,8 +1,8 @@
 ---
 title: "Rēķinu apmaksa"
 module: maksajumi
-order: 60
-module_order: 4
+order: 701
+module_order: 5
 level: 2
 layout: doc
 permalink: /docs/maksajumi-rekinu-apmaksa/

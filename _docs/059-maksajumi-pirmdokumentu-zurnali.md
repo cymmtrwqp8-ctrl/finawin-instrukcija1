@@ -1,13 +1,14 @@
 ---
-title: "Pirmdokumentu žurnāli"
-module: maksajumi
-order: 59
-module_order: 4
+section_id: 59
+title: "Pirmdokumenti"
+module: pirmdokumenti
+order: 520
+module_order: 3
 level: 1
 layout: doc
 permalink: /docs/maksajumi-pirmdokumentu-zurnali/
 ---
-# Pirmdokumentu žurnāli
+# Pirmdokumenti
 
 Šajā sadaļā apkopoti visi finanšu pirmdokumentu veidi, kas tiek izmantoti uzņēmuma ikdienas finanšu darbību uzskaitei un pārvaldībai. Šeit ietilpst dažādi dokumenti, kas nepieciešami, lai nodrošinātu precīzu finanšu plūsmu, kontroli un atskaišu sagatavošanu.
 

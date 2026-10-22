@@ -1,8 +1,9 @@
 ---
+section_id: 57
 title: "Funkcijas"
 module: papildfunkcijas
-order: 57
-module_order: 7
+order: 900
+module_order: 8
 level: 1
 layout: doc
 permalink: /docs/dokumenti-funkcijas/

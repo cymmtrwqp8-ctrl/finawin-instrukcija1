@@ -1,8 +1,9 @@
 ---
+section_id: 76
 title: "Citas funkcijas"
 module: papildfunkcijas
-order: 76
-module_order: 7
+order: 920
+module_order: 8
 level: 1
 layout: doc
 permalink: /docs/papildfunkcijas-citas-funkcijas/
@@ -17,7 +18,7 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
 1.  PVN → EDS – izveido PVN deklarāciju EDS formātā iesniegšanai Valsts ieņēmumu dienesta sistēmā.
 
-2.  Bankas izraksta imports – bankas konta transakciju imports un automātiski grāmatojumi virsgrāmatā.
+2.  [Bankas izraksta imports]({{ site.baseurl }}/docs/bankas-izraksta-imports/) – skatīt nodaļu “Maksājumi un banka”.
 
 3.  Līgumi– papildu maksas modulis, kas nodrošina līgumu saraksta uzturēšanu un uzskaiti.
 

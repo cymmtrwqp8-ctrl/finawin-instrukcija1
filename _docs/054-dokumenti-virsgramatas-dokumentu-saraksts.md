@@ -1,8 +1,8 @@
 ---
 title: "Virsgrāmatas dokumentu saraksts"
 module: dokumenti
-order: 54
-module_order: 3
+order: 622
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/dokumenti-virsgramatas-dokumentu-saraksts/

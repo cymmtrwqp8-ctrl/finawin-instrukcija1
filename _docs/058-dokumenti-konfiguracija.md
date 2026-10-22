@@ -1,8 +1,9 @@
 ---
+section_id: 58
 title: "Konfigurācija"
 module: papildfunkcijas
-order: 58
-module_order: 7
+order: 901
+module_order: 8
 level: 1
 layout: doc
 permalink: /docs/dokumenti-konfiguracija/

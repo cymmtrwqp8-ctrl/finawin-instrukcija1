@@ -8,28 +8,33 @@
   description: "Kontu plāns, partneri, projekti, procesi un pārējie finanšu katalogi."
   order: 2
   required: false
-- id: dokumenti
-  title: "Dokumenti un grāmatojumi"
-  description: "Virsgrāmatas dokumenti, grāmatojumi, dokumentu izveide un sasaiste."
+- id: pirmdokumenti
+  title: "Pirmdokumenti"
+  description: "Faktūrrēķini, pirkumu un avansa rēķini, avansa norēķini un kases dokumenti."
   order: 3
   required: false
-- id: maksajumi
-  title: "Pirmdokumentu žurnāli"
-  description: "Pirmdokumenti, rēķinu apmaksa, avansa norēķini, rēķini un kases dokumenti."
+- id: dokumenti
+  title: "Dokumenti un grāmatojumi"
+  description: "Virsgrāmatas dokumentu saraksts, dokumenta izveide un grāmatojumi."
   order: 4
   required: false
-- id: atskaites
-  title: "Atskaites"
-  description: "Apgrozījuma, PDF un Pivot atskaites."
+- id: maksajumi
+  title: "Maksājumi un banka"
+  description: "Rēķinu apmaksa, maksājumu sagatavošana, eksports un bankas izraksta imports."
   order: 5
   required: false
-- id: atskaisu-noskanas
-  title: "Atskaišu konfigurēšana"
-  description: "Atskaišu ģenerators, parametri, formulas un dizains."
+- id: sasaistes
+  title: "Dokumentu sasaiste un norēķinu pārbaude"
+  description: "Dokumentu un maksājumu sasaiste, avansi un norēķinu atlikumu pārbaude."
   order: 6
   required: false
-- id: papildfunkcijas
-  title: "Papildfunkcijas"
-  description: "PVN–EDS, bankas imports, līgumi, parādu kontrole un citas iespējas."
+- id: atskaites
+  title: "Atskaites un kontrole"
+  description: "Apgrozījuma, PDF un Pivot atskaites."
   order: 7
+  required: false
+- id: papildfunkcijas
+  title: "Papildfunkcijas un konfigurācija"
+  description: "Papildu funkcijas, sistēmas noskaņas un atskaišu konfigurēšana."
+  order: 8
   required: false

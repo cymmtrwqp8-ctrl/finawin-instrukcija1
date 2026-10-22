@@ -1,6 +1,6 @@
 # FinaWin instrukcija — GitHub Pages
 
-Šajā mapē ir pilns FinaWin instrukcijas avots: 10 moduļi, 76 rediģējamas sadaļas un ekrānattēli.
+Šajā mapē ir pilns FinaWin instrukcijas avots: 8 latviešu instrukcijas nodaļas, 82 rediģējamas latviešu sadaļas un ekrānattēli.
 
 ## 1. Pirmā publicēšana GitHub
 
@@ -30,7 +30,7 @@
 4. Izlabojiet tekstu un nospiediet Commit changes.
 5. GitHub Pages automātiski publicēs izmaiņas.
 
-Katras sadaļas sākumā ir tehniskā daļa starp --- līnijām. Laukus module, order, layout un permalink nemainiet, ja nevēlaties pārvietot sadaļu.
+Katras sadaļas sākumā ir tehniskā daļa starp --- līnijām. Laukus module, order, section_id, layout un permalink nemainiet, ja nevēlaties pārvietot sadaļu.
 
 ## 4. Attēlu pievienošana
 

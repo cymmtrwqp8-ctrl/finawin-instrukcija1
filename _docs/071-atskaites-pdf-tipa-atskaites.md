@@ -1,8 +1,8 @@
 ---
 title: "PDF-tipa» atskaites"
 module: atskaites
-order: 71
-module_order: 5
+order: 803
+module_order: 7
 level: 2
 layout: doc
 permalink: /docs/atskaites-pdf-tipa-atskaites/

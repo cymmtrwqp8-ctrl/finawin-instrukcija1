@@ -1,8 +1,8 @@
 ---
 title: "Maksājumi"
 module: maksajumi
-order: 61
-module_order: 4
+order: 702
+module_order: 5
 level: 2
 layout: doc
 permalink: /docs/maksajumi-maksajumi/

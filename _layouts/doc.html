@@ -3,9 +3,9 @@ layout: default
 ---
 {% assign module_data = site.data.modules | where: "id", page.module | first %}
 {% assign all_docs = site.docs | sort: "order" %}
-{% assign current_print_group = page.order %}
+{% assign current_print_group = page.section_id | default: page.order %}
 {% for candidate in all_docs %}
-  {% if candidate.level == 1 %}{% assign current_print_group = candidate.order %}{% endif %}
+  {% if candidate.level == 1 %}{% assign current_print_group = candidate.section_id | default: candidate.order %}{% endif %}
   {% if candidate.url == page.url %}{% break %}{% endif %}
 {% endfor %}
 <div class="breadcrumbs"><span>{{ module_data.title }}</span><b>›</b><span>{{ page.title }}</span></div>

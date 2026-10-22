@@ -1,7 +1,7 @@
 [
   {
     "id": "pamati-par-so-dokumentu",
-    "title": "PAR šo dokumentu",
+    "title": "Par šo dokumentu",
     "module": "pamati",
     "order": 1,
     "url": "/docs/pamati-par-so-dokumentu/"
@@ -238,6 +238,13 @@
     "url": "/docs/pamati-eksportet-ka/"
   },
   {
+    "id": "pamati-buj",
+    "title": "DARBA PAMATI BUJ",
+    "module": "pamati",
+    "order": 34.5,
+    "url": "/docs/pamati-buj/"
+  },
+  {
     "id": "katalogi-katalogi",
     "title": "KATALOGI",
     "module": "katalogi",
@@ -357,178 +364,213 @@
     "url": "/docs/katalogi-pakalpojumu-katalogs/"
   },
   {
+    "id": "maksajumi-pirmdokumentu-zurnali",
+    "title": "Pirmdokumenti",
+    "module": "pirmdokumenti",
+    "order": 520,
+    "url": "/docs/maksajumi-pirmdokumentu-zurnali/"
+  },
+  {
+    "id": "maksajumi-rekini",
+    "title": "Rēķini",
+    "module": "pirmdokumenti",
+    "order": 530,
+    "url": "/docs/maksajumi-rekini/"
+  },
+  {
+    "id": "rekini-fakturrekini",
+    "title": "Faktūrrēķini",
+    "module": "pirmdokumenti",
+    "order": 531,
+    "url": "/docs/rekini-fakturrekini/"
+  },
+  {
+    "id": "rekini-pirkumu-rekini-fin",
+    "title": "Pirkumu rēķini (fin.)",
+    "module": "pirmdokumenti",
+    "order": 532,
+    "url": "/docs/rekini-pirkumu-rekini-fin/"
+  },
+  {
+    "id": "rekini-avansa-rekini",
+    "title": "Avansa rēķini",
+    "module": "pirmdokumenti",
+    "order": 533,
+    "url": "/docs/rekini-avansa-rekini/"
+  },
+  {
+    "id": "maksajumi-avansa-norekini",
+    "title": "Avansa norēķini",
+    "module": "pirmdokumenti",
+    "order": 540,
+    "url": "/docs/maksajumi-avansa-norekini/"
+  },
+  {
+    "id": "avansi-avansa-norekini-ceki",
+    "title": "Avansa norēķini- čeki",
+    "module": "pirmdokumenti",
+    "order": 541,
+    "url": "/docs/avansi-avansa-norekini-ceki/"
+  },
+  {
+    "id": "avansi-avansa-norekini-atskaites",
+    "title": "Avansa norēķini- atskaites",
+    "module": "pirmdokumenti",
+    "order": 542,
+    "url": "/docs/avansi-avansa-norekini-atskaites/"
+  },
+  {
+    "id": "maksajumi-kases-dokumenti",
+    "title": "Kases dokumenti",
+    "module": "pirmdokumenti",
+    "order": 550,
+    "url": "/docs/maksajumi-kases-dokumenti/"
+  },
+  {
+    "id": "kase-kases-ienemumu-vai-izdevumu-orderi",
+    "title": "Kases ieņēmumu vai izdevumu orderi",
+    "module": "pirmdokumenti",
+    "order": 551,
+    "url": "/docs/kase-kases-ienemumu-vai-izdevumu-orderi/"
+  },
+  {
     "id": "dokumenti-dokumenti",
-    "title": "Dokumenti",
+    "title": "Dokumenti un grāmatojumi",
     "module": "dokumenti",
-    "order": 52,
+    "order": 620,
     "url": "/docs/dokumenti-dokumenti/"
   },
   {
     "id": "dokumenti-vispareja-informacija",
     "title": "Vispārēja informācija",
     "module": "dokumenti",
-    "order": 53,
+    "order": 621,
     "url": "/docs/dokumenti-vispareja-informacija/"
   },
   {
     "id": "dokumenti-virsgramatas-dokumentu-saraksts",
     "title": "Virsgrāmatas dokumentu saraksts",
     "module": "dokumenti",
-    "order": 54,
+    "order": 622,
     "url": "/docs/dokumenti-virsgramatas-dokumentu-saraksts/"
   },
   {
     "id": "dokumenti-dokumenta-izveide",
     "title": "Dokumenta izveide",
     "module": "dokumenti",
-    "order": 55,
+    "order": 623,
     "url": "/docs/dokumenti-dokumenta-izveide/"
   },
   {
-    "id": "dokumenti-dokumentu-sasaiste",
-    "title": "Dokumentu sasaiste",
-    "module": "dokumenti",
-    "order": 56,
-    "url": "/docs/dokumenti-dokumentu-sasaiste/"
-  },
-  {
-    "id": "dokumenti-funkcijas",
-    "title": "Funkcijas",
-    "module": "dokumenti",
-    "order": 57,
-    "url": "/docs/dokumenti-funkcijas/"
-  },
-  {
-    "id": "dokumenti-konfiguracija",
-    "title": "Konfigurācija",
-    "module": "dokumenti",
-    "order": 58,
-    "url": "/docs/dokumenti-konfiguracija/"
-  },
-  {
-    "id": "maksajumi-pirmdokumentu-zurnali",
-    "title": "Pirmdokumentu žurnāli",
+    "id": "maksajumi-un-banka",
+    "title": "Maksājumi un banka",
     "module": "maksajumi",
-    "order": 59,
-    "url": "/docs/maksajumi-pirmdokumentu-zurnali/"
+    "order": 700,
+    "url": "/docs/maksajumi-un-banka/"
   },
   {
     "id": "maksajumi-rekinu-apmaksa",
     "title": "Rēķinu apmaksa",
     "module": "maksajumi",
-    "order": 60,
+    "order": 701,
     "url": "/docs/maksajumi-rekinu-apmaksa/"
   },
   {
     "id": "maksajumi-maksajumi",
     "title": "Maksājumi",
     "module": "maksajumi",
-    "order": 61,
+    "order": 702,
     "url": "/docs/maksajumi-maksajumi/"
   },
   {
-    "id": "avansi-avansa-norekini-ceki",
-    "title": "Avansa norēķini- čeki",
-    "module": "avansi",
-    "order": 62,
-    "url": "/docs/avansi-avansa-norekini-ceki/"
+    "id": "bankas-izraksta-imports",
+    "title": "Bankas izraksta imports",
+    "module": "maksajumi",
+    "order": 703,
+    "url": "/docs/bankas-izraksta-imports/"
   },
   {
-    "id": "avansi-avansa-norekini-atskaites",
-    "title": "Avansa norēķini- atskaites",
-    "module": "avansi",
-    "order": 63,
-    "url": "/docs/avansi-avansa-norekini-atskaites/"
-  },
-  {
-    "id": "rekini-pirkumu-rekini-fin",
-    "title": "Pirkumu rēķini (fin.)",
-    "module": "rekini",
-    "order": 64,
-    "url": "/docs/rekini-pirkumu-rekini-fin/"
-  },
-  {
-    "id": "rekini-avansa-rekini",
-    "title": "Avansa rēķini",
-    "module": "rekini",
-    "order": 65,
-    "url": "/docs/rekini-avansa-rekini/"
-  },
-  {
-    "id": "rekini-fakturrekini",
-    "title": "Faktūrrēķini",
-    "module": "rekini",
-    "order": 66,
-    "url": "/docs/rekini-fakturrekini/"
-  },
-  {
-    "id": "kase-kases-ienemumu-vai-izdevumu-orderi",
-    "title": "Kases ieņēmumu vai izdevumu orderi",
-    "module": "kase",
-    "order": 67,
-    "url": "/docs/kase-kases-ienemumu-vai-izdevumu-orderi/"
+    "id": "dokumenti-dokumentu-sasaiste",
+    "title": "Dokumentu sasaiste un norēķinu pārbaude",
+    "module": "sasaistes",
+    "order": 750,
+    "url": "/docs/dokumenti-dokumentu-sasaiste/"
   },
   {
     "id": "atskaites-atskaites",
-    "title": "ATSKAITES",
+    "title": "Atskaites un kontrole",
     "module": "atskaites",
-    "order": 68,
+    "order": 800,
     "url": "/docs/atskaites-atskaites/"
   },
   {
     "id": "atskaites-vispareja-informacija",
     "title": "Vispārēja informācija",
     "module": "atskaites",
-    "order": 69,
+    "order": 801,
     "url": "/docs/atskaites-vispareja-informacija/"
   },
   {
     "id": "atskaites-atskaisu-veidi",
     "title": "Atskaišu veidi",
     "module": "atskaites",
-    "order": 70,
+    "order": 802,
     "url": "/docs/atskaites-atskaisu-veidi/"
   },
   {
     "id": "atskaites-pdf-tipa-atskaites",
     "title": "PDF-tipa» atskaites",
     "module": "atskaites",
-    "order": 71,
+    "order": 803,
     "url": "/docs/atskaites-pdf-tipa-atskaites/"
   },
   {
     "id": "atskaites-pivot-atskaites",
     "title": "Pivot atskaites",
     "module": "atskaites",
-    "order": 72,
+    "order": 804,
     "url": "/docs/atskaites-pivot-atskaites/"
   },
   {
+    "id": "dokumenti-funkcijas",
+    "title": "Funkcijas",
+    "module": "papildfunkcijas",
+    "order": 900,
+    "url": "/docs/dokumenti-funkcijas/"
+  },
+  {
+    "id": "dokumenti-konfiguracija",
+    "title": "Konfigurācija",
+    "module": "papildfunkcijas",
+    "order": 901,
+    "url": "/docs/dokumenti-konfiguracija/"
+  },
+  {
     "id": "atskaisu-noskanas-atskaisu-noskanas",
-    "title": "ATSKAIšu Noskaņas",
-    "module": "atskaisu-noskanas",
-    "order": 73,
+    "title": "Atskaišu Noskaņas",
+    "module": "papildfunkcijas",
+    "order": 910,
     "url": "/docs/atskaisu-noskanas-atskaisu-noskanas/"
   },
   {
     "id": "atskaisu-noskanas-atskaisu-generators",
     "title": "Atskaišu ģenerators",
-    "module": "atskaisu-noskanas",
-    "order": 74,
+    "module": "papildfunkcijas",
+    "order": 911,
     "url": "/docs/atskaisu-noskanas-atskaisu-generators/"
   },
   {
     "id": "atskaisu-noskanas-atskaisu-noskanas-2",
     "title": "Atskaišu noskaņas",
-    "module": "atskaisu-noskanas",
-    "order": 75,
+    "module": "papildfunkcijas",
+    "order": 912,
     "url": "/docs/atskaisu-noskanas-atskaisu-noskanas-2/"
   },
   {
     "id": "papildfunkcijas-citas-funkcijas",
     "title": "Citas funkcijas",
     "module": "papildfunkcijas",
-    "order": 76,
+    "order": 920,
     "url": "/docs/papildfunkcijas-citas-funkcijas/"
   }
 ]

@@ -1,8 +1,8 @@
 ---
 title: "Atskaišu ģenerators"
-module: atskaisu-noskanas
-order: 74
-module_order: 6
+module: papildfunkcijas
+order: 911
+module_order: 8
 level: 2
 layout: doc
 permalink: /docs/atskaisu-noskanas-atskaisu-generators/

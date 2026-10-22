@@ -1,8 +1,8 @@
 ---
 title: "Pivot atskaites"
 module: atskaites
-order: 72
-module_order: 5
+order: 804
+module_order: 7
 level: 2
 layout: doc
 permalink: /docs/atskaites-pivot-atskaites/

@@ -5,7 +5,7 @@ layout: null
 {% assign docs = site.docs | sort: "order" %}
 {% assign current_group = 0 %}
 {% for doc in docs %}
-  {% if doc.level == 1 %}{% assign current_group = doc.order %}{% endif %}
+  {% if doc.level == 1 %}{% assign current_group = doc.section_id | default: doc.order %}{% endif %}
   {
     "title": {{ doc.title | jsonify }},
     "module": {{ doc.module | jsonify }},

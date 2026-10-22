@@ -1,8 +1,9 @@
 ---
+section_id: 73
 title: "Atskaišu Noskaņas"
-module: atskaisu-noskanas
-order: 73
-module_order: 6
+module: papildfunkcijas
+order: 910
+module_order: 8
 level: 1
 layout: doc
 permalink: /docs/atskaisu-noskanas-atskaisu-noskanas/

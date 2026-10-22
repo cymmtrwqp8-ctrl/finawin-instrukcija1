@@ -1,8 +1,8 @@
 ---
 title: "Vispārēja informācija"
 module: dokumenti
-order: 53
-module_order: 3
+order: 621
+module_order: 4
 level: 2
 layout: doc
 permalink: /docs/dokumenti-vispareja-informacija/
