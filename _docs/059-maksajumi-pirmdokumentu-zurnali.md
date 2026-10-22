@@ -18,16 +18,16 @@ permalink: /docs/maksajumi-pirmdokumentu-zurnali/
 
 Tajā iekļauti:
 
-<u>Maksājumi</u> – Maksājumu uzdevumu žurnāls.
+<a href="{{ site.baseurl }}/docs/maksajumi-maksajumi/" style="text-decoration: underline;">Maksājumi</a> – Maksājumu uzdevumu žurnāls.
 
-<u>Rēķinu apmaksa</u> – funkcija , kas palīdz ģenerēt maksājuma uzdevumus no neapmaksāto rēķinu saraksta.
+<a href="{{ site.baseurl }}/docs/maksajumi-rekinu-apmaksa/" style="text-decoration: underline;">Rēķinu apmaksa</a> – funkcija , kas palīdz ģenerēt maksājuma uzdevumus no neapmaksāto rēķinu saraksta.
 
-<u>Avansu norēķinu čeki un atskaites</u> - dokumenti, kas fiksē darbinieku saņemtos avansus un to izlietojumu, kā arī sagatavo atskaites par avansu izlietojumu.
+<a href="{{ site.baseurl }}/docs/avansi-avansa-norekini-ceki/" style="text-decoration: underline;">Avansu norēķinu čeki</a> un <a href="{{ site.baseurl }}/docs/avansi-avansa-norekini-atskaites/" style="text-decoration: underline;">atskaites</a> - dokumenti, kas fiksē darbinieku saņemtos avansus un to izlietojumu, kā arī sagatavo atskaites par avansu izlietojumu.
 
-<u>Avansa rēķini</u> - rēķini, kas izrakstīti par avansā saņemtajiem maksājumiem vai pakalpojumiem, kas vēl tiks nodrošināti.Šajā žurnālā parādās FinaWin noliktavas modulī izrakstītie avansa rēķini.
+<a href="{{ site.baseurl }}/docs/rekini-avansa-rekini/" style="text-decoration: underline;">Avansa rēķini</a> - rēķini, kas izrakstīti par avansā saņemtajiem maksājumiem vai pakalpojumiem, kas vēl tiks nodrošināti.Šajā žurnālā parādās FinaWin noliktavas modulī izrakstītie avansa rēķini.
 
-<u>Faktūrrēķini</u> – Realizācijas rēķini.
+<a href="{{ site.baseurl }}/docs/rekini-fakturrekini/" style="text-decoration: underline;">Faktūrrēķini</a> – Realizācijas rēķini.
 
-<u>Kases ieņēmumu/izdevumu orderi</u> - dokumenti, kas fiksē skaidras naudas ienākumus un izdevumus, nodrošinot pilnīgu kases uzskaiti un kontroli.
+<a href="{{ site.baseurl }}/docs/kase-kases-ienemumu-vai-izdevumu-orderi/" style="text-decoration: underline;">Kases ieņēmumu/izdevumu orderi</a> - dokumenti, kas fiksē skaidras naudas ienākumus un izdevumus, nodrošinot pilnīgu kases uzskaiti un kontroli.
 
 Šī sadaļa nodrošina, ka visi pirmdokumentu veidi ir centralizēti un viegli pieejami, ļaujot darbiniekiem ātri izvēlēties pareizo dokumentu veidu, atvieglot rēķinu un maksājumu sagatavošanu, kā arī nodrošināt precīzu grāmatvedības uzskaiti un finanšu pārskatu sagatavošanu.
