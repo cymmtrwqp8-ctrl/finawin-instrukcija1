@@ -102,7 +102,7 @@ kur iespējams ievadīt trūkstošo informāciju (šajā gadījumā - projektu).
 
 Attēls Sakārtot
 
-### Sasaistu informācijas logs
+### <a href="{{ site.baseurl }}/docs/dokumenti-dokumentu-sasaiste/" style="text-decoration: underline;">Sasaistu informācijas logs</a>
 
 No dokumenta formas skata lietotājam ir iespēja pāriet uz dokumentu sasaistes (apmaksas) logu, kurā tiek attēlotas visas savstarpējās saistības starp dokumentiem - piemēram, rēķinu un tā apmaksu vai avansa un rēķina dzēšanu.
 
