@@ -94,7 +94,7 @@ Uzspiediet “Labi”, lai aizvērtu brīdinājuma logu.
 
 Pēc tam izvēlieties darbību “Sakārtot” - sistēma automātiski atvērs atbilstošo izvēlni no kataloga,
 
-kur iespējams ievadīt trūkstošo informāciju (šajā gadījumā - struktūrvienību). Pēc nepieciešamo lauku aizpildīšanas dokumentu iespējams saglabāt un apstiprināt atkārtoti.
+kur iespējams ievadīt trūkstošo informāciju (šajā gadījumā - projektu). Pēc nepieciešamo lauku aizpildīšanas dokumentu iespējams saglabāt un apstiprināt atkārtoti.
 
 <img src="{{ site.baseurl }}/assets/images/instr-20261022/image20.png" alt="Virsgrāmatas dokumenta izveides piemērs" />
 
