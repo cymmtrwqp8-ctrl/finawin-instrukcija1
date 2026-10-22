@@ -159,6 +159,10 @@ Ja piesaistīts nepareizs dokuments vai summa, izvēlas konkrēto sasaisti un no
 
 Piemērā atceļ tikai M-002 piesaisti par **46,80 EUR**. KR-001 un M-001 sasaistes saglabā.
 
+<img src="{{ site.baseurl }}/assets/images/instr-20261022/image36.png" alt="Maksājuma M-002 sasaistes izvēle un atsaistīšanas darbība" />
+
+*Maksājuma M-002 sasaistes izvēle un atsaistīšanas darbība*
+
 Pēc atsaistīšanas M-002 atkal ir sadaļā “Pieejamie dokumenti”, bet R-001 parāds ir **46,80 EUR**.
 
 <img src="{{ site.baseurl }}/assets/images/instr-20261022/image37.png" alt="M-002 pieejams atkārtotai piesaistei un R-001 parāds ir 46,80 EUR" />
