@@ -17,7 +17,9 @@ Pirms pieslēgties programmai, jāpārbauda noklusētie datora iestatījumi Laik
 
 Svarīgi, lai šos uzstādījumus iestata darbinieks, kam ir tiesības tos veikt, piemēram, sistēmas administrators. Drošības labad pēc tam iesakām restartēt datoru.
 
-| <img src="{{ site.baseurl }}/assets/images/image2.png" /> | <img src="{{ site.baseurl }}/assets/images/image3.png" /> |
-|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+<div style="display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; align-items:start;">
+  <img src="{{ site.baseurl }}/assets/images/image2.png" alt="Reģionālo iestatījumu datuma formāts" />
+  <img src="{{ site.baseurl }}/assets/images/image3.png" alt="Reģionālo iestatījumu skaitļu formāts" />
+</div>
 
 **Attēls reģionālie uzstādījumi**
