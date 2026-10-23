@@ -79,6 +79,15 @@ Lai dzēstu kļūdainu bankas kontu, sadaļā **“Bankas konti”** izvēlietie
 
 <img src="{{ site.baseurl }}/assets/images/partneri-galvenais-bankas-konts.png" alt="Galvenā bankas konta atzīme logā Norēķinu konti bankās" />
 
+
+Ja partnerim jāpievieno konts bankā, kura nav pieejama banku sarakstā, veiciet dubultklikšķi uz lauka **“Banka”**. Tiks atvērts logs **“Bankas izvēle”**, kurā ar jauna ieraksta izveides pogu var pievienot nepieciešamo banku.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-jaunas-bankas-pievienosana.svg" alt="Bankas izvēles atvēršana ar dubultklikšķi un jaunas bankas pievienošana" />
+
+Ja banku sarakstu nevēlaties meklēt partnera bankas kontu logā, to var atvērt arī izvēlnē **Katalogi → Banku saraksts**.
+
+<img src="{{ site.baseurl }}/assets/images/partneri-banku-saraksta-izvelne.svg" alt="Banku saraksta atvēršana izvēlnē Katalogi" />
+
 ### Dublikātu pārbaude
 
 Ja datubāzē ir aktivizēta dublikātu kontrole, izveidojot jaunu partneri vai labojot esošo, programma pārbauda, vai partneris ar tādu pašu reģistrācijas numuru jau pastāv.
