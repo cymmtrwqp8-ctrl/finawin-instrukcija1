@@ -13,4 +13,4 @@ permalink: /docs/atskaites-pdf-tipa-atskaites/
 
 Paredzētas drukāšanai uz papīra, nosūtīšanai uz e-pastu PDF formātā.
 
-<img src="{{ site.baseurl }}/assets/images/image160.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēli Atskaites**
+<img src="{{ site.baseurl }}/assets/images/image160.png" alt="A screenshot of a computer" />**Attēli Atskaites**

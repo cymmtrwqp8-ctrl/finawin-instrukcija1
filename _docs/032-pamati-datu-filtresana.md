@@ -19,7 +19,7 @@ Programma piedāvā vairākus filtrēšanas veidus- gan **ātro filtrēšanu**, 
 
 Lai **ĀTRI** atlasītu visus ierakstus, kas atbilst Jūsu izvēlētajai vērtībai, ar peles labo taustiņu uzklikšķina uz šīs vērtības un izvēlas ***Ātrais filtrs***:
 
-<img src="{{ site.baseurl }}/assets/images/image63.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image63.png" alt="A screenshot of a computer" />
 
 **Attēls Ātrais filtrs**
 
@@ -27,7 +27,7 @@ Un tieši pretēji- ja nepieciešami visi ieraksti, kuri neatbilst izvēlētajai
 
 Lai turpinātu atlasīt jau esošā filtrā, ar peles labo taustiņu uzklikšķina uz izvēlētās vērtības un izvēlas ***Filtrēt filtrā***. Turpināt filtrēšanu varat tik reižu, cik nepieciešams.
 
-<img src="{{ site.baseurl }}/assets/images/image64.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image64.png" alt="A screenshot of a computer" />
 
 **Attēls Filtrēt filtrā**
 
@@ -35,9 +35,9 @@ Ja vienu vai vairākas reizes ir lietota opcija Filtrēt filtrā, bet vēlaties 
 
 ### Daudzlīmeņu filtrs
 
-Lai definētu **DAUDZLĪMEŅA FILTRU**, izvēlieties pogu no rīkjoslas - programma atver tukšu Filtra definēšanas logu, TAČU, ja esat pielietojuši Ātro filtrēšanu un neesat to atcēluši, Filtru definēšanas logā būs redzami Ātrās filtrēšanas iestatījumi- šo sarakstu varat papildināt vai ***Iztīrīt*** un sākt veidot no jauna, spiežot ***Ģenerēt***. <img src="{{ site.baseurl }}/assets/images/image66.png" alt="A grey and blue funnel AI-generated content may be incorrect." />
+Lai definētu **DAUDZLĪMEŅA FILTRU**, izvēlieties pogu no rīkjoslas - programma atver tukšu Filtra definēšanas logu, TAČU, ja esat pielietojuši Ātro filtrēšanu un neesat to atcēluši, Filtru definēšanas logā būs redzami Ātrās filtrēšanas iestatījumi- šo sarakstu varat papildināt vai ***Iztīrīt*** un sākt veidot no jauna, spiežot ***Ģenerēt***. <img src="{{ site.baseurl }}/assets/images/image66.png" alt="A grey and blue funnel" />
 
-<img src="{{ site.baseurl }}/assets/images/image67.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image67.png" alt="A screenshot of a computer" />
 
 **Attēls Definēts filtrs**
 
@@ -55,7 +55,7 @@ Filtrēšanu apstiprina ar pogu ***Labi***.
 
 **Ģenerējot jaunu filtru, norāda:**
 
-> 1.1. **OPERĀCIJU**, kādu vēlamies veikt**: ieraksts ir vienāds (=), lielāks vai mazāks (\>,\<) , nav vienāds (nav =), ir tukšs** un citus. Atšķirību starp operācijām ”līdzīgs’’, ”satur” un “ir sarakstā” skatiet zemāk:
+> 1.1. **OPERĀCIJU, kādu vēlamies veikt:** ieraksts ir vienāds (=), lielāks vai mazāks (\>, \<), nav vienāds (nav =), ir tukšs un citas. Atšķirību starp operācijām “līdzīgs”, “satur” un “ir sarakstā” skatiet zemāk:
 
 1)  **Līdzīgs** - precīzi jānorāda meklējamā vērtība, ievērojot lielos un mazos burtus. Ja meklē fragmentu, piemēram, ‘Prece’, tad rakstība būtu %Prece**%**. % zīme aizvieto jebkuru simbolu kombināciju. Piemēram, ja norādītu **%ur%,** tad tiktu atlasīti visi ieraksti, kas satur ”ur” - piemēram, ”Num**ur**s”.
 

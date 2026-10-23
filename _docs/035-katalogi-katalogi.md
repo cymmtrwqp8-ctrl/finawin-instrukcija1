@@ -17,7 +17,7 @@ Atskaites ir instruments, kas ļauj saskatīt un izprast cēloņus, kas brīdina
 
 Var gadīties, ka katalogi, kas tika lietoti vecajā programmā un ko pārnesat uz Solcraft, tikai daļēji atspoguļo uzņēmuma vajadzības. Tāpēc, pirms uzsākt dokumentu veidošanu, rūpīgi izpētiet mūsu piedāvāto katalogu klāstu.
 
-<img src="{{ site.baseurl }}/assets/images/image80.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image80.png" alt="A screenshot of a computer" />
 
 **Attēls Katalogu saraksts**
 

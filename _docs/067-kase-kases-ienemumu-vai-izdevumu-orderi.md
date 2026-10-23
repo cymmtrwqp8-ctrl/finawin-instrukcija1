@@ -35,13 +35,13 @@ Atvērt izvēlētā klienta kartiņu - ātra piekļuve klienta datiem.
 
 Dzēst dokumentu - izdzēš izvēlēto kases orderi (ja tas vēl nav iegrāmatots). Kases ordera logā redzamas pamat detaļas, lai redzētu/rediģētu vairāk informācijas nepieciešams pārslēgties uz logu rediģēt.
 
-<img src="{{ site.baseurl }}/assets/images/image154.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image154.png" alt="A screenshot of a computer" />
 
 **Attēls Kases ieņēmumu vai izdevumu orderis**
 
 ### Kases ieņēmumu vai izdevumu ordera izveide
 
-<img src="{{ site.baseurl }}/assets/images/image155.png" alt="A white rectangular sign with black text AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image155.png" alt="A white rectangular sign with black text" />
 
 Orderis sastāv no divām galvenajām daļām -cepures un detaļām.
 
@@ -51,7 +51,7 @@ Ordera detaļu daļa ietver konkrētās preces, pakalpojumus.
 
 Kopā abas daļas veido pilnvērtīgu ordera struktūru, kas nepieciešama gan izdrukai, gan grāmatvedības uzskaitē.
 
-<img src="{{ site.baseurl }}/assets/images/image156.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image156.png" alt="A screenshot of a computer" />
 
 > **Attēls Kases ieņēmuma vai izdevumu orderis- cepure**
 
@@ -71,7 +71,7 @@ Ordera **detaļu daļā** jāaizpilda galvenā informācija par ordera grāmatoj
 
 - Pārējie ir neobligāti - tos var aizpildīt pēc vajadzības, lai sniegtu papildu informāciju vai detalizētāku uzskaiti.
 
-<img src="{{ site.baseurl }}/assets/images/image158.png" alt="A screenshot of a computer AI-generated content may be incorrect." /> **Attēls Kases ieņēmuma vai izdevumu orderis- detaļas**
+<img src="{{ site.baseurl }}/assets/images/image158.png" alt="A screenshot of a computer" /> **Attēls Kases ieņēmuma vai izdevumu orderis- detaļas**
 
 Kad **orderis ir pārbaudīts un iegrāmatots**, iespējams veikt vairākas papildu darbības, atkarībā no tā, kas nepieciešams tālākajā procesā:
 

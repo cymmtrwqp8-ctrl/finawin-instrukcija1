@@ -11,7 +11,7 @@ permalink: /docs/pamati-logi/
 
 Jebkurš katalogs vai dokuments, vai atskaite tiek atvērti jaunā logā. Ja, strādājot ar programmu, vienlaicīgi ir atvērti vairāki katalogi un/vai dokumenti, visi atvērtie logi redzami augšpusē
 
-<img src="{{ site.baseurl }}/assets/images/image24.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image24.png" alt="A screenshot of a computer" />
 
 **Attēls Atvērti vairāki logi**
 

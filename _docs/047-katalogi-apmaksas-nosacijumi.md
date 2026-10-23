@@ -15,6 +15,6 @@ Katram ierakstam norādīts, cik dienu laikā jāveic apmaksa (piemēram, 30 die
 
 Standartā sistēma “redz” tikai kalendārās dienas. Ja nepieciešams ieviest darba dienu kalendāru, tas jāsaskaņo ar sistēmas piegādātāju. Lielākajā daļā gadījumu ir pietiekami norādīt papildus kalendārās dienas , lai iegūtu aptuvenu vēlamo darba dienu skaitu – piem. Norādot 12kalendārās dienas iegūstam aptuveni 10darba dienas.
 
-<img src="{{ site.baseurl }}/assets/images/image93.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image93.png" alt="A screenshot of a computer" />
 
 **Attēls Apmaksas nosacījumi**

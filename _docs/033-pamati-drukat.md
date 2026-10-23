@@ -19,6 +19,6 @@ Tāpat varat izmantot drukāšanas iespēju, kas iebūvēta apakšējā rīkjosl
 
 Jebkuru tabulu var izdrukāt, izsauktajā logā izvēloties drukājamos parametrus- iekļaujamās kolonnas, tabulas virsrakstu un kādā veidā dati tiks attēloti uz lapas- vertikāli vai horizontāli.
 
-<img src="{{ site.baseurl }}/assets/images/image76.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image76.png" alt="A screenshot of a computer" />
 
 **Attēls Drukāt tabulu**

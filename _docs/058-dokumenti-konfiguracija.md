@@ -30,6 +30,6 @@ permalink: /docs/dokumenti-konfiguracija/
 
 **Pakalpojumu katalogs** - vienots preču/pakalpojumu saraksts, ko izmanto dokumentos un grāmatojumos, nodrošinot konsekvenci un klasifikāciju.
 
-<img src="{{ site.baseurl }}/assets/images/image118.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image118.png" alt="A screenshot of a computer" />
 
 **Attēls Konfigurācija**

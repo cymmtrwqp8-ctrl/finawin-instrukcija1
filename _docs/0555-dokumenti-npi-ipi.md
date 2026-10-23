@@ -19,7 +19,7 @@ NPI un IPI funkcijas izmanto, lai izmaksas attiecinātu uz periodu, kurā tās f
 
 ### NPI uzskaite
 
-#### Saņemtā rēķina apstrāde
+#### NPI saņemtā rēķina apstrāde
 
 Saņemto rēķinu iegrāmato kā parasti, bet izmaksu konta vietā norāda konfigurācijā noteikto NPI kontu. Pēc noklusējuma tas parasti ir konts 2410.
 
@@ -146,7 +146,7 @@ Lai NPI funkciju atslēgtu, ieraksta kolonnā “Is active” norādiet vērtīb
 
 ### IPI uzskaite
 
-#### Saņemtā rēķina apstrāde
+#### IPI saņemtā rēķina apstrāde
 
 Saņemto rēķinu iegrāmato kā parasti, bet izmaksu konta vietā norāda konfigurācijā noteikto IPI uzkrājumu kontu. Pēc noklusējuma kredīta konta maska sākas ar 46, bet debeta konta maska - ar 47.
 

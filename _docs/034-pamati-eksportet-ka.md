@@ -9,9 +9,9 @@ permalink: /docs/pamati-eksportet-ka/
 ---
 ## Eksportēt kā…
 
-<img src="{{ site.baseurl }}/assets/images/image77.png" alt="A black and grey logo AI-generated content may be incorrect." />Jebkuru tabulu ir iespējams arī saglabāt vairākos formātos ārpus programmas. Pēc noklusējuma iestatītais saglabāšanas formāts ir Excel jeb \*.xls, taču ir iespēja izvēlēties citu formātu.
+<img src="{{ site.baseurl }}/assets/images/image77.png" alt="A black and grey logo" />Jebkuru tabulu ir iespējams arī saglabāt vairākos formātos ārpus programmas. Pēc noklusējuma iestatītais saglabāšanas formāts ir Excel jeb \*.xls, taču ir iespēja izvēlēties citu formātu.
 
-<img src="{{ site.baseurl }}/assets/images/image78.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image78.png" alt="A screenshot of a computer" />
 
 **Attēls Tabulas saglabāšana**
 

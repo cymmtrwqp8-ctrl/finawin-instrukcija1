@@ -13,6 +13,6 @@ Kontu tipi - katalogs, kurā iespējams sagrupēt kontus pēc noteiktas pazīmes
 
 NAUDA - Naudas plūsmas konti (kases un bankas konti).
 
-<img src="{{ site.baseurl }}/assets/images/image94.png" alt="A screen shot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image94.png" alt="A screen shot of a computer" />
 
 **Attēls Kontu tipi**

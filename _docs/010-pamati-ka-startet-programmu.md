@@ -9,7 +9,7 @@ permalink: /docs/pamati-ka-startet-programmu/
 ---
 ## Kā startēt programmu
 
-Programmu startē, uzklikšķinot uz programmas ikonas <img src="{{ site.baseurl }}/assets/images/image4.png" alt="A blue and white logo AI-generated content may be incorrect." />, kas atrodas uz darbvirsmas.
+Programmu startē, uzklikšķinot uz programmas ikonas <img src="{{ site.baseurl }}/assets/images/image4.png" alt="A blue and white logo" />, kas atrodas uz darbvirsmas.
 
 Datu bāze ir vieta, kur tiek ievadīti un uzkrāti dati:
 

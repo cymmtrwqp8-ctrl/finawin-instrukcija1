@@ -15,7 +15,7 @@ Sadaļa “VG dokumentu saraksts” nodrošina visu virsgrāmatas dokumentu pār
 
 Dokumentu skats attēlo sarakstu ar visiem ievadītajiem virsgrāmatas dokumentiem un visiem pieejamiem filtriem.
 
-<img src="{{ site.baseurl }}/assets/images/image99.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls Virsgrāmatas dokumentu skats**
+<img src="{{ site.baseurl }}/assets/images/image99.png" alt="A screenshot of a computer" />**Attēls Virsgrāmatas dokumentu skats**
 
 1.  **Aktuālie dokumenti-** Atlasē un parāda tikai aktīvos dokumentus - t. i., tos, kas ir spēkā esoši un nav statusos “anulēts” vai “plānots”. Šie dokumenti veido bilanci.
 
@@ -44,7 +44,7 @@ Dokumentu skats attēlo sarakstu ar visiem ievadītajiem virsgrāmatas dokumenti
 
 > Dokumentu sarakstā redzami visi dokumenti, kas atbilst attiecīgajam atlases kritērijiem. Sarkanā rindiņas ataino anulētos dokumentus, zilās rindiņas- ieplānotos. Visi aktuālie dokumenti ir bez īpaša krāsojuma rindiņās. Dokumentu iespējams ieplānot/anulēt izvēloties šo opciju uz konkrētā dokumenta uzspiežot ar peles labo taustiņu. Šajā izvēlē iespējams arī izvēlēties citas darbības- atvērt dokumenta formu- plašākai rediģēšanai, kopēt dokumentu, atvērt citu periodu, atvērt dokumentu izcelsmes modulī, ja tas nav veidots pa tiešo virsgrāmatā, un vairākas filtra opcijas.
 >
-> <img src="{{ site.baseurl }}/assets/images/image100.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+> <img src="{{ site.baseurl }}/assets/images/image100.png" alt="A screenshot of a computer" />
 >
 > **Attēls Dokumenti papilddarbības**
 

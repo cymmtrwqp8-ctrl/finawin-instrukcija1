@@ -31,7 +31,7 @@ Pieejami 4 paveidi :
 
 • Analītikas bilance pa valūtām - parāda summas pa kontiem un partneriem pamat valūta
 
-<img src="{{ site.baseurl }}/assets/images/image159.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image159.png" alt="A screenshot of a computer" />
 
 **Attēls Apgrozījuma atskaites**
 

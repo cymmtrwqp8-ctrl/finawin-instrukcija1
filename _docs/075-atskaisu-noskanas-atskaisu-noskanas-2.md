@@ -69,7 +69,7 @@ Pveids: Filtrs uz grāmatojuma dimensiju «Preces/Pakalpojuma veids»
 
 Filtri darbojas pēc principa «iekļaut visus, kas sākas ar norādīto filtra vērtību.
 
-<img src="{{ site.baseurl }}/assets/images/image180.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image180.png" alt="A screenshot of a computer" />
 
 **Attēls Atskaišu noskaņas**
 

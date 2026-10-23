@@ -15,7 +15,7 @@ Uzspiežot pogu “MU žurnāls” pēc rēķinu atlasīšanas maksājumiem, lie
 
 Šajā logā automātiski tiek izfiltrēta tieši iepriekš sagatavotā maksājumu sesija, tādējādi redzami tikai tie maksājumi, kas tika izveidoti šajā konkrētajā sesijā.
 
-<img src="{{ site.baseurl }}/assets/images/image125.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image125.png" alt="A screenshot of a computer" />
 
 **Attēls- Maksājumu sesija**
 
@@ -39,7 +39,7 @@ Fails bankai - sagatavo maksājumu failu eksportam uz banku; kad fails bankai sa
 
 Darbības- atver partnera rekvizītus, ja nepieciešams precizēt informāciju; Atvērt dokumentu VG vai Dzēst maksājumu.
 
-<img src="{{ site.baseurl }}/assets/images/image126.png" alt="A blue and white keyboard AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image126.png" alt="A blue and white keyboard" />
 
 Pārejot uz **Rediģēt** logu, tiek parādītas visas konkrētā partnera apmaksas šajā sesijā.
 
@@ -47,19 +47,19 @@ Pārejot uz **Rediģēt** logu, tiek parādītas visas konkrētā partnera apmak
 
 Sadaļā Informācija par maksājumu bankai redzams teksts, kas tiks iekļauts maksājuma uzdevumā bankā - piemēram, maksājuma mērķis vai rēķina numurs.
 
-<img src="{{ site.baseurl }}/assets/images/image127.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls Maksājumu detaļas**
+<img src="{{ site.baseurl }}/assets/images/image127.png" alt="A screenshot of a computer" />**Attēls Maksājumu detaļas**
 
 ### Jauns maksājums
 
 Maksājumu logā iespējams izveidot arī manuālu maksājumu.
 
-Lai to izdarītu jāspiež uz pogas “**Jauns maksājums**” <img src="{{ site.baseurl }}/assets/images/image128.png" alt="A white rectangular sign with black text AI-generated content may be incorrect." />.
+Lai to izdarītu jāspiež uz pogas “**Jauns maksājums**” <img src="{{ site.baseurl }}/assets/images/image128.png" alt="A white rectangular sign with black text" />.
 
-<img src="{{ site.baseurl }}/assets/images/image129.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls- Jauns dokuments**
+<img src="{{ site.baseurl }}/assets/images/image129.png" alt="A screenshot of a computer" />**Attēls- Jauns dokuments**
 
 Atverot jauna maksājuma veidlapu, jāaizpilda dokumenta cepures daļa.
 
-<img src="{{ site.baseurl }}/assets/images/image130.png" alt="A screenshot of a computer AI-generated content may be incorrect." />Lauciņi, kas atzīmēti ar sarkanu, ir obligāti aizpildāmi.
+<img src="{{ site.baseurl }}/assets/images/image130.png" alt="A screenshot of a computer" />Lauciņi, kas atzīmēti ar sarkanu, ir obligāti aizpildāmi.
 
 **Attēls Jauns maksājums**
 
@@ -69,17 +69,17 @@ Pēc cepures daļas aizpildīšanas:
 
 - aizpildīt dokumenta detaļas, lai veiktu maksājumu manuāli
 
-**Rēķina piesaiste:** <img src="{{ site.baseurl }}/assets/images/image131.png" alt="A white screen with black text AI-generated content may be incorrect." />
+**Rēķina piesaiste:** <img src="{{ site.baseurl }}/assets/images/image131.png" alt="A white screen with black text" />
 
 Šajā logā tiek attēloti visi attiecīgā piegādātāja rēķini, kas gaida apmaksu un kurus ir iespējams apmaksāt manuāli. Lietotājam tiek piedāvāta iespēja atlasīt un pārskatīt konkrētā piegādātāja rēķinus, apskatot būtisko informāciju— rēķina numuru, izrakstīšanas datumu, maksājuma termiņu, summu, valūtu un apmaksas statusu.
 
-<img src="{{ site.baseurl }}/assets/images/image132.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image132.png" alt="A screenshot of a computer" />
 
 **Attēls rēķina piesaiste**
 
-> Lai aktivizētu logu dokumentu sasaistei, nospiediet pogu “Dokumenta informācija”. <img src="{{ site.baseurl }}/assets/images/image112.png" alt="A screen shot of a computer AI-generated content may be incorrect." />**Attēls - Dokumenta informācija**
+> Lai aktivizētu logu dokumentu sasaistei, nospiediet pogu “Dokumenta informācija”. <img src="{{ site.baseurl }}/assets/images/image112.png" alt="A screen shot of a computer" />**Attēls - Dokumenta informācija**
 
-<img src="{{ site.baseurl }}/assets/images/image113.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image113.png" alt="A screenshot of a computer" />
 
 **Attēls summas piesaiste**
 
@@ -95,7 +95,7 @@ Pēc cepures daļas aizpildīšanas:
 
 > **Apmaksas procesa apraksts**
 >
-> Nospiežot pogu “Piesaistīt”, tiek atvērts summa ievades logs, kur lietotājs norāda, kādu summu vēlas apmaksāt. Ja apmaksāt vēlaties tikai daļu no summas, to izdarīt var norādot attiecīgo summu. <img src="{{ site.baseurl }}/assets/images/image114.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+> Nospiežot pogu “Piesaistīt”, tiek atvērts summa ievades logs, kur lietotājs norāda, kādu summu vēlas apmaksāt. Ja apmaksāt vēlaties tikai daļu no summas, to izdarīt var norādot attiecīgo summu. <img src="{{ site.baseurl }}/assets/images/image114.png" alt="A screenshot of a computer" />
 >
 > **Attēls apmaksas summa**
 
@@ -109,6 +109,6 @@ Lauki, kas atzīmēti ar sarkanu, ir aizpildāmi obligāti.<img src="{{ site.bas
 
 **Attēls manuāla maksājuma izveide**
 
-<img src="{{ site.baseurl }}/assets/images/image134.png" alt="A screenshot of a computer AI-generated content may be incorrect." />Kad visas maksājuma detaļas ir aizpildītas, jāturpina ar tālākajām darbībām — tāpat kā automātiskā maksājuma gadījumā: iegrāmato maksājumu un sagatavo failu bankai.
+<img src="{{ site.baseurl }}/assets/images/image134.png" alt="A screenshot of a computer" />Kad visas maksājuma detaļas ir aizpildītas, jāturpina ar tālākajām darbībām — tāpat kā automātiskā maksājuma gadījumā: iegrāmato maksājumu un sagatavo failu bankai.
 
 **Attēls apmaksa**

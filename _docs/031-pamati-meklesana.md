@@ -29,7 +29,7 @@ Lai atrastos ierakstus filtrētu, nospiež Enter vai filtra pogu meklēšanas pa
 
 Lai atteiktos no filtra, jānospiež krustiņš meklēšanas paneļa labajā pusē.
 
-<img src="{{ site.baseurl }}/assets/images/image58.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image58.png" alt="A screenshot of a computer" />
 
 **Attēls Atrastās vērtības**
 

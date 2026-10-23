@@ -23,7 +23,7 @@ Atskaiti var izsaukt dažādos veidos atkarībā no pielietojuma
 
 Atskaites izsaukšana tiek veikta ar pogu \[Aprēķināt atskaiti\]
 
-<img src="{{ site.baseurl }}/assets/images/image175.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image175.png" alt="A screenshot of a computer" />
 
 Rezultāts ir atbilstošs atskaites veidam - PDF , Word vai Pivot Atskaite
 
@@ -41,7 +41,7 @@ Katrai tabulai - piemēram projektu līgumu saraksts var piesaistīt noteiktas a
 
 Piesaistītajai atskaitei var norādīt kādi atskaites parametri tiks padoti uz atskaites ieejošo parametru vērtībām.
 
-<img src="{{ site.baseurl }}/assets/images/image176.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls Atskaišu piesaistīšana**
+<img src="{{ site.baseurl }}/assets/images/image176.png" alt="A screenshot of a computer" />**Attēls Atskaišu piesaistīšana**
 
 ### Atskaites kopēšana
 
@@ -59,7 +59,7 @@ Pieprasījums var saturēt procedūras parametrus un filtra parametrus.
 
 Parametri tiek definēti ar funkciju “Atskaites parametri”
 
-<img src="{{ site.baseurl }}/assets/images/image177.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image177.png" alt="A screenshot of a computer" />
 
 **Attēls Atskaišu pieprasījums**
 
@@ -89,7 +89,7 @@ Pivot atskaites dizainēšanas režīmā iespējams izveidot sākotnējo rindiņ
 
 Ar peles labās pogas menu var veikt citas darbības ar atskaiti:
 
-<img src="{{ site.baseurl }}/assets/images/image178.png" alt="A screenshot of a computer AI-generated content may be incorrect." /> **Attēls Atskaišu pārsaukšana**
+<img src="{{ site.baseurl }}/assets/images/image178.png" alt="A screenshot of a computer" /> **Attēls Atskaišu pārsaukšana**
 
 #### Labot nosaukumu
 
@@ -111,4 +111,4 @@ Tiek piedāvāts pārvietot atskaiti uz citu grupu
 
 Ja atskaite pievienota “Manām atskaitēm”, tad lietotājs tās redzēs MainMenu punkta Atskaites sarakstā
 
-<img src="{{ site.baseurl }}/assets/images/image179.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image179.png" alt="A screenshot of a computer" />

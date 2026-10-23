@@ -12,7 +12,7 @@ permalink: /docs/maksajumi-pirmdokumentu-zurnali/
 
 Šajā sadaļā apkopoti visi finanšu pirmdokumentu veidi, kas tiek izmantoti uzņēmuma ikdienas finanšu darbību uzskaitei un pārvaldībai. Šeit ietilpst dažādi dokumenti, kas nepieciešami, lai nodrošinātu precīzu finanšu plūsmu, kontroli un atskaišu sagatavošanu.
 
-<img src="{{ site.baseurl }}/assets/images/image119.png" alt="A computer screen shot of a file AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image119.png" alt="A computer screen shot of a file" />
 
 **Attēls Pirmdokumentu žurnāli**
 

@@ -9,7 +9,7 @@ permalink: /docs/katalogi-valutu-kursi/
 ---
 ## Valūtu kursi
 
-<img src="{{ site.baseurl }}/assets/images/image81.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image81.png" alt="A screenshot of a computer" />
 
 **Attēls Valūtu kursi**
 

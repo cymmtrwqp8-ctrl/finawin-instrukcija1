@@ -12,7 +12,7 @@ permalink: /docs/papildfunkcijas-citas-funkcijas/
 
 Šeit apkopotas papildu funkcijas, kas pieejamas lietotājam sistēmas darbam un datu apstrādei.
 
-<img src="{{ site.baseurl }}/assets/images/image181.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image181.png" alt="A screenshot of a computer" />
 
 **Attēls Citas funkcijas**
 

@@ -13,4 +13,4 @@ permalink: /docs/katalogi-pakalpojumu-veidi/
 
 Pakalpojumu veidi palīdz sistematizēt uzņēmuma darbības pēc to satura - piemēram, transporta pakalpojumi, konsultācijas, remontdarbi, apkope u. tml. Šī informācija tiek izmantota dokumentu noformēšanā, grāmatvedības uzskaitē un finanšu analīzē, lai nodrošinātu pārskatāmu pakalpojumu sadalījumu un atvieglotu atskaišu sagatavošanu.
 
-<img src="{{ site.baseurl }}/assets/images/image90.png" alt="A screenshot of a computer AI-generated content may be incorrect." /> **Attēls Pakalpojumu veidi**
+<img src="{{ site.baseurl }}/assets/images/image90.png" alt="A screenshot of a computer" /> **Attēls Pakalpojumu veidi**

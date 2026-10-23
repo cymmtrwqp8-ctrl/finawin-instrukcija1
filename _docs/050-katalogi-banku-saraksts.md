@@ -13,6 +13,6 @@ permalink: /docs/katalogi-banku-saraksts/
 
 Saraksts tiek izmantots, lai piesaistītu maksājumu kontus un finanšu dokumentus konkrētajām bankām sistēmā. Katram ierakstam var norādīt bankas nosaukumu, kodu, kontaktinformāciju un citus nepieciešamos datus, kas nodrošina precīzu finanšu uzskaiti un vienkāršo maksājumu apstrādi.
 
-<img src="{{ site.baseurl }}/assets/images/image96.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image96.png" alt="A screenshot of a computer" />
 
 **Attēls Banku saraksts**

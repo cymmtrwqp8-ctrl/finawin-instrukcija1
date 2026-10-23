@@ -15,7 +15,7 @@ Vienā logā varētu būt arī vairākas savstarpēji saistītas tabulas, piemē
 
 Tabulas vienu no otras atdala sadalošā josla, ko var bīdīt un vilkt; ar dubultklikšķi uz attēlā apvilktā simbola iespējams paslēpt otru tabulu un pēc tam ar dubultklikšķi atkal atvērt.
 
-<img src="{{ site.baseurl }}/assets/images/image25.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image25.png" alt="A screenshot of a computer" />
 
 **Attēls Sadalošā josla**
 
@@ -29,7 +29,7 @@ Tabulas konfigurāciju attiecīgajai atvērtajai tabulai ir iespējams izsaukt t
 
 - Atverot iespējamo darbību sarakstu, kas pieejams dotajai tabulai un kas atrodas augšējā rīkjoslā: ***Tabula \> Tabulas Konfigurācija***.
 
-<img src="{{ site.baseurl }}/assets/images/image27.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image27.png" alt="A screenshot of a computer" />
 
 **Attēls Tabulas konfigurācijas logs**
 
@@ -62,7 +62,7 @@ Ir iespējams arī eksportēt izveidotās tabulas konfigurācijas opcijas, nospi
 <img src="{{ site.baseurl }}/assets/images/image36.png" /> Ja vēlaties izcelt kādu tabulas ierakstu- lauku/kolonnu vai rindu, tam iespējams piešķirt krāsu. Piemēram, dokumentu sarakstā izcelt dokumentus pēc PVN likmes jeb partneru katalogā izcelt kolonnu ar e-pastiem jūs varat to darīt patstāvīgi, par paraugu ņemot kādu jau izveidotu krāsu, bet visbiežāk iekrāsošanas pamatā ir definēti nosacījumi, tādā gadījumā vērsieties pie konsultanta.
 
 To, cik plata būs kolonna, kāds būs tās nosaukums un formāts, ja kolonnā tiek attēloti skaitļi/summas, nosaka vērtības sadaļā ***Ailes parametri:***  
-<img src="{{ site.baseurl }}/assets/images/image37.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image37.png" alt="A screenshot of a computer" />
 
 **Attēls Tabulas kolonnas platums**
 
@@ -74,7 +74,7 @@ To, cik plata būs kolonna, kāds būs tās nosaukums un formāts, ja kolonnā t
 
 ***Tabulas parametros*** ir daži parametri, kurus vienā tabulā ir vērts atzīmēt, bet citā- ne:
 
-<img src="{{ site.baseurl }}/assets/images/image38.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image38.png" alt="A screenshot of a computer" />
 
 **Attēls Tabulas konfigurācijas parametri**
 
@@ -88,7 +88,7 @@ To, cik plata būs kolonna, kāds būs tās nosaukums un formāts, ja kolonnā t
 
 - **Rindu numurēšana** – ieslēdzot šo parametru, programma ievietos kārtas numuru pretī katrai tabulas rindai;
 
-**Multi izvēlē** – ieslēdzot šo parametru, programma tabulas kreisajā malā ievieto filtru, tā pieejamās darbības atrodas virs filtra (skat. zīmējumu zemāk) <img src="{{ site.baseurl }}/assets/images/image41.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+**Multi izvēlē** – ieslēdzot šo parametru, programma tabulas kreisajā malā ievieto filtru, tā pieejamās darbības atrodas virs filtra (skat. zīmējumu zemāk) <img src="{{ site.baseurl }}/assets/images/image41.png" alt="A screenshot of a computer" />
 
 **Attēls Multi izvēle**
 

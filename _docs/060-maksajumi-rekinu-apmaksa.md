@@ -11,7 +11,7 @@ permalink: /docs/maksajumi-rekinu-apmaksa/
 
 Šeit apkopotas visas maksājumu sesiju pakas.
 
-<img src="{{ site.baseurl }}/assets/images/image120.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image120.png" alt="A screenshot of a computer" />
 
 **Attēls Rēķinu apmaksa**
 
@@ -45,7 +45,7 @@ Noklikšķiniet uz izvēles “Parādīt papildus”, lai piekļūtu papildu ies
 
 Lai atlasītu rēķinus pakai, spiediet pogu “Atlasīt neapmaksātos rēķinus”. Tiks parādīts saraksts ar visiem neapmaksātajiem rēķiniem, no kuriem var izvēlēties tos, kas jāiekļauj maksājumu pakā.
 
-<img src="{{ site.baseurl }}/assets/images/image121.png" alt="A screenshot of a computer AI-generated content may be incorrect." />**Attēls Rēķinu apmaksa-detaļas**
+<img src="{{ site.baseurl }}/assets/images/image121.png" alt="A screenshot of a computer" />**Attēls Rēķinu apmaksa-detaļas**
 
 <u>Neapmaksāto rēķinu saraksts</u>
 
@@ -65,8 +65,8 @@ Summas maiņa - ja nepieciešams mainīt summu apmaksai konkrētam dokumentam, t
 
 Izveidot MU no iezīmētajiem - pēc atlases apstipriniet rēķinu izvēli, lai tie tiktu piesaistīti maksājumu pakai.
 
-<img src="{{ site.baseurl }}/assets/images/image123.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image123.png" alt="A screenshot of a computer" />
 
 **Attēls Rēķinu saraksts**
 
-MU žurnāls - pēc atlases apstiprināšanas un *Izveidot MU no iezīmētajiem* pogas nospiešanas izveidojas MU žurnāls un parādās jauna poga- MU žurnāls. <img src="{{ site.baseurl }}/assets/images/image124.png" alt="A white square button with a black border AI-generated content may be incorrect." />
+MU žurnāls - pēc atlases apstiprināšanas un *Izveidot MU no iezīmētajiem* pogas nospiešanas izveidojas MU žurnāls un parādās jauna poga- MU žurnāls. <img src="{{ site.baseurl }}/assets/images/image124.png" alt="A white square button with a black border" />

@@ -26,6 +26,6 @@ permalink: /docs/dokumenti-funkcijas/
 
 **E-Rēķina imports** - nodrošina elektronisko rēķinu ielādi sistēmā no ārējiem avotiem (piemēram, e-rēķinu platformām), lai paātrinātu rēķinu apstrādi un samazinātu manuālo darbu.
 
-<img src="{{ site.baseurl }}/assets/images/image117.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image117.png" alt="A screenshot of a computer" />
 
 **Attēls Funkcijas**

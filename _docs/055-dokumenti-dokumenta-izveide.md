@@ -12,7 +12,7 @@ permalink: /docs/dokumenti-dokumenta-izveide/
 
 Šajā sadaļā aprakstīta dokumenta ievade tieši virsgrāmatas dokumentu logā. Šo ievades veidu izmanto darījumiem un grāmatvedības korekcijām, kurus uzņēmuma darba kārtība paredz ievadīt šajā logā.
 
-Faktūrrēķina sagatavošana klientam aprakstīta sadaļā “Faktūrrēķini”. Ja darījums jau ievadīts pirmdokumentu logā un tam izveidots grāmatojums, pirms tiešas ievades virsgrāmatā pārbauda, vai netiks izveidots atkārtots ieraksts.
+Faktūrrēķina sagatavošana klientam aprakstīta sadaļā [“Faktūrrēķini”]({{ site.baseurl }}/docs/rekini-fakturrekini/). Ja darījums jau ievadīts pirmdokumentu logā un tam izveidots grāmatojums, pirms tiešas ievades virsgrāmatā pārbauda, vai netiks izveidots atkārtots ieraksts.
 
 Pārbauda periodu un atlases nosacījumus. Lai ievadītu dokumentu, izvēlas jauna dokumenta izveides darbību un nepieciešamo dokumenta tipu.
 

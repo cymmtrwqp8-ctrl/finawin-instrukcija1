@@ -13,6 +13,6 @@ Plāna versijas - sadaļa, kurā tiek veidotas un uzglabātas budžeta plānu ve
 
 Katru budžetu iespējams saglabāt vairākās versijās (piemēram, sākotnējais plāns, koriģētais plāns, faktiskie dati), lai salīdzinātu izmaiņas laika gaitā un analizētu novirzes.
 
-<img src="{{ site.baseurl }}/assets/images/image95.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image95.png" alt="A screenshot of a computer" />
 
 **Attēls Plāna versijas**

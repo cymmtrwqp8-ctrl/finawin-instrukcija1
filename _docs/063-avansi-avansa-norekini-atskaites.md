@@ -19,17 +19,17 @@ Apakšējā daļā - atskaišu čeku un rēķinu detaļas, kur redzams katrs pie
 
 Lai izveidotu jaunu atskaiti vēlams izvēlēties periodu, par kādu to taisīt. Ir iespējams arī izvēlēties konkrētu norēķinu persona, ja atskaiti nepieciešams uztaisīt konkrēti vienai personai.
 
-<img src="{{ site.baseurl }}/assets/images/image142.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image142.png" alt="A screenshot of a computer" />
 
 Un spiežam uz pogas veidot jaunas atskaites no čekiem.
 
-<img src="{{ site.baseurl }}/assets/images/image143.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image143.png" alt="A screenshot of a computer" />
 
 > **Attēls Avansa atskaites-izveide**
 
 Pēc kā izveidojas atskaite/s personai/ām kurām ir bijuši neiesniegti čeki par konkrēto periodu. Tiek izveidota viena atskaite par katru norēķinu personu.
 
-<img src="{{ site.baseurl }}/assets/images/image144.png" alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="{{ site.baseurl }}/assets/images/image144.png" alt="A screenshot of a computer" />
 
 > **Attēls Avansa Atskaite**
 
