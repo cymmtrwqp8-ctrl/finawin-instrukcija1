@@ -8,5 +8,4 @@ layout: doc
 permalink: /docs/rekini-avansa-rekini/
 ---
 ## Avansa rēķini 
-
 Paredzēti integrācijai ar Finawin noliktavas moduli. Šeit parādās no noliktavas moduļa iegrāmatotie avansa rēķini un to apmaksas statuss. Finanšu programmas lietotājiem nav paredzēts veikt manuālus ierakstus. Manuālo avansa rēķinu izveidei paredzēta funkcija faktūrrēķini ([skat. Faktūrrēķini]({{ site.baseurl }}/docs/rekini-fakturrekini/)).
