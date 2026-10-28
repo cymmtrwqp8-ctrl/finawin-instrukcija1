@@ -17,7 +17,6 @@ permalink: /docs/maksajumi-pirmdokumentu-zurnali/
 **Attēls Pirmdokumentu žurnāli**
 
 Tajā iekļauti:
-
 <a href="{{ site.baseurl }}/docs/maksajumi-maksajumi/" style="text-decoration: underline;">Maksājumi</a> – Maksājumu uzdevumu žurnāls.
 
 <a href="{{ site.baseurl }}/docs/maksajumi-rekinu-apmaksa/" style="text-decoration: underline;">Rēķinu apmaksa</a> – funkcija , kas palīdz ģenerēt maksājuma uzdevumus no neapmaksāto rēķinu saraksta.
