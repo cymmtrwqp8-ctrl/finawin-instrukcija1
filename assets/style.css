@@ -229,3 +229,11 @@ dialog::backdrop { background:rgba(2,6,23,.55); }
 
 /* Contents titles use regular weight, including nested entries. */
 .print-toc .print-toc-item { font-weight:400; }
+
+/* Keep the short advance-invoice explanation on one PDF page. */
+@media print {
+  .print-section[data-doc-order="533"] {
+    break-inside:avoid-page;
+    page-break-inside:avoid;
+  }
+}
