@@ -8,5 +8,4 @@ layout: doc
 permalink: /docs/rekini-pirkumu-rekini-fin/
 ---
 ## Pirkumu rēķini (fin.)
-
 Izstrādes stadijā.
