@@ -63,10 +63,6 @@ Rezultātā sarakstā **Neapmaksātie/nepiesaistītie rēķini** tiks parādīti
 
 <img src="{{ site.baseurl }}/assets/images/rekinu-apmaksa-atlases-rezultats.webp" alt="Pēc vairāku kontu norādīšanas atlasītie neapmaksātie rēķini" />
 
-<u>Rēķinu atlasīšana</u>
-
-Lai atlasītu rēķinus pakai, spiediet pogu “Atlasīt neapmaksātos rēķinus”. Tiks parādīts saraksts ar visiem neapmaksātajiem rēķiniem, no kuriem var izvēlēties tos, kas jāiekļauj maksājumu pakā.
-
 <u>Neapmaksāto rēķinu saraksts</u>
 
 Pēc pogas “Atlasīt neapmaksātos rēķinus” nospiešanas sistēmā tiek parādīts saraksts ar visiem iepriekš neapmaksātajiem vai nepiesaistītajiem rēķiniem, kas atbilst iepriekš noteiktajiem atlases kritērijiem.
