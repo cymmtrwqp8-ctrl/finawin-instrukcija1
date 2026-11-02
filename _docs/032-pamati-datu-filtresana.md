@@ -72,3 +72,24 @@ Ja vajag **filtrēt, norādot vērtību robežas**, piemēram, summa no 500-1000
 **Filtru iespējams saglabāt**, piespiežot pogu <img src="{{ site.baseurl }}/assets/images/image71.png" />, kur ievada jaunā filtra nosaukumu. Turpmāk, atverot izveidotos filtrus, būs redzams arī šis. Piespiežot pogu ***Labi***, programma aizver logu un izfiltrē sarakstu.
 
 Filtru atceļ, piespiežot pogu<img src="{{ site.baseurl }}/assets/images/image72.png" />.
+
+### Filtrēšana ar multi izvēli
+
+Ja sarakstā nepieciešams atlasīt vairākus konkrētus dokumentus, kuriem nav vienas kopīgas filtrēšanas pazīmes, izmantojiet **multi izvēli**.
+
+1. Rīkjoslā nospiediet pogu **Tabulas konfigurācija** (uzgriežņu atslēgas ikona).
+2. Tabulas konfigurācijas logā atzīmējiet izvēles rūtiņu **Multi izvēle**.
+
+<img src="{{ site.baseurl }}/assets/images/multi-izvele-1-konfiguracija.webp" alt="Multi izvēles aktivizēšana tabulas konfigurācijā" />
+
+3. Saraksta kreisajā pusē atzīmējiet nepieciešamos dokumentus.
+
+<img src="{{ site.baseurl }}/assets/images/multi-izvele-2-dokumentu-atlase.webp" alt="Nepieciešamo dokumentu atzīmēšana" />
+
+4. Atveriet izvēlni atlases kolonnas virsrakstā un izvēlieties **Filtrēt izvēli**.
+
+<img src="{{ site.baseurl }}/assets/images/multi-izvele-3-filtra-izvele.webp" alt="Darbības Filtrēt izvēli aktivizēšana" />
+
+Rezultātā tiekat pie vēlamajiem dokumentiem.
+
+<img src="{{ site.baseurl }}/assets/images/multi-izvele-4-rezultats.webp" alt="Pēc multi izvēles izfiltrētie dokumenti" />
