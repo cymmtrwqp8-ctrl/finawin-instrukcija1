@@ -39,7 +39,29 @@ Apmaksas termiņš - izvēlieties datumu, no kura tiks aprēķināts kavēto die
 
 <u>Papildu opcijas</u>
 
-Noklikšķiniet uz izvēles “Parādīt papildus”, lai piekļūtu papildu iestatījumiem, ja nepieciešams.
+Noklikšķiniet uz pogas **Parādīt papildus**, lai atvērtu papildu atlases iestatījumus. Kad papildu lauki ir atvērti, pogas nosaukums mainās uz **Paslēpt**.
+
+Papildu iestatījumos iespējams precizēt atlasi, piemēram, izvēlēties konkrētu partneri, norādīt ĀMK kodu, kreditora kontu vai dokumenta tipu. Ja šie lauki nav nepieciešami, tos var atstāt neaizpildītus.
+
+Ja nepieciešams vienlaikus atlasīt dokumentus no vairākiem kontiem, laukā **Kreditoru konts** ievadiet visus vajadzīgos kontu numurus, atdalot tos ar komatu.
+
+Piemēram:
+
+`5310,2310,2380`
+
+Starp kontu numuriem atstarpes nav nepieciešamas. Ja ievadītais teksts laukā nav redzams pilnā apjomā, tas atlasi neietekmē.
+
+Pēc atlases nosacījumu norādīšanas:
+
+1. Laukā **Kavējumu aprēķināt uz** norādiet datumu, uz kuru jāaprēķina maksājumu kavējums.
+2. Ja atlasē nepieciešams iekļaut arī dokumentus, kuru apmaksas termiņš vēl nav pienācis, atzīmējiet **Rādīt nekavētos**.
+3. Nospiediet pogu **Atlasīt neapmaksātos rēķinus**.
+
+<img src="{{ site.baseurl }}/assets/images/rekinu-apmaksa-papildu-opcijas.webp" alt="Rēķinu apmaksas papildu atlases opcijas" />
+
+Rezultātā sarakstā **Neapmaksātie/nepiesaistītie rēķini** tiks parādīti atlases nosacījumiem atbilstošie dokumenti. Ja laukā **Kreditoru konts** norādīti konti `5310,2310,2380`, sarakstā tiks iekļauti dokumenti, kas iegrāmatoti kontā **5310**, **2310** vai **2380**. Katra dokumenta kontu iespējams pārbaudīt kolonnā **Konts**.
+
+<img src="{{ site.baseurl }}/assets/images/rekinu-apmaksa-atlases-rezultats.webp" alt="Pēc vairāku kontu norādīšanas atlasītie neapmaksātie rēķini" />
 
 <u>Rēķinu atlasīšana</u>
 
